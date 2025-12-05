@@ -322,9 +322,9 @@ Version: 1.0-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c90c6329b993d694dbf100d5f86b6209
-SHA256sum: 7421966e68a53c9d93bbc1f6e4181c260438cdac243ea92040389d5505db8fad
-Size: 852
+MD5Sum: 04ddd49f6b3454972303f409dd74f40e
+SHA256sum: 4a5ad6c134344174f68d907e7d36eebe00bafd3707a497fb231605a21179c79b
+Size: 854
 Filename: distro-feed-configs_1.0-r0_vuuno4kse.ipk
 Source: distro-feed-configs.bb
 Description: Configuration files for online package repositories aka feeds
@@ -352,9 +352,9 @@ Version: Scarthgap-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team
-MD5Sum: e7861bdadaf6d0d36fb0acd3d57c76bc
-SHA256sum: 49150b6ce3b992bca51b76905220dc6cde871090245a3336254205e2a57d0952
-Size: 3196
+MD5Sum: 91b8f5360061fd1ad94d30c4da6ebaf9
+SHA256sum: b4b8c3b6695deb1d2cb7d445a6d679909899d5793e97b158524ebfb1fbafe052
+Size: 3204
 Filename: enigma-info_Scarthgap-r0_vuuno4kse.ipk
 Source: enigma-info.bb
 Description: enigma.info used by BoxInfo
@@ -433,9 +433,9 @@ Recommends: freetype-dbg, fribidi-dbg, giflib-dbg, glib-2.0-dbg, glibc-dbg, liba
 Section: devel
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 682f31d0e37f351d696a492719a3a26a
-SHA256sum: 61205b4ff543d02d2bb2ee21cea4571be3f9766d6c366dc9f57018fbc4ccf37c
-Size: 780
+MD5Sum: 884f7d2783e94cc4ccee6aa7b7bc6e83
+SHA256sum: 4a053f3d873100f57b1e46a16705b05e599edb3d76b1971a8851aaa4c0874355
+Size: 782
 Filename: enigma2-dbg_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Debugging files
@@ -450,9 +450,9 @@ Recommends: aio-grab-dev, alsa-conf-dev, avahi-dev, cdrkit-dev, dvd+rw-tools-dev
 Section: devel
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 0455db258483cae882d73181c5726747
-SHA256sum: 9ec4a07293ba08d1d2381f8d6200ac12d6e4808290f5735c6ed8895eda3c172f
-Size: 166764
+MD5Sum: 57a3feccd937a95a4845fdfd4340d7d8
+SHA256sum: cbe401a0f276ea5b1695dc292822095747573d8a3d21f6eff92fb8e27e99ec72
+Size: 166758
 Filename: enigma2-dev_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Development files
@@ -465,9 +465,9 @@ Version: 2020.10.17-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 4d02a6d60b92cbb33845c7ce01bc5a02
-SHA256sum: ac54feaae190a4a50c882ccf90c9348740a7ec27f5a6730978934f0c7d68c082
-Size: 3050518
+MD5Sum: d45f25e529fabea4a1416e407422f25b
+SHA256sum: 8abf85db0f59e562dd6bac1588583ae3adade126eaacd0eecf09ed4ec6bd0c98
+Size: 3050522
 Filename: enigma2-fonts_2020.10.17-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
@@ -480,8 +480,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e7cdda3980297a2bfa79a2f8d8d8203e
-SHA256sum: 9bcd5b8e372436bb01748decc828b23639be72c398ab24b3c91256d46e28f0c6
+MD5Sum: b64e76c239d591a4f83f1259e1f7d229
+SHA256sum: 0ffe52d48227f4c40e4f9bb1c3fb025eb10d9371f35997ea5d416ac2404436c0
 Size: 4554
 Filename: enigma2-meta_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -506,6 +506,86 @@ OE: enigma2-plugin-drivers-atsc-usb-hauppauge-950q
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-drivers-atsc-usb-hauppauge-955q
+Version: 1.0-r0
+Recommends: firmware-cx231xx, kernel-module-cx231xx, kernel-module-cx231xx-dvb, kernel-module-cx25840, kernel-module-lgdt3306a, kernel-module-si2157, kernel-module-tveeprom
+Section: base
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: aab58f72f472493e4a3251ecdfcb0abb
+SHA256sum: 38632807de015a15ffdeff57ecae57c3cc4d5d841859fe9729cad6d4bbd89e4c
+Size: 638
+Filename: enigma2-plugin-drivers-atsc-usb-hauppauge-955q_1.0-r0_vuuno4kse.ipk
+Source: enigma2-plugin-drivers-atsc-usb-hauppauge-955q.bb
+Description: enigma2-plugin-drivers-atsc-usb-hauppauge-955q version 1.0-r0
+OE: enigma2-plugin-drivers-atsc-usb-hauppauge-955q
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-drivers-atsc-usb-hauppauge
+Version: 1.1-r0
+Recommends: firmware-xc5000, kernel-module-au0828, kernel-module-au8522, kernel-module-au8522-common, kernel-module-au8522-decoder, kernel-module-au8522-dig, kernel-module-cx231xx, kernel-module-cx231xx-alsa, kernel-module-cx231xx-dvb, kernel-module-cx2341x, kernel-module-em28xx, kernel-module-lgdt3305, kernel-module-tda18271, kernel-module-tda18271c2dd, kernel-module-tveeprom, kernel-module-xc5000
+Section: base
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 115b063f6d33d188f81a28caea8db63b
+SHA256sum: e1c9385616ff3039fc6be38bfac2a1fdc96dbc9cc7b1f01117eabe9fdfb2d792
+Size: 680
+Filename: enigma2-plugin-drivers-atsc-usb-hauppauge_1.1-r0_vuuno4kse.ipk
+Source: enigma2-plugin-drivers-atsc-usb-hauppauge.bb
+Description: enigma2-plugin-drivers-atsc-usb-hauppauge version 1.1-r0
+OE: enigma2-plugin-drivers-atsc-usb-hauppauge
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-drivers-ct2-dvb-usb-pctv292e
+Version: 1.0-r0
+Recommends: firmware-dvb-demod-si2168-b40, kernel-module-em28xx, kernel-module-em28xx-dvb, kernel-module-em28xx-rc, kernel-module-si2157, kernel-module-si2168
+Section: base
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4adcb9b31564dc5bd0171e4a9fc76ed4
+SHA256sum: 877a8a2347c738735a6158aea408cfb35e91f535add77e3f9036724696cd4c3c
+Size: 618
+Filename: enigma2-plugin-drivers-ct2-dvb-usb-pctv292e_1.0-r0_vuuno4kse.ipk
+Source: enigma2-plugin-drivers-ct2-dvb-usb-pctv292e.bb
+Description: enigma2-plugin-drivers-ct2-dvb-usb-pctv292e version 1.0-r0
+OE: enigma2-plugin-drivers-ct2-dvb-usb-pctv292e
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-drivers-ct2-usb-dvbsky-t330
+Version: 1.0-r0
+Recommends: firmware-dvb-demod-si2168-b40, kernel-module-dvb-usb-dvbsky, kernel-module-si2157, kernel-module-si2168
+Section: base
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9bedbc497c378d8528622202bff3d10b
+SHA256sum: 7bcb5433a48fced26ff034946786ea06161414e5e95ecbbae2449acd0be1118d
+Size: 604
+Filename: enigma2-plugin-drivers-ct2-usb-dvbsky-t330_1.0-r0_vuuno4kse.ipk
+Source: enigma2-plugin-drivers-ct2-usb-dvbsky-t330.bb
+Description: enigma2-plugin-drivers-ct2-usb-dvbsky-t330 version 1.0-r0
+OE: enigma2-plugin-drivers-ct2-usb-dvbsky-t330
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-drivers-ct2-usb-geniatech-t230
+Version: 1.0-r0
+Recommends: firmware-dvb-demod-si2168-b40, kernel-module-dvb-usb-cxusb, kernel-module-si2157, kernel-module-si2168
+Section: base
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 27aef28f2a658f06298ab9d5dbd743e0
+SHA256sum: 86095d2831511fbfffe751f283d18c0ab73f1ff6e6c70f6a08e25162bb834e03
+Size: 610
+Filename: enigma2-plugin-drivers-ct2-usb-geniatech-t230_1.0-r0_vuuno4kse.ipk
+Source: enigma2-plugin-drivers-ct2-usb-geniatech-t230.bb
+Description: enigma2-plugin-drivers-ct2-usb-geniatech-t230 version 1.0-r0
+OE: enigma2-plugin-drivers-ct2-usb-geniatech-t230
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-drivers-dvb-usb-af9015
 Version: 1.1-r0
 Recommends: firmware-dvb-fe-af9013, firmware-dvb-usb-af9015, kernel-module-af9013, kernel-module-dvb-pll, kernel-module-dvb-usb, kernel-module-dvb-usb-af9015, kernel-module-mc44s803, kernel-module-mt2060, kernel-module-mxl5005s, kernel-module-mxl5007t, kernel-module-qt1010, kernel-module-stv0299, kernel-module-tda18218, kernel-module-tda18271
@@ -519,6 +599,38 @@ Filename: enigma2-plugin-drivers-dvb-usb-af9015_1.1-r0_vuuno4kse.ipk
 Source: enigma2-plugin-drivers-dvb-usb-af9015.bb
 Description: enigma2-plugin-drivers-dvb-usb-af9015 version 1.1-r0
 OE: enigma2-plugin-drivers-dvb-usb-af9015
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-af9035
+Version: 1.3-r0
+Recommends: firmware-dvb-usb-af9035-01, firmware-dvb-usb-af9035-02, firmware-dvb-usb-it913x, kernel-module-af9033, kernel-module-dvb-usb-af9035, kernel-module-it913x, kernel-module-mxl5007t, kernel-module-tda18218, kernel-module-tua9001
+Section: base
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4422226656d172684a111e0ac6f3f9a5
+SHA256sum: 8966d1c063abb939fe5394fb91274b514dcb910d3baadca2b5b472d848d4aac0
+Size: 626
+Filename: enigma2-plugin-drivers-dvb-usb-af9035_1.3-r0_vuuno4kse.ipk
+Source: enigma2-plugin-drivers-dvb-usb-af9035.bb
+Description: enigma2-plugin-drivers-dvb-usb-af9035 version 1.3-r0
+OE: enigma2-plugin-drivers-dvb-usb-af9035
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-as102
+Version: 1.1-r0
+Recommends: firmware-as102-data1-st, firmware-as102-data2-st, kernel-module-as102-fe, kernel-module-dvb-as102
+Section: base
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 250e928f1fa7877efb44eac242e93a4e
+SHA256sum: 4e38997fbf3d5d69355355be7132ccc8d0d6668591d44a9978e4264f7b8bedb0
+Size: 596
+Filename: enigma2-plugin-drivers-dvb-usb-as102_1.1-r0_vuuno4kse.ipk
+Source: enigma2-plugin-drivers-dvb-usb-as102.bb
+Description: enigma2-plugin-drivers-dvb-usb-as102 version 1.1-r0
+OE: enigma2-plugin-drivers-dvb-usb-as102
 License: GPL-2.0-or-later
 Priority: optional
 
@@ -567,6 +679,70 @@ Filename: enigma2-plugin-drivers-dvb-usb-dw2102_1.1-r0_vuuno4kse.ipk
 Source: enigma2-plugin-drivers-dvb-usb-dw2102.bb
 Description: enigma2-plugin-drivers-dvb-usb-dw2102 version 1.1-r0
 OE: enigma2-plugin-drivers-dvb-usb-dw2102
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-em28xx
+Version: 1.1-r0
+Recommends: firmware-dvb-fe-tda10071, kernel-module-cxd2820r, kernel-module-em28xx-dvb, kernel-module-tda10071
+Section: base
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 00773bab727973cdcae3e0b431f23b64
+SHA256sum: a9846ec922f257b946b27758bbe008bed7e26dc3167a163958a4f3f4f542797d
+Size: 604
+Filename: enigma2-plugin-drivers-dvb-usb-em28xx_1.1-r0_vuuno4kse.ipk
+Source: enigma2-plugin-drivers-dvb-usb-em28xx.bb
+Description: enigma2-plugin-drivers-dvb-usb-em28xx version 1.1-r0
+OE: enigma2-plugin-drivers-dvb-usb-em28xx
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-it913x
+Version: 1.2-r0
+Recommends: firmware-dvb-usb-af9035-01, firmware-dvb-usb-af9035-02, firmware-dvb-usb-it913x, kernel-module-af9033, kernel-module-dvb-usb-af9035, kernel-module-dvb-usb-it913x, kernel-module-it913x, kernel-module-it913x-fe
+Section: base
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fe140d81abbd6aadd682dfb321ca04a5
+SHA256sum: 4aeaa82c0c71848d1d813148c88581788036fce6ebae54a7e810e832ddb257c6
+Size: 612
+Filename: enigma2-plugin-drivers-dvb-usb-it913x_1.2-r0_vuuno4kse.ipk
+Source: enigma2-plugin-drivers-dvb-usb-it913x.bb
+Description: enigma2-plugin-drivers-dvb-usb-it913x version 1.2-r0
+OE: enigma2-plugin-drivers-dvb-usb-it913x
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-pctv452e
+Version: 1.1-r0
+Recommends: kernel-module-dvb-usb-pctv452e
+Section: base
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: aca216958e04e170f7afc6c5a8a87a0d
+SHA256sum: 96222ea6a501cc02e88b1f3b1b784e9cc892e0ffb607b6f6f11e3046afeda5ce
+Size: 568
+Filename: enigma2-plugin-drivers-dvb-usb-pctv452e_1.1-r0_vuuno4kse.ipk
+Source: enigma2-plugin-drivers-dvb-usb-pctv452e.bb
+Description: enigma2-plugin-drivers-dvb-usb-pctv452e version 1.1-r0
+OE: enigma2-plugin-drivers-dvb-usb-pctv452e
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-rtl2832
+Version: 1.1-r0
+Recommends: firmware-dvb-demod-mn88473-01, firmware-dvb-usb-af9015, firmware-dvb-usb-af9035-01, firmware-dvb-usb-af9035-02, kernel-module-dvb-usb-rtl2832, kernel-module-dvb-usb-rtl28xxu, kernel-module-e4000, kernel-module-fc0012, kernel-module-fc0013, kernel-module-mt2266, kernel-module-r820t, kernel-module-rtl2832
+Section: base
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2d23503a09778dd29a412e75010b9a33
+SHA256sum: 491c93814a20f291f6cc018e2ed3927ba23911da71e83a50ec8fb1f96d0e451a
+Size: 654
+Filename: enigma2-plugin-drivers-dvb-usb-rtl2832_1.1-r0_vuuno4kse.ipk
+Source: enigma2-plugin-drivers-dvb-usb-rtl2832.bb
+Description: USB DVB driver for Realtek RTL2832 chipset
+OE: enigma2-plugin-drivers-dvb-usb-rtl2832
 License: GPL-2.0-or-later
 Priority: optional
 
@@ -712,14 +888,30 @@ OE: enigma2-plugin-drivers-dvb-usb-turbo
 License: CLOSED
 Priority: optional
 
+Package: enigma2-plugin-drivers-s2-usb-dvbsky-s960
+Version: 1.0-r0
+Recommends: firmware-dvb-demod-m88ds3103, kernel-module-dvb-usb-dvbsky, kernel-module-ts2020
+Section: base
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 07c8851919df47f58f0fd5a079bf6224
+SHA256sum: 6169be84df49612ed008d3e59de03885dc2acace4452ce9e08a043bd635cd9eb
+Size: 598
+Filename: enigma2-plugin-drivers-s2-usb-dvbsky-s960_1.0-r0_vuuno4kse.ipk
+Source: enigma2-plugin-drivers-s2-usb-dvbsky-s960.bb
+Description: enigma2-plugin-drivers-s2-usb-dvbsky-s960 version 1.0-r0
+OE: enigma2-plugin-drivers-s2-usb-dvbsky-s960
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-extensions-cutlisteditor-src
 Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 7d14104984215b2f3fb5339102fe5905
-SHA256sum: 8071e6426ee8f8afb9eaa7b2495f034c459f4c921c5a403ed9d8e3a5f723de70
-Size: 5840
+MD5Sum: 6d1aad074044d43c823ca016ea11c498
+SHA256sum: b51651ab9a42d6e9dc3e44de1e21c224859317ad867e684909e202d339bebc02
+Size: 5842
 Filename: enigma2-plugin-extensions-cutlisteditor-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: extensions-cutlisteditor (sources)
@@ -733,9 +925,9 @@ Depends: aio-grab
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 00a79be1e29d9585f5c95dbb521b99f1
-SHA256sum: db8223db5bbbc901b46b20b481d7cadd93b6140105855f07e8ec5cb44dded854
-Size: 13066
+MD5Sum: 13a79e79762a5c6bf7c1a0923e21f2f9
+SHA256sum: 7ec782f960569ba6d9d8740838b2ae0f2e668ebc246c35079cb0430cd18643dc
+Size: 13068
 Filename: enigma2-plugin-extensions-cutlisteditor_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: extensions-cutlisteditor
@@ -748,8 +940,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: c6cc8317b88b61a67e41bfb18a4ee6c7
-SHA256sum: ece64d447c0f3f0057028a3e5dc83205f813064a27dd66ce06731a0410aefc9a
+MD5Sum: 43b4f06884db3fc3ba6863fd38aee25a
+SHA256sum: 2ecbf0da2600382e0416e9c715f037c4e662cdd3e71f5ea92f44c80a3da7ffff
 Size: 25866
 Filename: enigma2-plugin-extensions-dvdburn-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -764,9 +956,9 @@ Depends: dvd+rw-tools, dvdauthor, genisoimage, mjpegtools, python3-imaging, repl
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: f98cdf2b16505d277141195cce37626a
-SHA256sum: 792029f5e0c8c757710d4d16a7640ebdd4798a7ca2638314262b40b227ddda90
-Size: 851118
+MD5Sum: e962f8c860bfbc6429097dc32ce95c40
+SHA256sum: 572d0faf78da07bbd9fc547e0840b947ea1cb130fe35cdf1272604295042761e
+Size: 851112
 Filename: enigma2-plugin-extensions-dvdburn_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: extensions-dvdburn
@@ -779,9 +971,9 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 556b7172c04ca5ec544d386b06f53340
-SHA256sum: 1255cd5821f05b5899df539f035e7ff680dcbe8fcbe7ecbf7a5acaee47c355bb
-Size: 1916
+MD5Sum: b94c683a128b266af650c7d08e06068a
+SHA256sum: 94abbf20f8e5ed744e505734c759cd3e8ea93c9cf43fe2b0e56419f07e2e8542
+Size: 1914
 Filename: enigma2-plugin-extensions-dvdplayer-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: extensions-dvdplayer (sources)
@@ -795,8 +987,8 @@ Recommends: kernel-module-udf
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: a5f66bd995164ae3e321d9de468c44de
-SHA256sum: e7905cb6fdfe951a836054653dc76e4ed31282bee22952a791a04c27c3ab4b7f
+MD5Sum: 4baef227a5d17128a998e3455ddca897
+SHA256sum: 3382a7a00128e76bc9d8075266db68626822d91f3c2aa47dd8604821623c6d3a
 Size: 3988
 Filename: enigma2-plugin-extensions-dvdplayer_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -810,9 +1002,9 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 9f9fd3f2bb743a21c78e7a0052b17633
-SHA256sum: 3e7bc4d454919e1265fdda7f102d9f393ba31bc0da1c3512a99cf449e8627558
-Size: 17278
+MD5Sum: b5af4fcb0358ffa3800b0f34755eb6c1
+SHA256sum: a3efc813cced5fe4d976d95d3aaf90a47d4e072689e2fd22dbcc1fc9cdc793b9
+Size: 17280
 Filename: enigma2-plugin-extensions-graphmultiepg-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: extensions-graphmultiepg (sources)
@@ -825,8 +1017,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 512415f969dd7c26b7e9168551195872
-SHA256sum: 6b6aefa48a3de0b932d46383fa2428e65e5daa439dab7bbbc6f5257c13ac4307
+MD5Sum: 2a89ee79c2604258b650e234f8bd87b5
+SHA256sum: b4400acb5c32e176fe0254f68780c32dbdde4dcb47808412c2a511e11f55c5f5
 Size: 45788
 Filename: enigma2-plugin-extensions-graphmultiepg_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -840,9 +1032,9 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 463401bc897c729d72138c351aca805a
-SHA256sum: cffde876e93d4976d731c6f4c5a0e88cec571ff6d552b34331cd2607b0b612bb
-Size: 12962
+MD5Sum: 04bc03aa9b071b25013eb658e71305a4
+SHA256sum: 7017edc93b4a98fa2ec448003a50171a162269994b41ccf2205429d04201a5d4
+Size: 12960
 Filename: enigma2-plugin-extensions-mediaplayer-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: extensions-mediaplayer (sources)
@@ -855,9 +1047,9 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 43953a83f1fc872eb23352d209369653
-SHA256sum: 58a9aa300b6472401d779569eddc13ca5a941081b726ccfd617131b151b26eba
-Size: 36934
+MD5Sum: 60480e0c47d8d3a14096c84eebd51c82
+SHA256sum: 1ecffd52e03c27a00e8daeacd541747a8ff1180faf5d1b10cdcf188f528ca951
+Size: 36936
 Filename: enigma2-plugin-extensions-mediaplayer_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: extensions-mediaplayer
@@ -870,9 +1062,9 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: c7d5a260b4dd7793c7875ab09d7635ee
-SHA256sum: 27e89a60075e4e6bbd67909cd2957761f2acd69ebff29600f36d312c39a8bfd9
-Size: 1994
+MD5Sum: 918d3ca408ebe8b1f9da2e04e18598d7
+SHA256sum: 422dbe912d8eded1e056225f97044712c78d2e22f9d420de644d1b502f5f8668
+Size: 1996
 Filename: enigma2-plugin-extensions-mediascanner-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: extensions-mediascanner (sources)
@@ -885,8 +1077,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: f6b65a1cc42345ec872c8f2c2a75a8c1
-SHA256sum: e1134c2a17ef2a451d1b938970e588452039840e6ccf1357f57f539a3f260c96
+MD5Sum: 9f82421fc48725f5efc7417014e8f74c
+SHA256sum: 02992fc5c93e184641f06f86b9595529819f047d5d8b2daafedc4eba3112e574
 Size: 6944
 Filename: enigma2-plugin-extensions-mediascanner_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -896,14 +1088,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-dbg
-Version: 2.2.2-git258+7aa473b0+7aa473b795-r0
+Version: 1.5.2-git4707+d0d90b30+d0d90b3e7d-r0
 Section: devel
 Architecture: vuuno4kse
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c57f88140520d6a5d65a64c4fa284bdd
-SHA256sum: 59dc7fb7ed99b383246febc96b4df50861e782ca6e98c0d9fbcb85eef7ab363f
+MD5Sum: cedf8530c812b9c4147347334a9c280a
+SHA256sum: 4b60b75642897c117dee5bcda830d98c7b14bb0d6fecebeed41e2fc500e3fc20
 Size: 634
-Filename: enigma2-plugin-extensions-openwebif-dbg_2.2.2-git258+7aa473b0+7aa473b795-r0_vuuno4kse.ipk
+Filename: enigma2-plugin-extensions-openwebif-dbg_1.5.2-git4707+d0d90b30+d0d90b3e7d-r0_vuuno4kse.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version git-r0 - Debugging files
 OE: enigma2-plugin-extensions-openwebif
@@ -911,15 +1103,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-dev
-Version: 2.2.2-git258+7aa473b0+7aa473b795-r0
-Recommends: aio-grab-dev, enigma2-plugin-extensions-openwebif (= 2.2.2-git258+7aa473b0+7aa473b795-r0), python3-cheetah-dev, python3-compression-dev, python3-core-dev, python3-dev, python3-ipaddress-dev, python3-json-dev, python3-misc-dev, python3-numbers-dev, python3-pprint-dev, python3-pyopenssl-dev, python3-shell-dev, python3-twisted-web-dev, python3-unixadmin-dev
+Version: 1.5.2-git4707+d0d90b30+d0d90b3e7d-r0
+Recommends: aio-grab-dev, enigma2-plugin-extensions-openwebif (= 1.5.2-git4707+d0d90b30+d0d90b3e7d-r0), python3-cheetah-dev, python3-compression-dev, python3-core-dev, python3-dev, python3-ipaddress-dev, python3-json-dev, python3-misc-dev, python3-numbers-dev, python3-pprint-dev, python3-pyopenssl-dev, python3-shell-dev, python3-six-dev, python3-twisted-web-dev, python3-unixadmin-dev
 Section: devel
 Architecture: vuuno4kse
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9dc6342655aaa3a17c894e7a7257e535
-SHA256sum: 75c222d36019f3eb3d14e4506752e5419e8e4b58fb69d0cf1d99dc54a887f4a2
-Size: 766
-Filename: enigma2-plugin-extensions-openwebif-dev_2.2.2-git258+7aa473b0+7aa473b795-r0_vuuno4kse.ipk
+MD5Sum: 157c75bdf56657d42200e95db79ed4c7
+SHA256sum: 3abe5290eaf438d0b3f375b18fb34c8acf0d7576c511d5a0830303bd3de00e40
+Size: 768
+Filename: enigma2-plugin-extensions-openwebif-dev_1.5.2-git4707+d0d90b30+d0d90b3e7d-r0_vuuno4kse.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version git-r0 - Development files
 OE: enigma2-plugin-extensions-openwebif
@@ -927,15 +1119,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-src
-Version: 2.2.2-git258+7aa473b0+7aa473b795-r0
+Version: 1.5.2-git4707+d0d90b30+d0d90b3e7d-r0
 Depends: enigma2-plugin-extensions-openwebif
 Section: devel
 Architecture: vuuno4kse
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0703d519dfeceddb046f4c3f818bfefe
-SHA256sum: c3060aa29dd9e44383396dcdfff2bdc078388fc5a348be79c5532e6654eca1f3
-Size: 329832
-Filename: enigma2-plugin-extensions-openwebif-src_2.2.2-git258+7aa473b0+7aa473b795-r0_vuuno4kse.ipk
+MD5Sum: 0335d75d8812a120fc5ea43c3cb4e30d
+SHA256sum: 88e895dd91acbb6c57c1957e5dd7159d14214bd8eb9692e5a8c384a0969339f2
+Size: 355220
+Filename: enigma2-plugin-extensions-openwebif-src_1.5.2-git4707+d0d90b30+d0d90b3e7d-r0_vuuno4kse.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version git-r0 - Source files
 OE: enigma2-plugin-extensions-openwebif
@@ -943,15 +1135,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-vxg
-Version: 2.2.2-git258+7aa473b0+7aa473b795-r0
+Version: 1.5.2-git4707+d0d90b30+d0d90b3e7d-r0
 Depends: enigma2-plugin-extensions-openwebif
 Section: base
 Architecture: vuuno4kse
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ca518e303d87a8848287dfa9595756bd
-SHA256sum: 9437029470bca99d643d3f7c13d98743c4e5289790ad63452818a41c9332634b
-Size: 1459860
-Filename: enigma2-plugin-extensions-openwebif-vxg_2.2.2-git258+7aa473b0+7aa473b795-r0_vuuno4kse.ipk
+MD5Sum: ad071e20e085b738f603588f99268d1a
+SHA256sum: eaa3585a77e5ea7744775a121a8511945d7f0b255f3c0e604a2f8d5bac420f49
+Size: 1459858
+Filename: enigma2-plugin-extensions-openwebif-vxg_1.5.2-git4707+d0d90b30+d0d90b3e7d-r0_vuuno4kse.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version git-r0
 OE: enigma2-plugin-extensions-openwebif
@@ -959,15 +1151,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif
-Version: 2.2.2-git258+7aa473b0+7aa473b795-r0
-Depends: aio-grab, python3-cheetah, python3-compression, python3-core, python3-ipaddress, python3-json, python3-misc, python3-numbers, python3-pprint, python3-pyopenssl, python3-shell, python3-twisted-web, python3-unixadmin
+Version: 1.5.2-git4707+d0d90b30+d0d90b3e7d-r0
+Depends: aio-grab, python3-cheetah, python3-compression, python3-core, python3-ipaddress, python3-json, python3-misc, python3-numbers, python3-pprint, python3-pyopenssl, python3-shell, python3-six, python3-twisted-web, python3-unixadmin
 Section: base
 Architecture: vuuno4kse
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e26f35537ac2a901e5b6694a141835f1
-SHA256sum: d324e6a8fb282a187c5ce64bb83f52fa7d7c2e1597cb7ad8c2b80cfc5e7c8a6e
-Size: 1929456
-Filename: enigma2-plugin-extensions-openwebif_2.2.2-git258+7aa473b0+7aa473b795-r0_vuuno4kse.ipk
+MD5Sum: 6d916cbddb2a4603314455d7800b8bd0
+SHA256sum: 5115764b608ecb906f3cc0352eae384cc3df84906a6620f9ae0266660a095d08
+Size: 2401552
+Filename: enigma2-plugin-extensions-openwebif_1.5.2-git4707+d0d90b30+d0d90b3e7d-r0_vuuno4kse.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version git-r0
 OE: enigma2-plugin-extensions-openwebif
@@ -979,9 +1171,9 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 24bfb09aa1cceaffd51e5ff2a94c7e70
-SHA256sum: fa293d38d20bbc62a56c1ed8bea6785aee8a66e45bcf0630d6ad187d955a7d85
-Size: 7092
+MD5Sum: 6d219ce1f8cd3ea232f3a7df0b78f4e6
+SHA256sum: 7016445b47664267a1a4a7b755e863af569a3f8d56ae1ff13e967a4d2c1549ee
+Size: 7094
 Filename: enigma2-plugin-extensions-pictureplayer-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: extensions-pictureplayer (sources)
@@ -994,8 +1186,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: a8d404a482cfa8754009b07bdcf9d854
-SHA256sum: 993ba4a930a421777ed9fff2b6b0dc7d79f254b439bd0492eed4b0bb7c93006d
+MD5Sum: 44aa4410ea843d37ad479238d4562523
+SHA256sum: 51ead4c5f99e2f4482b21b451b71de4216b33f9ebd22f43078e32f68c1af6f25
 Size: 22622
 Filename: enigma2-plugin-extensions-pictureplayer_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -1074,9 +1266,9 @@ Version: 0.2+git20+abd5cda0+abd5cda28c-r0
 Section: devel
 Architecture: vuuno4kse
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: da20b4352b2484a8ebe2dabaa3bebe6c
-SHA256sum: e0cf66ad001cc05975fa5065a0fd90862fb6f71e171a126594ef319d9e9e4c05
-Size: 640
+MD5Sum: 3ee24d1a8b90ca7c30c1912fdb063ab9
+SHA256sum: 0a31588052020f3409fc0e11c73badf1fba37c28efce53d480005e22278af1f4
+Size: 642
 Filename: enigma2-plugin-extensions-shootyourscreen-dbg_0.2+git20+abd5cda0+abd5cda28c-r0_vuuno4kse.ipk
 Source: enigma2-plugin-extensions-shootyourscreen.bb
 Description: enigma2-plugin-extensions-shootyourscreen version 0.2+git-r0 - Debugging files
@@ -1090,9 +1282,9 @@ Recommends: aio-grab-dev, enigma2-plugin-extensions-shootyourscreen (= 0.2+git20
 Section: devel
 Architecture: vuuno4kse
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 78cbdee821bad9fcf3c123c1f04f9063
-SHA256sum: 3b994a5ff731af783aa9cb280314ab03a0e9ca66f895fd312e3a38d346faac36
-Size: 698
+MD5Sum: aec89d92fc1154d0267600977ee5ae63
+SHA256sum: b24feccf2fccea09df8534fa4c6c97958c36505efcca09aa352ed3b5b06cd377
+Size: 700
 Filename: enigma2-plugin-extensions-shootyourscreen-dev_0.2+git20+abd5cda0+abd5cda28c-r0_vuuno4kse.ipk
 Source: enigma2-plugin-extensions-shootyourscreen.bb
 Description: enigma2-plugin-extensions-shootyourscreen version 0.2+git-r0 - Development files
@@ -1106,8 +1298,8 @@ Depends: enigma2-plugin-extensions-shootyourscreen
 Section: devel
 Architecture: vuuno4kse
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7b61a99e8ba344ba2d446c2bb3b67091
-SHA256sum: fa832947be94e5a8e1784d146cc8a5a86b0741575d4bbb3784a890fc8a2651bc
+MD5Sum: cda998cdf57aba2ff8d865e2181b8717
+SHA256sum: c1180a275bc0af61f44488316c131ed2a366d43b6d008ca3942cff9a1d7ae741
 Size: 4924
 Filename: enigma2-plugin-extensions-shootyourscreen-src_0.2+git20+abd5cda0+abd5cda28c-r0_vuuno4kse.ipk
 Source: enigma2-plugin-extensions-shootyourscreen.bb
@@ -1122,9 +1314,9 @@ Depends: aio-grab, python3-core
 Section: base
 Architecture: vuuno4kse
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: efabb957897f1c7413aca1d5d9f101ba
-SHA256sum: ae1db93bf88f663e9470a10ebb6e71f7f76b98dce8f41684f51905a880aa8858
-Size: 15136
+MD5Sum: 5f3f7551b2f752ecc61d8586ed49abed
+SHA256sum: ca2a196c8aa601a745edd75725d32bfb0bbccd7ea466e6e0f16c9654d7b73204
+Size: 15140
 Filename: enigma2-plugin-extensions-shootyourscreen_0.2+git20+abd5cda0+abd5cda28c-r0_vuuno4kse.ipk
 Source: enigma2-plugin-extensions-shootyourscreen.bb
 Description: enigma2-plugin-extensions-shootyourscreen version 0.2+git-r0
@@ -1138,9 +1330,9 @@ Recommends: freetype-dbg, fribidi-dbg, giflib-dbg, glib-2.0-dbg, glibc-dbg, liba
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 089ad74c2f301dcf6115c10b2e86e7c2
-SHA256sum: d5e2a8592283a62e93e53b6270e57c90506c587e386cab43684d3561581598e3
-Size: 14900130
+MD5Sum: ecf2c29cfe978b7110426288e29b4284
+SHA256sum: 508de74dbc9c9211c2d476a93d1f39e9490a4c0fbf44278d3cf9ec39dd2dbcbc
+Size: 14900118
 Filename: enigma2-plugin-extensions-socketmmi-dbg_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (debug)
@@ -1153,9 +1345,9 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 604da66ba498a3502f70b0fda7804487
-SHA256sum: d5c65a0599416264a9ce85070e4de84c4424b02959e4e8685244dfd75360f332
-Size: 1498
+MD5Sum: 08b9b58ceb33620ff2fe612e6f4c3656
+SHA256sum: 0f6e8b86e374aea5e25a2b3dad81fbfe89b838c4493d6d55dd1a30e6c03df295
+Size: 1500
 Filename: enigma2-plugin-extensions-socketmmi-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (sources)
@@ -1168,8 +1360,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: b05bc28ddb870d9efd6800c55a0b7fb8
-SHA256sum: dff424626843ce3b53bb1ba5af266a8f113c551f53773bbe543d72136ccf609f
+MD5Sum: dee62f97985dba135ce959b886ce939c
+SHA256sum: 306d1a744d511bf8325d24b317a53ccba33123b6c9f34221c07ccb20c08e47d3
 Size: 130866
 Filename: enigma2-plugin-extensions-socketmmi-staticdev_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -1184,9 +1376,9 @@ Depends: libc6 (>= 2.39+git0+58cbbd43fe), libgcc1 (>= 13.4.0), libstdc++6 (>= 13
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: d0a8e8c165aff866b5d79038c6a6e8a6
-SHA256sum: 2c4e14724e517a68bc29d2a5bce3f332b78a8ac1d3c705d1c9ea36df80462bd0
-Size: 12686
+MD5Sum: 2a394e0e90b69ea0961b31c3fe8c423e
+SHA256sum: eb401670308a8d1f74d842839d8170e16c7e738d720c4114995c83843e1786f7
+Size: 12688
 Filename: enigma2-plugin-extensions-socketmmi_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi
@@ -1324,9 +1516,9 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 3d36765052648f09260e51cd503c9ce7
-SHA256sum: 0956a4a43d5fd9200b4fa300557e528f27395fdc371939adaf835db2bda49c6c
-Size: 3854
+MD5Sum: ea22408f2d8742f319f10c6d7fb1346a
+SHA256sum: aa7726832c833b4cf9d609aaa6977a3b6524eb1a70c03a3fec5472a377048d19
+Size: 3856
 Filename: enigma2-plugin-systemplugins-cablescan-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: systemplugins-cablescan (sources)
@@ -1339,8 +1531,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 252840e2325da77193399dcc2566d47a
-SHA256sum: 13836d9c360470f6e661f372e99192224ca5b731b06c5724c86663795d269d72
+MD5Sum: 1a8a0a979a10a055cc8cad00ff53912f
+SHA256sum: 17b561892c783cb725d6edbadc9aef7bb10f857fa0da7a7bd3aad54fc099642a
 Size: 9540
 Filename: enigma2-plugin-systemplugins-cablescan_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -1354,9 +1546,9 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: bc42de70dae0ee4ea371e021248f92c7
-SHA256sum: a72b05f8051d890b598bd798753760e8eb7e7391daf98a4ab690d247f6efda03
-Size: 6962
+MD5Sum: c6b0a323fb612e2054fa2f5021fe9182
+SHA256sum: d6e48a379e00f057c060ebfea1cfd8ee52a9f289ac02a0510af77ea2710e6657
+Size: 6960
 Filename: enigma2-plugin-systemplugins-commoninterfaceassignment-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: systemplugins-commoninterfaceassignment (sources)
@@ -1369,9 +1561,9 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: f5157328678ac0cf6d7d5705ca702042
-SHA256sum: a6bea32004a618f90086f08e1221c56878ded8e1e3f6df2835809357a628d1b3
-Size: 17452
+MD5Sum: 341ce3588d0c7e23e9d9e568516bc377
+SHA256sum: a87c5b7c343c8e352d15bdab7a298e13178dbb2c49f0c5637c3a4a7413fb1f4f
+Size: 17450
 Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: systemplugins-commoninterfaceassignment
@@ -1384,8 +1576,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 2d37d32b2bcdc3b46a222fdf67a2dff0
-SHA256sum: 8a62d5df16c5ac9bef683b48d7a5ee396aa2e1dd587f1b1eb515999b415f155d
+MD5Sum: ea7cd5aaf9b4cd84c3fe7dfdab323e6c
+SHA256sum: ed5ef44cf0da261aab150f5b88a7283af62853d0a0bedf0e0d6f3a173e5c0b6a
 Size: 2614
 Filename: enigma2-plugin-systemplugins-defaultservicesscanner-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -1399,8 +1591,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: dd53fe0d26c08ee500be8ee9ab62f62a
-SHA256sum: d520fc500405942c93052f2c91486a1911ad9175d90b436bab320b886e1d3f4a
+MD5Sum: efa5453576790166416138f0bfe302eb
+SHA256sum: a781dd5c3174095c200076f919bb71118202fef44e9b9012f62f02aac95c8b15
 Size: 4742
 Filename: enigma2-plugin-systemplugins-defaultservicesscanner_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -1414,9 +1606,9 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: c666eac24e2b98d8cec172e70a248328
-SHA256sum: 15526ee8aa1d6319ae90ca50ee40befb25750100c2f7b06f9d0d9b5e0b814089
-Size: 6766
+MD5Sum: a5ff0545f0bef0759ee886bc2f68dfe4
+SHA256sum: 27cbae66582061090d404a75b2ad3ba9356c04cbd274fcb3a3e6eee816693d42
+Size: 6768
 Filename: enigma2-plugin-systemplugins-diseqctester-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: systemplugins-diseqctester (sources)
@@ -1429,9 +1621,9 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 974d76f999668f12a1f68c8e03d52bc7
-SHA256sum: c7e048ab5c42d6759a69ba9e9b61731470a55d272d32d339355ebc369b13589d
-Size: 15906
+MD5Sum: f5fd0b7c3cf19fc13a0df70c7fa8685f
+SHA256sum: ead005fcd63032a047030c9534befd452fd01f01f01a718ab890dd6e7dd62af5
+Size: 15908
 Filename: enigma2-plugin-systemplugins-diseqctester_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: systemplugins-diseqctester
@@ -1444,9 +1636,9 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 643b77db27dc3eeeb0437f01529927de
-SHA256sum: 54a2f6ab12f302c3fa8da44ea1908a1c10c8ea198036d2ebc1e06e00fff038f1
-Size: 5102
+MD5Sum: 94912d756e87e10b856ae33cc6ef2e0e
+SHA256sum: edde690f85f33438fc2f99e6f6347d822c4899f4ed1fcf485ba978c1a1f69f9c
+Size: 5104
 Filename: enigma2-plugin-systemplugins-fastchannelchange-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: systemplugins-fastchannelchange (sources)
@@ -1459,8 +1651,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 60669630d399d79f61126318dd1ea727
-SHA256sum: 5ad6accc9adce542d9bb4fcdf2ebf628443ff2d113131a1232a25516c3046d8e
+MD5Sum: e65c6fb123b94c62e2b77773050f4d9c
+SHA256sum: d0df84e3a424b341d5418ad145e0fe663c8356607b1a4f58f7d5057efe6fb67b
 Size: 12776
 Filename: enigma2-plugin-systemplugins-fastchannelchange_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -1474,9 +1666,9 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 11bc886fcfb24891c28a728549ccd311
-SHA256sum: 5b3764867542488346d7e75608416877acce2de47c3dc8d430c7475cabb34e0c
-Size: 5244
+MD5Sum: 29140dbce6d7347238aa2c88ae44adb6
+SHA256sum: 56ef5dc0f5551696eeedaef1c6fa979a10688479f8f7dcd72d8f1bc921f36e83
+Size: 5242
 Filename: enigma2-plugin-systemplugins-fastscan-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: systemplugins-fastscan (sources)
@@ -1489,9 +1681,9 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 9fa46715a5e5c42a3b87f22f9038eed9
-SHA256sum: 180e277c0b4fa4838471fdae1d7885b850752c7fed963fd6c53014d8fdda9b2f
-Size: 13342
+MD5Sum: 2dc5c69325c04e1dce7eb98e2ebcb2cb
+SHA256sum: bf378b6aa1ade6d93f2bcd4e8da5af68f50d627d03cc375f7b3b6891b6cc078b
+Size: 13344
 Filename: enigma2-plugin-systemplugins-fastscan_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: systemplugins-fastscan
@@ -1534,8 +1726,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: f55d2de44bc4af6e27794365e1fadb47
-SHA256sum: e4ec3ec2b5eccca123b75ae2b4e8c300a096da44ec7477ed2f5b14dd7d6006e2
+MD5Sum: 7085455c32819d11a6f50a025f7198c0
+SHA256sum: 5e9fe1de2c8d2cc29bd02d61d7d4b79e8e37730bf998bb20f12457288d7f9d7a
 Size: 3528
 Filename: enigma2-plugin-systemplugins-hdmicec-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -1549,8 +1741,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 8e73f97a1d703d0d34b445cc9bf4a261
-SHA256sum: 7c56a2bf4fdd0bde5b25add1f8e97f41a964e4c1131db25c62ac93948ad89469
+MD5Sum: ead4ad5b0af776a58677259899f11186
+SHA256sum: d668e0bb4f27ea0e38d7c6c3160c2dca876862b0d3d5e58b6f6bf32724ae0b9b
 Size: 7284
 Filename: enigma2-plugin-systemplugins-hdmicec_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -1564,9 +1756,9 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e4f341a12e43456ff58c90aef2a05ad4
-SHA256sum: b8cb2ecd561d035a6ffe6f57947f767b205313cd8f028f32690c6b4251c79533
-Size: 3118
+MD5Sum: e602ae2059c322666bd0c98c388b1e7c
+SHA256sum: 4c5b37c9eda50c36830d796a4d9070e02fb62c50fd5d0aea254ebf65b7c3cf29
+Size: 3120
 Filename: enigma2-plugin-systemplugins-hotplug-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: systemplugins-hotplug (sources)
@@ -1580,8 +1772,8 @@ Depends: hotplug-e2-helper
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: a12d757a98866c95b802696da6353c2c
-SHA256sum: 491cbd59ff7d249cb7453a9386313d9e761532294f1f962f32dbd1a9fc3cfbf2
+MD5Sum: 73519f56382de508e9ee2ec010297dd8
+SHA256sum: ffec480a8dac860e7942d2a0c1069e0699da750dc12f8c8066a005bce5483339
 Size: 6082
 Filename: enigma2-plugin-systemplugins-hotplug_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -1625,8 +1817,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: bc12112552768c4828bdc21bc609559a
-SHA256sum: 2d6999faa4da37d0d86d9d9a1603f381f8cb613277403a2ee5b32fbbbb9b0df4
+MD5Sum: 01a76b3001cb563b4a0db181c5f71615
+SHA256sum: db8a2b996a4212f7c45beed3c5887c812ae1e76d474db8e6c199f525c169a8b2
 Size: 4572
 Filename: enigma2-plugin-systemplugins-networkwizard-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -1640,8 +1832,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: b530cf5fe6bfcf7bbd38581cb8f28360
-SHA256sum: 7e8d8fe4fdaff5ef4c349eb72d46b2f8548965606e088bf519fe79fc4f62b803
+MD5Sum: 705c215e2959fa5121c4cf56a00213fe
+SHA256sum: 05dd556d535bc3be61ba3caf93b149c13369b6745a8db2c0d47609ab5013193f
 Size: 11846
 Filename: enigma2-plugin-systemplugins-networkwizard_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -1655,8 +1847,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 30bb5efbf1beda379104a8909dd1ffc0
-SHA256sum: 6584d19b40f6102c8baef963348c6db227ce099b0162bb1b11ff7f5e3db95505
+MD5Sum: bb963737180e6f3f8239e21b96545ab0
+SHA256sum: df42321fce587d5af89afe820e3f71f745162319a347a6e13d71b3a4e6697b8b
 Size: 2482
 Filename: enigma2-plugin-systemplugins-osd3dsetup-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -1670,9 +1862,9 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 96b2f29e43f384de52f4f0b4128c8c1d
-SHA256sum: 9bfd2dfa9406e6c9a53720af27a4ab6c2bce77ccd86cac1261769c8d48569f2a
-Size: 5536
+MD5Sum: a0595bcc4d33f0124939463ce1c2f310
+SHA256sum: fbe727726c0df155d5c1fb58588bfb210513669c3cd96549ee293f3ff1ce8db2
+Size: 5538
 Filename: enigma2-plugin-systemplugins-osd3dsetup_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: systemplugins-osd3dsetup
@@ -1685,8 +1877,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ab37920c3064f6a53aff455995128b03
-SHA256sum: 9b0cef287f2588ae4b970a1b302ff93c4d3038429be83fffb826c0c5a036f68a
+MD5Sum: 4040dfca532caa089a67a587e458b2f5
+SHA256sum: 4603bf0537e3adeb14ffdcf247f1799fe0a15d37067689a7cea25109e264b863
 Size: 4070
 Filename: enigma2-plugin-systemplugins-osdpositionsetup-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -1700,8 +1892,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: eb82eb744c801ad309ddd13f599290f9
-SHA256sum: 66e593c67d895c091e9c3f1e2ac5d7d5206894653a1f8148145db3adb6a9e8c0
+MD5Sum: ae37ac65a0693d143e6377b31b416f8a
+SHA256sum: ed470514c79d5b67e283a893d24d4e5756dac985c020ba0c603343fe8ae4862b
 Size: 8570
 Filename: enigma2-plugin-systemplugins-osdpositionsetup_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -1715,9 +1907,9 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: c009d11e69876bda393d9a13443830c6
-SHA256sum: 030ee5de791cafe7047dd062ff4ba1badad47c403d7919ca7c2ec7fde71a8c83
-Size: 17958
+MD5Sum: d91b49d021bc17bee9012e6af85be0b2
+SHA256sum: 7c4285aaff7d4037c12f1add570d44aad9ac7e26840756699847ff426136f3a1
+Size: 17962
 Filename: enigma2-plugin-systemplugins-positionersetup-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: systemplugins-positionersetup (sources)
@@ -1730,8 +1922,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: fc7b860dbc13c656d9253253a9b19baa
-SHA256sum: a63688ba2c2a126df4f216b86f2073fabd31c463780268cee88d3fb6b7948e6f
+MD5Sum: 533d55222f7bea07f3be688fe29efdb5
+SHA256sum: 4231f85f312a60635638bedf47a09b99763dde084f4684cd4b5ed6c2a68a2183
 Size: 46640
 Filename: enigma2-plugin-systemplugins-positionersetup_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -1760,8 +1952,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 4336a9e67c443460e82d9feea1643a97
-SHA256sum: 2700911697af5cf362a584bfd126104d036043fae9513f60763954a5c8a5f0b7
+MD5Sum: ef1092482bc995c2ba4d34f4e6c60d80
+SHA256sum: 7fc95c0f892c2f07db8b450f59f0ca5c40f0e75a30ec3533ad1a494f9afae41f
 Size: 2070
 Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -1775,8 +1967,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 6ef84412313a6dbbd707dab21a7dd604
-SHA256sum: 772cc9687b0b1d151bca471d798b0fe976ff0727f421170d5bc0a65eb7f6172d
+MD5Sum: d969518c06ad0d49984ac6a224c31b3c
+SHA256sum: ab6ebe0a75888c901e73f742a5675577319b8b2ef970c13c65b45f41dc1a914f
 Size: 3932
 Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -1790,9 +1982,9 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 61428e21aa487d0714a316ab6bdf660a
-SHA256sum: 2c75895c54b8998a971d25c378f9823571860d09f4fafcee7c8cf1a67e6d50e4
-Size: 6922
+MD5Sum: 50862e31386e9c99784e065df57dc512
+SHA256sum: 777f51c7fb4b46855dfbc5bac8c77c3ba012474a8e4c457bd4ce4e9a21a2d00d
+Size: 6924
 Filename: enigma2-plugin-systemplugins-satfinder-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: systemplugins-satfinder (sources)
@@ -1805,8 +1997,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 4faf203fe10c5b665371732804b7df3a
-SHA256sum: a461bde9642775511bc2f7e4620f3d1ce74f7fcfe33d3cd66d2630e2fc2461c7
+MD5Sum: 69f769ceea2849e2875860638e9de4ed
+SHA256sum: d7dfd3afe482d82642c0e2941f35071eb0a704ecf06bbfd720ebd126ceeb65a2
 Size: 16756
 Filename: enigma2-plugin-systemplugins-satfinder_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -2012,8 +2204,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 96140c7e6501c2baf3b0a136e9544957
-SHA256sum: 23949b2d0c36d4feeaac581a4e67bf9dd316739ff6b463987f7e9b67938c13de
+MD5Sum: c424b852374de4d428a1530a846f4367
+SHA256sum: 78f6c648ebfa62bad09b9f29aa4b1186145a12a932ac6be3a368d6e979cc8754
 Size: 19036
 Filename: enigma2-plugin-systemplugins-softwaremanager-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -2028,9 +2220,9 @@ Depends: python3-twisted-web
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: b4ebae0eb6d14ed0b6d8f0f1f9cab0b6
-SHA256sum: 6d0a6f1bff78e24858a2b32cc3dbc388a0750f3e637c07efc684f52ddc1159cb
-Size: 67062
+MD5Sum: 6909c996246bb5dbbc8a5268d78db7ab
+SHA256sum: 78650c2c2ca8e33cb102b24db0223278bb76068fbb6bb299e645093906ac2b88
+Size: 67058
 Filename: enigma2-plugin-systemplugins-softwaremanager_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: systemplugins-softwaremanager
@@ -2043,8 +2235,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 8a8f4289366961b49066121bb6d9212b
-SHA256sum: 3e320cfaa7d38adfcacbcaa7c940661096537121d21c31418d0aeded4c34c5df
+MD5Sum: 8b7c9ef1b0a79fe8bd53f761e8385fbd
+SHA256sum: e2fc4b099f36b11c09bdab64eae19c3e4e7643c0d3c0e8d075b74d1536d213de
 Size: 2256
 Filename: enigma2-plugin-systemplugins-videoclippingsetup-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -2058,8 +2250,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: c148f783b808bc6be33c21a653cdc501
-SHA256sum: 2f71f5803881b627fbbf6c6034092215689b2ea626975ee9e405e9d0b7efcd6d
+MD5Sum: 14faeb00b186a1b0a573ef657b9691c2
+SHA256sum: 58d5e158d116b438f0f12be48e534707a07740bf57424ad713faa17f6f95cf19
 Size: 4800
 Filename: enigma2-plugin-systemplugins-videoclippingsetup_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -2073,9 +2265,9 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 91961da31030a5ee275e5f4b75bb3a57
-SHA256sum: cbb4f011e576e3112c100f160ae833f1bbf63b5e88ab313eb2cb4dc8e2378ec0
-Size: 5882
+MD5Sum: a1656bd803f432651a26565c9257e5b9
+SHA256sum: 7d31aa01e3962cc7a5a1db19a11cb12471365d03f329c68aaf5883597f8e0f5f
+Size: 5884
 Filename: enigma2-plugin-systemplugins-videoenhancement-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: systemplugins-videoenhancement (sources)
@@ -2088,9 +2280,9 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 7f004707ecd5779c063241604bd3157d
-SHA256sum: 80242a71113c1c403322ce346efa0756999d471579a64a89d9c047012995667b
-Size: 14990
+MD5Sum: 847cd427c08d4ae44bbe7756a16aa0d6
+SHA256sum: 9763aa668b5b80bab7d7921e9c257b185d9676f207fc072ead44608d83712021
+Size: 14994
 Filename: enigma2-plugin-systemplugins-videoenhancement_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: systemplugins-videoenhancement
@@ -2103,8 +2295,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 66ee89bae577226b4106cb0aadaf26fa
-SHA256sum: 8a975e1d9f7389bf1ffa5d39b9b8435e299a800631847d1b3eab652ed9a8ffe9
+MD5Sum: 4d2178dcf39ff86a95b780b5f22e1e86
+SHA256sum: 43f742e40c7e15ce23d5c7ced89930226aa61a727f578e3c1b7e21fe4aa6f0e7
 Size: 9678
 Filename: enigma2-plugin-systemplugins-videomode-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -2118,9 +2310,9 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e0fa31234c88f0506ad3c369a2db352b
-SHA256sum: f46f21c07f719b487407d4d037fff534e1d6a45501a458fc67ab0e86c6176a09
-Size: 69884
+MD5Sum: c4d34feede09e21c17f7bd0ed4562ce4
+SHA256sum: 7f46769461f770b2932a3ff1990318e304f2a8909bbaf064c8dd8ab832ad94e3
+Size: 69880
 Filename: enigma2-plugin-systemplugins-videomode_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: systemplugins-videomode
@@ -2133,8 +2325,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: a8c0ae289af7a133c6d208e84458cc8c
-SHA256sum: 6fb1b5e0add8d3d4f066f9710357f9dd4e3d5e0987ff8484ff9ffb213924d859
+MD5Sum: a4ad3460a776ec7c122833f7a03b7fe3
+SHA256sum: 964d1d4df0e47f652a6a954d1bac55484a71a0677bbe28a98bda445bdc10ff72
 Size: 4884
 Filename: enigma2-plugin-systemplugins-videotune-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -2148,8 +2340,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 480605ccc1da9980554400cd356d7212
-SHA256sum: 721ba4506eccd23e74d3bbb664dab097f35a3c9388d29b75bca54599d506505c
+MD5Sum: ac5db97e5878d63f4c778f396d82b8a8
+SHA256sum: 0b2df377bec6e5a03c54210b59d3988b8bf1afec6d6d515295ec60705ab1b4d0
 Size: 71950
 Filename: enigma2-plugin-systemplugins-videotune_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -2163,8 +2355,8 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: d5ee0b70dfce4d2ae574b8ea2b6f8a94
-SHA256sum: 2f7deceff01e5a6574c6846554ae590c694c1759ac685f017dc3f2ab79e92acf
+MD5Sum: c26d1edeea2d0b4e530538f029b43110
+SHA256sum: 1b06ffaf46907d378ab6c7aecf2defbc22bbd183ce0e300091cfa1b6c648fbd3
 Size: 8424
 Filename: enigma2-plugin-systemplugins-wirelesslan-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -2179,8 +2371,8 @@ Depends: python3-wifi, wireless-tools, wpa-supplicant
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 998ac4320711cb9efb2df768079fd4c0
-SHA256sum: cf8c17a93e6ede701d20889972b08ce2878dedac481cd6a25cb6fa35f1871ffb
+MD5Sum: 1f534a39638f904aaced0f8e34eedd28
+SHA256sum: 6e5df2f7755b78f2b176bdf27d1bd6f43fa88fe11928b69133d4aa98124f0e2f
 Size: 19890
 Filename: enigma2-plugin-systemplugins-wirelesslan_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -2194,9 +2386,9 @@ Version: 3.12+git21966+bb98bda0+bb98bdacbd-r0
 Section: devel
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 4d71cd9ac724a963e65180401aa5cae7
-SHA256sum: 63d254971d5884a52c886584c90a177bcb9521342accf3e3301bc7135563a64b
-Size: 604942
+MD5Sum: 7f570b117c8d09fe3b89d802ec239eb6
+SHA256sum: 11bf25f80e6da2e9e818f6f9cf084762f29f3e5c36688aed1c4206a77ded0253
+Size: 604950
 Filename: enigma2-src_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Source files
@@ -2210,8 +2402,8 @@ Depends: enigma2-dev (= 3.12+git21966+bb98bda0+bb98bdacbd-r0)
 Section: devel
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: c9a50fcc037e7ad286cac2b958ff8f8e
-SHA256sum: 585df802ca556b3e87112b96aa7032931da40b56788b9d352a39adcca71fcbc5
+MD5Sum: f8e5e5e2f4d1aeafb617b6fe28ffa843
+SHA256sum: cdf16027940d4aab676da3f6d6201a22ca641a63299562a4c5035924ba82d727
 Size: 7136
 Filename: enigma2-staticdev_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
@@ -2229,9 +2421,9 @@ Recommends: enigma2-plugin-skins-e2darkos, glibc-gconv-utf-16, hotplug-e2-helper
 Section: base
 Architecture: vuuno4kse
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: adbead3ffdeadb68cad3937ef9ab54b2
-SHA256sum: a966a9a41bc2d9ad472c782e8399e8d20f714db65f02cdc9703fe7aca5bcc669
-Size: 8361744
+MD5Sum: 22d0e3c477673d0d905ced6c18d1c030
+SHA256sum: d073403d8894e97dbfa4d115bd459dfd79fcf3c285fbef710db6cbde6f10cbd4
+Size: 8361560
 Filename: enigma2_3.12+git21966+bb98bda0+bb98bdacbd-r0_vuuno4kse.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
@@ -2416,9 +2608,9 @@ Recommends: kernel-image-4.1.20-1.9 (= 4.1.20-r0.1.4)
 Section: kernel
 Architecture: vuuno4kse
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 70469ef8fb84136b8e299153ce49edf0
-SHA256sum: 8dd7475c9b9218f0725a786fc61bef86559d4ac0875ed4609e39401b50a07feb
-Size: 7102
+MD5Sum: 61f18bae15a7bc205f355c35718cd8f9
+SHA256sum: 47a5f045bb9a1456ade6249010796a14da13b236ff2bf867619bf6a24fd17d12
+Size: 7170
 Filename: kernel-4.1.20-1.9_4.1.20-r0.1.4_vuuno4kse.ipk
 Source: linux-vuuno4kse_4.1.20.bb
 Description: linux-vuuno4kse version 4.1.20-r0.1.4
@@ -2431,9 +2623,9 @@ Version: 4.1.20-r0.1.4
 Section: kernel
 Architecture: vuuno4kse
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a7782eb91345690c8d50394a3889925c
-SHA256sum: ad9f9fcbbda0c6e472e7e1f35c717381df1aac3b0f2ac7651b8632a3319c469b
-Size: 32353644
+MD5Sum: ffca1b562b588b8d99becb42eee393e5
+SHA256sum: b0cfe8c62b2e6a52e65cbb841056d6caac5346a94ce43d12d02d780f807362ab
+Size: 32412534
 Filename: kernel-dbg_4.1.20-r0.1.4_vuuno4kse.ipk
 Source: linux-vuuno4kse_4.1.20.bb
 Description: linux-vuuno4kse version 4.1.20-r0.1.4
@@ -2443,13 +2635,13 @@ Priority: optional
 
 Package: kernel-dev
 Version: 4.1.20-r0.1.4
-Recommends: kernel-4.1.20-1.9-dev, kernel-base-dev, kernel-image-zimage-dev, kernel-module-a8293-4.1.20-1.9-dev, kernel-module-ac97-bus-4.1.20-1.9-dev, kernel-module-adm8211-4.1.20-1.9-dev, kernel-module-af9013-4.1.20-1.9-dev, kernel-module-af9033-4.1.20-1.9-dev, kernel-module-aircable-4.1.20-1.9-dev, kernel-module-ar5523-4.1.20-1.9-dev, kernel-module-ark3116-4.1.20-1.9-dev, kernel-module-as102-fe-4.1.20-1.9-dev, kernel-module-asix-4.1.20-1.9-dev, kernel-module-at76c50x-usb-4.1.20-1.9-dev, kernel-module-atbm8830-4.1.20-1.9-dev, kernel-module-ath-4.1.20-1.9-dev, kernel-module-ath10k-core-4.1.20-1.9-dev, kernel-module-ath5k-4.1.20-1.9-dev, kernel-module-ath6kl-core-4.1.20-1.9-dev, kernel-module-ath6kl-usb-4.1.20-1.9-dev, kernel-module-ath9k-4.1.20-1.9-dev, kernel-module-ath9k-common-4.1.20-1.9-dev, kernel-module-ath9k-htc-4.1.20-1.9-dev, kernel-module-ath9k-hw-4.1.20-1.9-dev, kernel-module-atmel-4.1.20-1.9-dev, kernel-module-au0828-4.1.20-1.9-dev, kernel-module-au8522-common-4.1.20-1.9-dev, kernel-module-au8522-decoder-4.1.20-1.9-dev, kernel-module-au8522-dig-4.1.20-1.9-dev, kernel-module-ax88179-178a-4.1.20-1.9-dev, kernel-module-b2c2-flexcop-4.1.20-1.9-dev, kernel-module-b2c2-flexcop-usb-4.1.20-1.9-dev, kernel-module-b43-4.1.20-1.9-dev, kernel-module-b43legacy-4.1.20-1.9-dev, kernel-module-bcm3510-4.1.20-1.9-dev, kernel-module-bcma-4.1.20-1.9-dev, kernel-module-belkin-sa-4.1.20-1.9-dev, kernel-module-bluetooth-4.1.20-1.9-dev, kernel-module-brcmfmac-4.1.20-1.9-dev, kernel-module-brcmutil-4.1.20-1.9-dev, kernel-module-bridge-4.1.20-1.9-dev, kernel-module-bsd-comp-4.1.20-1.9-dev, kernel-module-carl9170-4.1.20-1.9-dev, kernel-module-catc-4.1.20-1.9-dev, kernel-module-cbc-4.1.20-1.9-dev, kernel-module-cdc-acm-4.1.20-1.9-dev, kernel-module-cdc-eem-4.1.20-1.9-dev, kernel-module-cdc-ether-4.1.20-1.9-dev, kernel-module-cdc-mbim-4.1.20-1.9-dev, kernel-module-cdc-ncm-4.1.20-1.9-dev, kernel-module-cdc-subset-4.1.20-1.9-dev, kernel-module-cdc-wdm-4.1.20-1.9-dev, kernel-module-cdrom-4.1.20-1.9-dev, kernel-module-ch341-4.1.20-1.9-dev, kernel-module-cp210x-4.1.20-1.9-dev, kernel-module-cpia2-4.1.20-1.9-dev, kernel-module-crc7-4.1.20-1.9-dev, kernel-module-crypto-null-4.1.20-1.9-dev, kernel-module-cs53l32a-4.1.20-1.9-dev, kernel-module-cuse-4.1.20-1.9-dev, kernel-module-cw1200-core-4.1.20-1.9-dev, kernel-module-cx22700-4.1.20-1.9-dev, kernel-module-cx22702-4.1.20-1.9-dev, kernel-module-cx231xx-4.1.20-1.9-dev, kernel-module-cx231xx-alsa-4.1.20-1.9-dev, kernel-module-cx231xx-dvb-4.1.20-1.9-dev, kernel-module-cx2341x-4.1.20-1.9-dev, kernel-module-cx24113-4.1.20-1.9-dev, kernel-module-cx24116-4.1.20-1.9-dev, kernel-module-cx24123-4.1.20-1.9-dev, kernel-module-cx25840-4.1.20-1.9-dev, kernel-module-cx82310-eth-4.1.20-1.9-dev, kernel-module-cxd2820r-4.1.20-1.9-dev, kernel-module-cyberjack-4.1.20-1.9-dev, kernel-module-cypress-firmware-4.1.20-1.9-dev, kernel-module-cypress-m8-4.1.20-1.9-dev, kernel-module-dib0070-4.1.20-1.9-dev, kernel-module-dib0090-4.1.20-1.9-dev, kernel-module-dib3000mb-4.1.20-1.9-dev, kernel-module-dib3000mc-4.1.20-1.9-dev, kernel-module-dib7000m-4.1.20-1.9-dev, kernel-module-dib7000p-4.1.20-1.9-dev, kernel-module-dib8000-4.1.20-1.9-dev, kernel-module-dibx000-common-4.1.20-1.9-dev, kernel-module-digi-acceleport-4.1.20-1.9-dev, kernel-module-dm9601-4.1.20-1.9-dev, kernel-module-drx39xyj-4.1.20-1.9-dev, kernel-module-drxd-4.1.20-1.9-dev, kernel-module-drxk-4.1.20-1.9-dev, kernel-module-ds3000-4.1.20-1.9-dev, kernel-module-dvb-as102-4.1.20-1.9-dev, kernel-module-dvb-pll-4.1.20-1.9-dev, kernel-module-dvb-ttusb-budget-4.1.20-1.9-dev, kernel-module-dvb-usb-4.1.20-1.9-dev, kernel-module-dvb-usb-a800-4.1.20-1.9-dev, kernel-module-dvb-usb-af9005-4.1.20-1.9-dev, kernel-module-dvb-usb-af9005-remote-4.1.20-1.9-dev, kernel-module-dvb-usb-af9015-4.1.20-1.9-dev, kernel-module-dvb-usb-af9035-4.1.20-1.9-dev, kernel-module-dvb-usb-anysee-4.1.20-1.9-dev, kernel-module-dvb-usb-au6610-4.1.20-1.9-dev, kernel-module-dvb-usb-az6007-4.1.20-1.9-dev, kernel-module-dvb-usb-az6027-4.1.20-1.9-dev, kernel-module-dvb-usb-ce6230-4.1.20-1.9-dev, kernel-module-dvb-usb-cinergyt2-4.1.20-1.9-dev, kernel-module-dvb-usb-cxusb-4.1.20-1.9-dev, kernel-module-dvb-usb-dib0700-4.1.20-1.9-dev, kernel-module-dvb-usb-dibusb-common-4.1.20-1.9-dev, kernel-module-dvb-usb-dibusb-mb-4.1.20-1.9-dev, kernel-module-dvb-usb-dibusb-mc-4.1.20-1.9-dev, kernel-module-dvb-usb-digitv-4.1.20-1.9-dev, kernel-module-dvb-usb-dtt200u-4.1.20-1.9-dev, kernel-module-dvb-usb-dtv5100-4.1.20-1.9-dev, kernel-module-dvb-usb-dw2102-4.1.20-1.9-dev, kernel-module-dvb-usb-ec168-4.1.20-1.9-dev, kernel-module-dvb-usb-friio-4.1.20-1.9-dev, kernel-module-dvb-usb-gl861-4.1.20-1.9-dev, kernel-module-dvb-usb-gp8psk-4.1.20-1.9-dev, kernel-module-dvb-usb-m920x-4.1.20-1.9-dev, kernel-module-dvb-usb-mxl111sf-4.1.20-1.9-dev, kernel-module-dvb-usb-nova-t-usb2-4.1.20-1.9-dev, kernel-module-dvb-usb-opera-4.1.20-1.9-dev, kernel-module-dvb-usb-pctv452e-4.1.20-1.9-dev, kernel-module-dvb-usb-rtl28xxu-4.1.20-1.9-dev, kernel-module-dvb-usb-tbsusb-4.1.20-1.9-dev, kernel-module-dvb-usb-technisat-usb2-4.1.20-1.9-dev, kernel-module-dvb-usb-ttusb2-4.1.20-1.9-dev, kernel-module-dvb-usb-umt-010-4.1.20-1.9-dev, kernel-module-dvb-usb-v2-4.1.20-1.9-dev, kernel-module-dvb-usb-vp702x-4.1.20-1.9-dev, kernel-module-dvb-usb-vp7045-4.1.20-1.9-dev, kernel-module-e4000-4.1.20-1.9-dev, kernel-module-ec100-4.1.20-1.9-dev, kernel-module-em28xx-4.1.20-1.9-dev, kernel-module-em28xx-alsa-4.1.20-1.9-dev, kernel-module-em28xx-dvb-4.1.20-1.9-dev, kernel-module-em28xx-v4l-4.1.20-1.9-dev, kernel-module-empeg-4.1.20-1.9-dev, kernel-module-ext2-4.1.20-1.9-dev, kernel-module-ext3-4.1.20-1.9-dev, kernel-module-ezusb-4.1.20-1.9-dev, kernel-module-f81232-4.1.20-1.9-dev, kernel-module-fc0011-4.1.20-1.9-dev, kernel-module-fc0012-4.1.20-1.9-dev, kernel-module-fc0013-4.1.20-1.9-dev, kernel-module-fc2580-4.1.20-1.9-dev, kernel-module-ff-memless-4.1.20-1.9-dev, kernel-module-fou-4.1.20-1.9-dev, kernel-module-ftdi-sio-4.1.20-1.9-dev, kernel-module-garmin-gps-4.1.20-1.9-dev, kernel-module-gcm-4.1.20-1.9-dev, kernel-module-gdmwm-4.1.20-1.9-dev, kernel-module-gf128mul-4.1.20-1.9-dev, kernel-module-ghash-generic-4.1.20-1.9-dev, kernel-module-gl620a-4.1.20-1.9-dev, kernel-module-go7007-4.1.20-1.9-dev, kernel-module-go7007-loader-4.1.20-1.9-dev, kernel-module-go7007-usb-4.1.20-1.9-dev, kernel-module-gspca-benq-4.1.20-1.9-dev, kernel-module-gspca-conex-4.1.20-1.9-dev, kernel-module-gspca-cpia1-4.1.20-1.9-dev, kernel-module-gspca-etoms-4.1.20-1.9-dev, kernel-module-gspca-finepix-4.1.20-1.9-dev, kernel-module-gspca-gl860-4.1.20-1.9-dev, kernel-module-gspca-jeilinj-4.1.20-1.9-dev, kernel-module-gspca-jl2005bcd-4.1.20-1.9-dev, kernel-module-gspca-kinect-4.1.20-1.9-dev, kernel-module-gspca-konica-4.1.20-1.9-dev, kernel-module-gspca-m5602-4.1.20-1.9-dev, kernel-module-gspca-main-4.1.20-1.9-dev, kernel-module-gspca-mars-4.1.20-1.9-dev, kernel-module-gspca-mr97310a-4.1.20-1.9-dev, kernel-module-gspca-nw80x-4.1.20-1.9-dev, kernel-module-gspca-ov519-4.1.20-1.9-dev, kernel-module-gspca-ov534-4.1.20-1.9-dev, kernel-module-gspca-ov534-9-4.1.20-1.9-dev, kernel-module-gspca-pac207-4.1.20-1.9-dev, kernel-module-gspca-pac7302-4.1.20-1.9-dev, kernel-module-gspca-pac7311-4.1.20-1.9-dev, kernel-module-gspca-se401-4.1.20-1.9-dev, kernel-module-gspca-sn9c2028-4.1.20-1.9-dev, kernel-module-gspca-sn9c20x-4.1.20-1.9-dev, kernel-module-gspca-sonixb-4.1.20-1.9-dev, kernel-module-gspca-sonixj-4.1.20-1.9-dev, kernel-module-gspca-spca1528-4.1.20-1.9-dev, kernel-module-gspca-spca500-4.1.20-1.9-dev, kernel-module-gspca-spca501-4.1.20-1.9-dev, kernel-module-gspca-spca505-4.1.20-1.9-dev, kernel-module-gspca-spca506-4.1.20-1.9-dev, kernel-module-gspca-spca508-4.1.20-1.9-dev, kernel-module-gspca-spca561-4.1.20-1.9-dev, kernel-module-gspca-sq905-4.1.20-1.9-dev, kernel-module-gspca-sq905c-4.1.20-1.9-dev, kernel-module-gspca-sq930x-4.1.20-1.9-dev, kernel-module-gspca-stk014-4.1.20-1.9-dev, kernel-module-gspca-stk1135-4.1.20-1.9-dev, kernel-module-gspca-stv0680-4.1.20-1.9-dev, kernel-module-gspca-stv06xx-4.1.20-1.9-dev, kernel-module-gspca-sunplus-4.1.20-1.9-dev, kernel-module-gspca-t613-4.1.20-1.9-dev, kernel-module-gspca-topro-4.1.20-1.9-dev, kernel-module-gspca-tv8532-4.1.20-1.9-dev, kernel-module-gspca-vc032x-4.1.20-1.9-dev, kernel-module-gspca-vicam-4.1.20-1.9-dev, kernel-module-gspca-xirlink-cit-4.1.20-1.9-dev, kernel-module-gspca-zc3xx-4.1.20-1.9-dev, kernel-module-hdpvr-4.1.20-1.9-dev, kernel-module-hfs-4.1.20-1.9-dev, kernel-module-hfsplus-4.1.20-1.9-dev, kernel-module-hostap-4.1.20-1.9-dev, kernel-module-hostap-pci-4.1.20-1.9-dev, kernel-module-hostap-plx-4.1.20-1.9-dev, kernel-module-huawei-cdc-ncm-4.1.20-1.9-dev, kernel-module-i2c-algo-bit-4.1.20-1.9-dev, kernel-module-input-polldev-4.1.20-1.9-dev, kernel-module-int51x1-4.1.20-1.9-dev, kernel-module-io-edgeport-4.1.20-1.9-dev, kernel-module-io-ti-4.1.20-1.9-dev, kernel-module-ip-tunnel-4.1.20-1.9-dev, kernel-module-ip6-udp-tunnel-4.1.20-1.9-dev, kernel-module-ipaq-4.1.20-1.9-dev, kernel-module-ipheth-4.1.20-1.9-dev, kernel-module-ipv6-4.1.20-1.9-dev, kernel-module-ipw-4.1.20-1.9-dev, kernel-module-ipw2100-4.1.20-1.9-dev, kernel-module-ipw2200-4.1.20-1.9-dev, kernel-module-ir-usb-4.1.20-1.9-dev, kernel-module-isl6421-4.1.20-1.9-dev, kernel-module-isl6423-4.1.20-1.9-dev, kernel-module-isofs-4.1.20-1.9-dev, kernel-module-it913x-4.1.20-1.9-dev, kernel-module-itd1000-4.1.20-1.9-dev, kernel-module-iuu-phoenix-4.1.20-1.9-dev, kernel-module-iwl3945-4.1.20-1.9-dev, kernel-module-iwl4965-4.1.20-1.9-dev, kernel-module-iwldvm-4.1.20-1.9-dev, kernel-module-iwlegacy-4.1.20-1.9-dev, kernel-module-iwlwifi-4.1.20-1.9-dev, kernel-module-jbd-4.1.20-1.9-dev, kernel-module-jffs2-4.1.20-1.9-dev, kernel-module-kalmia-4.1.20-1.9-dev, kernel-module-kaweth-4.1.20-1.9-dev, kernel-module-keyspan-4.1.20-1.9-dev, kernel-module-keyspan-pda-4.1.20-1.9-dev, kernel-module-kl5kusb105-4.1.20-1.9-dev, kernel-module-kobil-sct-4.1.20-1.9-dev, kernel-module-led-class-4.1.20-1.9-dev, kernel-module-lg-vl600-4.1.20-1.9-dev, kernel-module-lg2160-4.1.20-1.9-dev, kernel-module-lgdt3305-4.1.20-1.9-dev, kernel-module-lgdt3306a-4.1.20-1.9-dev, kernel-module-lgdt330x-4.1.20-1.9-dev, kernel-module-lgs8gxx-4.1.20-1.9-dev, kernel-module-lib80211-4.1.20-1.9-dev, kernel-module-lib80211-crypt-ccmp-4.1.20-1.9-dev, kernel-module-lib80211-crypt-tkip-4.1.20-1.9-dev, kernel-module-lib80211-crypt-wep-4.1.20-1.9-dev, kernel-module-libcrc32c-4.1.20-1.9-dev, kernel-module-libertas-4.1.20-1.9-dev, kernel-module-libertas-sdio-4.1.20-1.9-dev, kernel-module-libertas-spi-4.1.20-1.9-dev, kernel-module-libertas-tf-4.1.20-1.9-dev, kernel-module-libertas-tf-usb-4.1.20-1.9-dev, kernel-module-libipw-4.1.20-1.9-dev, kernel-module-llc-4.1.20-1.9-dev, kernel-module-lnbp21-4.1.20-1.9-dev, kernel-module-lnbp22-4.1.20-1.9-dev, kernel-module-m88ds3103-4.1.20-1.9-dev, kernel-module-m88rs2000-4.1.20-1.9-dev, kernel-module-mac80211-4.1.20-1.9-dev, kernel-module-mac80211-hwsim-4.1.20-1.9-dev, kernel-module-max2165-4.1.20-1.9-dev, kernel-module-mb86a20s-4.1.20-1.9-dev, kernel-module-mcs7830-4.1.20-1.9-dev, kernel-module-mct-u232-4.1.20-1.9-dev, kernel-module-metro-usb-4.1.20-1.9-dev, kernel-module-michael-mic-4.1.20-1.9-dev, kernel-module-mn88472-4.1.20-1.9-dev, kernel-module-mn88473-4.1.20-1.9-dev, kernel-module-mos7720-4.1.20-1.9-dev, kernel-module-mos7840-4.1.20-1.9-dev, kernel-module-msp3400-4.1.20-1.9-dev, kernel-module-mt2060-4.1.20-1.9-dev, kernel-module-mt2063-4.1.20-1.9-dev, kernel-module-mt2266-4.1.20-1.9-dev, kernel-module-mt312-4.1.20-1.9-dev, kernel-module-mt352-4.1.20-1.9-dev, kernel-module-mt9v011-4.1.20-1.9-dev, kernel-module-mwifiex-4.1.20-1.9-dev, kernel-module-mwifiex-usb-4.1.20-1.9-dev, kernel-module-mxl111sf-demod-4.1.20-1.9-dev, kernel-module-mxl111sf-tuner-4.1.20-1.9-dev, kernel-module-mxl5005s-4.1.20-1.9-dev, kernel-module-mxl5007t-4.1.20-1.9-dev, kernel-module-mxuport-4.1.20-1.9-dev, kernel-module-navman-4.1.20-1.9-dev, kernel-module-net1080-4.1.20-1.9-dev, kernel-module-nfs-layout-flexfiles-4.1.20-1.9-dev, kernel-module-nls-cp1250-4.1.20-1.9-dev, kernel-module-nls-cp1251-4.1.20-1.9-dev, kernel-module-nls-cp1255-4.1.20-1.9-dev, kernel-module-nls-cp737-4.1.20-1.9-dev, kernel-module-nls-cp775-4.1.20-1.9-dev, kernel-module-nls-cp850-4.1.20-1.9-dev, kernel-module-nls-cp852-4.1.20-1.9-dev, kernel-module-nls-cp855-4.1.20-1.9-dev, kernel-module-nls-cp857-4.1.20-1.9-dev, kernel-module-nls-cp860-4.1.20-1.9-dev, kernel-module-nls-cp861-4.1.20-1.9-dev, kernel-module-nls-cp862-4.1.20-1.9-dev, kernel-module-nls-cp863-4.1.20-1.9-dev, kernel-module-nls-cp864-4.1.20-1.9-dev, kernel-module-nls-cp865-4.1.20-1.9-dev, kernel-module-nls-cp866-4.1.20-1.9-dev, kernel-module-nls-cp869-4.1.20-1.9-dev, kernel-module-nls-cp874-4.1.20-1.9-dev, kernel-module-nls-cp932-4.1.20-1.9-dev, kernel-module-nls-cp936-4.1.20-1.9-dev, kernel-module-nls-cp949-4.1.20-1.9-dev, kernel-module-nls-cp950-4.1.20-1.9-dev, kernel-module-nls-euc-jp-4.1.20-1.9-dev, kernel-module-nls-iso8859-13-4.1.20-1.9-dev, kernel-module-nls-iso8859-14-4.1.20-1.9-dev, kernel-module-nls-iso8859-2-4.1.20-1.9-dev, kernel-module-nls-iso8859-3-4.1.20-1.9-dev, kernel-module-nls-iso8859-4-4.1.20-1.9-dev, kernel-module-nls-iso8859-5-4.1.20-1.9-dev, kernel-module-nls-iso8859-6-4.1.20-1.9-dev, kernel-module-nls-iso8859-7-4.1.20-1.9-dev, kernel-module-nls-iso8859-9-4.1.20-1.9-dev, kernel-module-nls-koi8-r-4.1.20-1.9-dev, kernel-module-nls-koi8-ru-4.1.20-1.9-dev, kernel-module-nls-koi8-u-4.1.20-1.9-dev, kernel-module-ntfs-4.1.20-1.9-dev, kernel-module-nxt200x-4.1.20-1.9-dev, kernel-module-nxt6000-4.1.20-1.9-dev, kernel-module-omninet-4.1.20-1.9-dev, kernel-module-opticon-4.1.20-1.9-dev, kernel-module-option-4.1.20-1.9-dev, kernel-module-orinoco-4.1.20-1.9-dev, kernel-module-orinoco-usb-4.1.20-1.9-dev, kernel-module-oti6858-4.1.20-1.9-dev, kernel-module-ov7640-4.1.20-1.9-dev, kernel-module-ozwpan-4.1.20-1.9-dev, kernel-module-p54common-4.1.20-1.9-dev, kernel-module-p54spi-4.1.20-1.9-dev, kernel-module-p54usb-4.1.20-1.9-dev, kernel-module-p8022-4.1.20-1.9-dev, kernel-module-pegasus-4.1.20-1.9-dev, kernel-module-pktcdvd-4.1.20-1.9-dev, kernel-module-pl2303-4.1.20-1.9-dev, kernel-module-plusb-4.1.20-1.9-dev, kernel-module-ppp-async-4.1.20-1.9-dev, kernel-module-ppp-deflate-4.1.20-1.9-dev, kernel-module-ppp-generic-4.1.20-1.9-dev, kernel-module-ppp-mppe-4.1.20-1.9-dev, kernel-module-ppp-synctty-4.1.20-1.9-dev, kernel-module-pppoe-4.1.20-1.9-dev, kernel-module-pppox-4.1.20-1.9-dev, kernel-module-prism2-usb-4.1.20-1.9-dev, kernel-module-psnap-4.1.20-1.9-dev, kernel-module-pvrusb2-4.1.20-1.9-dev, kernel-module-pwc-4.1.20-1.9-dev, kernel-module-qcaux-4.1.20-1.9-dev, kernel-module-qcserial-4.1.20-1.9-dev, kernel-module-qmi-wwan-4.1.20-1.9-dev, kernel-module-qt1010-4.1.20-1.9-dev, kernel-module-quatech2-4.1.20-1.9-dev, kernel-module-r8152-4.1.20-1.9-dev, kernel-module-r8188eu-4.1.20-1.9-dev, kernel-module-r820t-4.1.20-1.9-dev, kernel-module-r8712u-4.1.20-1.9-dev, kernel-module-reiserfs-4.1.20-1.9-dev, kernel-module-rndis-host-4.1.20-1.9-dev, kernel-module-rndis-wlan-4.1.20-1.9-dev, kernel-module-rt2500usb-4.1.20-1.9-dev, kernel-module-rt2800lib-4.1.20-1.9-dev, kernel-module-rt2800usb-4.1.20-1.9-dev, kernel-module-rt2x00lib-4.1.20-1.9-dev, kernel-module-rt2x00usb-4.1.20-1.9-dev, kernel-module-rt73usb-4.1.20-1.9-dev, kernel-module-rtl-pci-4.1.20-1.9-dev, kernel-module-rtl-usb-4.1.20-1.9-dev, kernel-module-rtl2830-4.1.20-1.9-dev, kernel-module-rtl2832-4.1.20-1.9-dev, kernel-module-rtl8150-4.1.20-1.9-dev, kernel-module-rtl8187-4.1.20-1.9-dev, kernel-module-rtl8188ee-4.1.20-1.9-dev, kernel-module-rtl8192c-common-4.1.20-1.9-dev, kernel-module-rtl8192ce-4.1.20-1.9-dev, kernel-module-rtl8192cu-4.1.20-1.9-dev, kernel-module-rtlwifi-4.1.20-1.9-dev, kernel-module-s2250-4.1.20-1.9-dev, kernel-module-s2255drv-4.1.20-1.9-dev, kernel-module-s5h1409-4.1.20-1.9-dev, kernel-module-s5h1411-4.1.20-1.9-dev, kernel-module-s5h1420-4.1.20-1.9-dev, kernel-module-s921-4.1.20-1.9-dev, kernel-module-saa7115-4.1.20-1.9-dev, kernel-module-safe-serial-4.1.20-1.9-dev, kernel-module-sha1-generic-4.1.20-1.9-dev, kernel-module-si2157-4.1.20-1.9-dev, kernel-module-si2165-4.1.20-1.9-dev, kernel-module-si2168-4.1.20-1.9-dev, kernel-module-si21xx-4.1.20-1.9-dev, kernel-module-sierra-4.1.20-1.9-dev, kernel-module-sierra-net-4.1.20-1.9-dev, kernel-module-sit-4.1.20-1.9-dev, kernel-module-slhc-4.1.20-1.9-dev, kernel-module-slip-4.1.20-1.9-dev, kernel-module-smsc75xx-4.1.20-1.9-dev, kernel-module-smsc95xx-4.1.20-1.9-dev, kernel-module-smsdvb-4.1.20-1.9-dev, kernel-module-smsmdtv-4.1.20-1.9-dev, kernel-module-smssdio-4.1.20-1.9-dev, kernel-module-smsusb-4.1.20-1.9-dev, kernel-module-snd-ac97-codec-4.1.20-1.9-dev, kernel-module-sony-btf-mpx-4.1.20-1.9-dev, kernel-module-spcp8x5-4.1.20-1.9-dev, kernel-module-sr-mod-4.1.20-1.9-dev, kernel-module-sr9700-4.1.20-1.9-dev, kernel-module-sr9800-4.1.20-1.9-dev, kernel-module-ssb-4.1.20-1.9-dev, kernel-module-ssu100-4.1.20-1.9-dev, kernel-module-stb0899-4.1.20-1.9-dev, kernel-module-stb6000-4.1.20-1.9-dev, kernel-module-stb6100-4.1.20-1.9-dev, kernel-module-stk1160-4.1.20-1.9-dev, kernel-module-stkwebcam-4.1.20-1.9-dev, kernel-module-stp-4.1.20-1.9-dev, kernel-module-stv0288-4.1.20-1.9-dev, kernel-module-stv0297-4.1.20-1.9-dev, kernel-module-stv0299-4.1.20-1.9-dev, kernel-module-stv0900-4.1.20-1.9-dev, kernel-module-stv090x-4.1.20-1.9-dev, kernel-module-stv6110-4.1.20-1.9-dev, kernel-module-stv6110x-4.1.20-1.9-dev, kernel-module-symbolserial-4.1.20-1.9-dev, kernel-module-tda10023-4.1.20-1.9-dev, kernel-module-tda10048-4.1.20-1.9-dev, kernel-module-tda1004x-4.1.20-1.9-dev, kernel-module-tda10071-4.1.20-1.9-dev, kernel-module-tda10086-4.1.20-1.9-dev, kernel-module-tda18212-4.1.20-1.9-dev, kernel-module-tda18218-4.1.20-1.9-dev, kernel-module-tda18250-4.1.20-1.9-dev, kernel-module-tda18271c2dd-4.1.20-1.9-dev, kernel-module-tda8083-4.1.20-1.9-dev, kernel-module-tda826x-4.1.20-1.9-dev, kernel-module-ti-usb-3410-5052-4.1.20-1.9-dev, kernel-module-tm6000-4.1.20-1.9-dev, kernel-module-tm6000-alsa-4.1.20-1.9-dev, kernel-module-tm6000-dvb-4.1.20-1.9-dev, kernel-module-ts2020-4.1.20-1.9-dev, kernel-module-ttpci-eeprom-4.1.20-1.9-dev, kernel-module-ttusb-dec-4.1.20-1.9-dev, kernel-module-ttusbdecfe-4.1.20-1.9-dev, kernel-module-tua9001-4.1.20-1.9-dev, kernel-module-tun-4.1.20-1.9-dev, kernel-module-tuner-4.1.20-1.9-dev, kernel-module-tunnel4-4.1.20-1.9-dev, kernel-module-tveeprom-4.1.20-1.9-dev, kernel-module-tvp5150-4.1.20-1.9-dev, kernel-module-tw2804-4.1.20-1.9-dev, kernel-module-tw9903-4.1.20-1.9-dev, kernel-module-tw9906-4.1.20-1.9-dev, kernel-module-uda1342-4.1.20-1.9-dev, kernel-module-udf-4.1.20-1.9-dev, kernel-module-udp-tunnel-4.1.20-1.9-dev, kernel-module-usb-serial-simple-4.1.20-1.9-dev, kernel-module-usb-wwan-4.1.20-1.9-dev, kernel-module-usb8xxx-4.1.20-1.9-dev, kernel-module-usbnet-4.1.20-1.9-dev, kernel-module-usbserial-4.1.20-1.9-dev, kernel-module-usbtv-4.1.20-1.9-dev, kernel-module-usbvision-4.1.20-1.9-dev, kernel-module-uvcvideo-4.1.20-1.9-dev, kernel-module-ves1820-4.1.20-1.9-dev, kernel-module-videobuf-core-4.1.20-1.9-dev, kernel-module-videobuf-dvb-4.1.20-1.9-dev, kernel-module-videobuf-vmalloc-4.1.20-1.9-dev, kernel-module-videobuf2-core-4.1.20-1.9-dev, kernel-module-videobuf2-memops-4.1.20-1.9-dev, kernel-module-videobuf2-vmalloc-4.1.20-1.9-dev, kernel-module-visor-4.1.20-1.9-dev, kernel-module-wcn36xx-4.1.20-1.9-dev, kernel-module-whiteheat-4.1.20-1.9-dev, kernel-module-wil6210-4.1.20-1.9-dev, kernel-module-wishbone-serial-4.1.20-1.9-dev, kernel-module-wl1251-4.1.20-1.9-dev, kernel-module-wl12xx-4.1.20-1.9-dev, kernel-module-wl18xx-4.1.20-1.9-dev, kernel-module-wlcore-4.1.20-1.9-dev, kernel-module-wlcore-sdio-4.1.20-1.9-dev, kernel-module-wlcore-spi-4.1.20-1.9-dev, kernel-module-wm8775-4.1.20-1.9-dev, kernel-module-xfrm6-mode-beet-4.1.20-1.9-dev, kernel-module-xfrm6-mode-transport-4.1.20-1.9-dev, kernel-module-xfrm6-mode-tunnel-4.1.20-1.9-dev, kernel-module-xfs-4.1.20-1.9-dev, kernel-module-xsens-mt-4.1.20-1.9-dev, kernel-module-zaurus-4.1.20-1.9-dev, kernel-module-zd1201-4.1.20-1.9-dev, kernel-module-zd1211rw-4.1.20-1.9-dev, kernel-module-zl10039-4.1.20-1.9-dev, kernel-module-zl10353-4.1.20-1.9-dev, kernel-module-zr364xx-4.1.20-1.9-dev
+Recommends: kernel-4.1.20-1.9-dev, kernel-base-dev, kernel-image-zimage-dev, kernel-module-a8293-4.1.20-1.9-dev, kernel-module-ac97-bus-4.1.20-1.9-dev, kernel-module-adm8211-4.1.20-1.9-dev, kernel-module-af9013-4.1.20-1.9-dev, kernel-module-af9033-4.1.20-1.9-dev, kernel-module-aircable-4.1.20-1.9-dev, kernel-module-ar5523-4.1.20-1.9-dev, kernel-module-ark3116-4.1.20-1.9-dev, kernel-module-as102-fe-4.1.20-1.9-dev, kernel-module-asix-4.1.20-1.9-dev, kernel-module-at76c50x-usb-4.1.20-1.9-dev, kernel-module-atbm8830-4.1.20-1.9-dev, kernel-module-ath-4.1.20-1.9-dev, kernel-module-ath10k-core-4.1.20-1.9-dev, kernel-module-ath5k-4.1.20-1.9-dev, kernel-module-ath6kl-core-4.1.20-1.9-dev, kernel-module-ath6kl-usb-4.1.20-1.9-dev, kernel-module-ath9k-4.1.20-1.9-dev, kernel-module-ath9k-common-4.1.20-1.9-dev, kernel-module-ath9k-htc-4.1.20-1.9-dev, kernel-module-ath9k-hw-4.1.20-1.9-dev, kernel-module-atmel-4.1.20-1.9-dev, kernel-module-au0828-4.1.20-1.9-dev, kernel-module-au8522-common-4.1.20-1.9-dev, kernel-module-au8522-decoder-4.1.20-1.9-dev, kernel-module-au8522-dig-4.1.20-1.9-dev, kernel-module-ax88179-178a-4.1.20-1.9-dev, kernel-module-b2c2-flexcop-4.1.20-1.9-dev, kernel-module-b2c2-flexcop-usb-4.1.20-1.9-dev, kernel-module-b43-4.1.20-1.9-dev, kernel-module-b43legacy-4.1.20-1.9-dev, kernel-module-bcm3510-4.1.20-1.9-dev, kernel-module-bcma-4.1.20-1.9-dev, kernel-module-belkin-sa-4.1.20-1.9-dev, kernel-module-bluetooth-4.1.20-1.9-dev, kernel-module-brcmfmac-4.1.20-1.9-dev, kernel-module-brcmutil-4.1.20-1.9-dev, kernel-module-bridge-4.1.20-1.9-dev, kernel-module-bsd-comp-4.1.20-1.9-dev, kernel-module-carl9170-4.1.20-1.9-dev, kernel-module-catc-4.1.20-1.9-dev, kernel-module-cbc-4.1.20-1.9-dev, kernel-module-cdc-acm-4.1.20-1.9-dev, kernel-module-cdc-eem-4.1.20-1.9-dev, kernel-module-cdc-ether-4.1.20-1.9-dev, kernel-module-cdc-mbim-4.1.20-1.9-dev, kernel-module-cdc-ncm-4.1.20-1.9-dev, kernel-module-cdc-subset-4.1.20-1.9-dev, kernel-module-cdc-wdm-4.1.20-1.9-dev, kernel-module-cdrom-4.1.20-1.9-dev, kernel-module-ch341-4.1.20-1.9-dev, kernel-module-cp210x-4.1.20-1.9-dev, kernel-module-cpia2-4.1.20-1.9-dev, kernel-module-crc7-4.1.20-1.9-dev, kernel-module-crypto-null-4.1.20-1.9-dev, kernel-module-cs53l32a-4.1.20-1.9-dev, kernel-module-cuse-4.1.20-1.9-dev, kernel-module-cw1200-core-4.1.20-1.9-dev, kernel-module-cx22700-4.1.20-1.9-dev, kernel-module-cx22702-4.1.20-1.9-dev, kernel-module-cx231xx-4.1.20-1.9-dev, kernel-module-cx231xx-alsa-4.1.20-1.9-dev, kernel-module-cx231xx-dvb-4.1.20-1.9-dev, kernel-module-cx2341x-4.1.20-1.9-dev, kernel-module-cx24113-4.1.20-1.9-dev, kernel-module-cx24116-4.1.20-1.9-dev, kernel-module-cx24123-4.1.20-1.9-dev, kernel-module-cx25840-4.1.20-1.9-dev, kernel-module-cx82310-eth-4.1.20-1.9-dev, kernel-module-cxd2820r-4.1.20-1.9-dev, kernel-module-cyberjack-4.1.20-1.9-dev, kernel-module-cypress-firmware-4.1.20-1.9-dev, kernel-module-cypress-m8-4.1.20-1.9-dev, kernel-module-dib0070-4.1.20-1.9-dev, kernel-module-dib0090-4.1.20-1.9-dev, kernel-module-dib3000mb-4.1.20-1.9-dev, kernel-module-dib3000mc-4.1.20-1.9-dev, kernel-module-dib7000m-4.1.20-1.9-dev, kernel-module-dib7000p-4.1.20-1.9-dev, kernel-module-dib8000-4.1.20-1.9-dev, kernel-module-dibx000-common-4.1.20-1.9-dev, kernel-module-digi-acceleport-4.1.20-1.9-dev, kernel-module-dm9601-4.1.20-1.9-dev, kernel-module-drx39xyj-4.1.20-1.9-dev, kernel-module-drxd-4.1.20-1.9-dev, kernel-module-drxk-4.1.20-1.9-dev, kernel-module-ds3000-4.1.20-1.9-dev, kernel-module-dvb-as102-4.1.20-1.9-dev, kernel-module-dvb-pll-4.1.20-1.9-dev, kernel-module-dvb-ttusb-budget-4.1.20-1.9-dev, kernel-module-dvb-usb-4.1.20-1.9-dev, kernel-module-dvb-usb-a800-4.1.20-1.9-dev, kernel-module-dvb-usb-af9005-4.1.20-1.9-dev, kernel-module-dvb-usb-af9005-remote-4.1.20-1.9-dev, kernel-module-dvb-usb-af9015-4.1.20-1.9-dev, kernel-module-dvb-usb-af9035-4.1.20-1.9-dev, kernel-module-dvb-usb-anysee-4.1.20-1.9-dev, kernel-module-dvb-usb-au6610-4.1.20-1.9-dev, kernel-module-dvb-usb-az6007-4.1.20-1.9-dev, kernel-module-dvb-usb-az6027-4.1.20-1.9-dev, kernel-module-dvb-usb-ce6230-4.1.20-1.9-dev, kernel-module-dvb-usb-cinergyt2-4.1.20-1.9-dev, kernel-module-dvb-usb-cxusb-4.1.20-1.9-dev, kernel-module-dvb-usb-dib0700-4.1.20-1.9-dev, kernel-module-dvb-usb-dibusb-common-4.1.20-1.9-dev, kernel-module-dvb-usb-dibusb-mb-4.1.20-1.9-dev, kernel-module-dvb-usb-dibusb-mc-4.1.20-1.9-dev, kernel-module-dvb-usb-digitv-4.1.20-1.9-dev, kernel-module-dvb-usb-dtt200u-4.1.20-1.9-dev, kernel-module-dvb-usb-dtv5100-4.1.20-1.9-dev, kernel-module-dvb-usb-dw2102-4.1.20-1.9-dev, kernel-module-dvb-usb-ec168-4.1.20-1.9-dev, kernel-module-dvb-usb-friio-4.1.20-1.9-dev, kernel-module-dvb-usb-gl861-4.1.20-1.9-dev, kernel-module-dvb-usb-gp8psk-4.1.20-1.9-dev, kernel-module-dvb-usb-lmedm04-4.1.20-1.9-dev, kernel-module-dvb-usb-m920x-4.1.20-1.9-dev, kernel-module-dvb-usb-mxl111sf-4.1.20-1.9-dev, kernel-module-dvb-usb-nova-t-usb2-4.1.20-1.9-dev, kernel-module-dvb-usb-opera-4.1.20-1.9-dev, kernel-module-dvb-usb-pctv452e-4.1.20-1.9-dev, kernel-module-dvb-usb-rtl28xxu-4.1.20-1.9-dev, kernel-module-dvb-usb-tbsusb-4.1.20-1.9-dev, kernel-module-dvb-usb-technisat-usb2-4.1.20-1.9-dev, kernel-module-dvb-usb-ttusb2-4.1.20-1.9-dev, kernel-module-dvb-usb-umt-010-4.1.20-1.9-dev, kernel-module-dvb-usb-v2-4.1.20-1.9-dev, kernel-module-dvb-usb-vp702x-4.1.20-1.9-dev, kernel-module-dvb-usb-vp7045-4.1.20-1.9-dev, kernel-module-e4000-4.1.20-1.9-dev, kernel-module-ec100-4.1.20-1.9-dev, kernel-module-em28xx-4.1.20-1.9-dev, kernel-module-em28xx-alsa-4.1.20-1.9-dev, kernel-module-em28xx-dvb-4.1.20-1.9-dev, kernel-module-em28xx-rc-4.1.20-1.9-dev, kernel-module-em28xx-v4l-4.1.20-1.9-dev, kernel-module-empeg-4.1.20-1.9-dev, kernel-module-ext2-4.1.20-1.9-dev, kernel-module-ext3-4.1.20-1.9-dev, kernel-module-ezusb-4.1.20-1.9-dev, kernel-module-f81232-4.1.20-1.9-dev, kernel-module-fc0011-4.1.20-1.9-dev, kernel-module-fc0012-4.1.20-1.9-dev, kernel-module-fc0013-4.1.20-1.9-dev, kernel-module-fc2580-4.1.20-1.9-dev, kernel-module-ff-memless-4.1.20-1.9-dev, kernel-module-fou-4.1.20-1.9-dev, kernel-module-ftdi-sio-4.1.20-1.9-dev, kernel-module-garmin-gps-4.1.20-1.9-dev, kernel-module-gcm-4.1.20-1.9-dev, kernel-module-gdmwm-4.1.20-1.9-dev, kernel-module-gf128mul-4.1.20-1.9-dev, kernel-module-ghash-generic-4.1.20-1.9-dev, kernel-module-gl620a-4.1.20-1.9-dev, kernel-module-go7007-4.1.20-1.9-dev, kernel-module-go7007-loader-4.1.20-1.9-dev, kernel-module-go7007-usb-4.1.20-1.9-dev, kernel-module-gspca-benq-4.1.20-1.9-dev, kernel-module-gspca-conex-4.1.20-1.9-dev, kernel-module-gspca-cpia1-4.1.20-1.9-dev, kernel-module-gspca-dtcs033-4.1.20-1.9-dev, kernel-module-gspca-etoms-4.1.20-1.9-dev, kernel-module-gspca-finepix-4.1.20-1.9-dev, kernel-module-gspca-gl860-4.1.20-1.9-dev, kernel-module-gspca-jeilinj-4.1.20-1.9-dev, kernel-module-gspca-jl2005bcd-4.1.20-1.9-dev, kernel-module-gspca-kinect-4.1.20-1.9-dev, kernel-module-gspca-konica-4.1.20-1.9-dev, kernel-module-gspca-m5602-4.1.20-1.9-dev, kernel-module-gspca-main-4.1.20-1.9-dev, kernel-module-gspca-mars-4.1.20-1.9-dev, kernel-module-gspca-mr97310a-4.1.20-1.9-dev, kernel-module-gspca-nw80x-4.1.20-1.9-dev, kernel-module-gspca-ov519-4.1.20-1.9-dev, kernel-module-gspca-ov534-4.1.20-1.9-dev, kernel-module-gspca-ov534-9-4.1.20-1.9-dev, kernel-module-gspca-pac207-4.1.20-1.9-dev, kernel-module-gspca-pac7302-4.1.20-1.9-dev, kernel-module-gspca-pac7311-4.1.20-1.9-dev, kernel-module-gspca-se401-4.1.20-1.9-dev, kernel-module-gspca-sn9c2028-4.1.20-1.9-dev, kernel-module-gspca-sn9c20x-4.1.20-1.9-dev, kernel-module-gspca-sonixb-4.1.20-1.9-dev, kernel-module-gspca-sonixj-4.1.20-1.9-dev, kernel-module-gspca-spca1528-4.1.20-1.9-dev, kernel-module-gspca-spca500-4.1.20-1.9-dev, kernel-module-gspca-spca501-4.1.20-1.9-dev, kernel-module-gspca-spca505-4.1.20-1.9-dev, kernel-module-gspca-spca506-4.1.20-1.9-dev, kernel-module-gspca-spca508-4.1.20-1.9-dev, kernel-module-gspca-spca561-4.1.20-1.9-dev, kernel-module-gspca-sq905-4.1.20-1.9-dev, kernel-module-gspca-sq905c-4.1.20-1.9-dev, kernel-module-gspca-sq930x-4.1.20-1.9-dev, kernel-module-gspca-stk014-4.1.20-1.9-dev, kernel-module-gspca-stk1135-4.1.20-1.9-dev, kernel-module-gspca-stv0680-4.1.20-1.9-dev, kernel-module-gspca-stv06xx-4.1.20-1.9-dev, kernel-module-gspca-sunplus-4.1.20-1.9-dev, kernel-module-gspca-t613-4.1.20-1.9-dev, kernel-module-gspca-topro-4.1.20-1.9-dev, kernel-module-gspca-touptek-4.1.20-1.9-dev, kernel-module-gspca-tv8532-4.1.20-1.9-dev, kernel-module-gspca-vc032x-4.1.20-1.9-dev, kernel-module-gspca-vicam-4.1.20-1.9-dev, kernel-module-gspca-xirlink-cit-4.1.20-1.9-dev, kernel-module-gspca-zc3xx-4.1.20-1.9-dev, kernel-module-hdpvr-4.1.20-1.9-dev, kernel-module-hfs-4.1.20-1.9-dev, kernel-module-hfsplus-4.1.20-1.9-dev, kernel-module-hostap-4.1.20-1.9-dev, kernel-module-hostap-pci-4.1.20-1.9-dev, kernel-module-hostap-plx-4.1.20-1.9-dev, kernel-module-huawei-cdc-ncm-4.1.20-1.9-dev, kernel-module-i2c-algo-bit-4.1.20-1.9-dev, kernel-module-input-polldev-4.1.20-1.9-dev, kernel-module-int51x1-4.1.20-1.9-dev, kernel-module-io-edgeport-4.1.20-1.9-dev, kernel-module-io-ti-4.1.20-1.9-dev, kernel-module-ip-tunnel-4.1.20-1.9-dev, kernel-module-ip6-udp-tunnel-4.1.20-1.9-dev, kernel-module-ipaq-4.1.20-1.9-dev, kernel-module-ipheth-4.1.20-1.9-dev, kernel-module-ipv6-4.1.20-1.9-dev, kernel-module-ipw-4.1.20-1.9-dev, kernel-module-ipw2100-4.1.20-1.9-dev, kernel-module-ipw2200-4.1.20-1.9-dev, kernel-module-ir-usb-4.1.20-1.9-dev, kernel-module-isl6421-4.1.20-1.9-dev, kernel-module-isl6423-4.1.20-1.9-dev, kernel-module-isofs-4.1.20-1.9-dev, kernel-module-it913x-4.1.20-1.9-dev, kernel-module-itd1000-4.1.20-1.9-dev, kernel-module-iuu-phoenix-4.1.20-1.9-dev, kernel-module-iwl3945-4.1.20-1.9-dev, kernel-module-iwl4965-4.1.20-1.9-dev, kernel-module-iwldvm-4.1.20-1.9-dev, kernel-module-iwlegacy-4.1.20-1.9-dev, kernel-module-iwlwifi-4.1.20-1.9-dev, kernel-module-ix2505v-4.1.20-1.9-dev, kernel-module-jbd-4.1.20-1.9-dev, kernel-module-jffs2-4.1.20-1.9-dev, kernel-module-kalmia-4.1.20-1.9-dev, kernel-module-kaweth-4.1.20-1.9-dev, kernel-module-keyspan-4.1.20-1.9-dev, kernel-module-keyspan-pda-4.1.20-1.9-dev, kernel-module-kl5kusb105-4.1.20-1.9-dev, kernel-module-kobil-sct-4.1.20-1.9-dev, kernel-module-led-class-4.1.20-1.9-dev, kernel-module-lg-vl600-4.1.20-1.9-dev, kernel-module-lg2160-4.1.20-1.9-dev, kernel-module-lgdt3305-4.1.20-1.9-dev, kernel-module-lgdt3306a-4.1.20-1.9-dev, kernel-module-lgdt330x-4.1.20-1.9-dev, kernel-module-lgs8gxx-4.1.20-1.9-dev, kernel-module-lib80211-4.1.20-1.9-dev, kernel-module-lib80211-crypt-ccmp-4.1.20-1.9-dev, kernel-module-lib80211-crypt-tkip-4.1.20-1.9-dev, kernel-module-lib80211-crypt-wep-4.1.20-1.9-dev, kernel-module-libcrc32c-4.1.20-1.9-dev, kernel-module-libertas-4.1.20-1.9-dev, kernel-module-libertas-sdio-4.1.20-1.9-dev, kernel-module-libertas-spi-4.1.20-1.9-dev, kernel-module-libertas-tf-4.1.20-1.9-dev, kernel-module-libertas-tf-usb-4.1.20-1.9-dev, kernel-module-libipw-4.1.20-1.9-dev, kernel-module-llc-4.1.20-1.9-dev, kernel-module-lnbp21-4.1.20-1.9-dev, kernel-module-lnbp22-4.1.20-1.9-dev, kernel-module-m88ds3103-4.1.20-1.9-dev, kernel-module-m88rs2000-4.1.20-1.9-dev, kernel-module-mac80211-4.1.20-1.9-dev, kernel-module-mac80211-hwsim-4.1.20-1.9-dev, kernel-module-max2165-4.1.20-1.9-dev, kernel-module-mb86a20s-4.1.20-1.9-dev, kernel-module-mcs7830-4.1.20-1.9-dev, kernel-module-mct-u232-4.1.20-1.9-dev, kernel-module-metro-usb-4.1.20-1.9-dev, kernel-module-michael-mic-4.1.20-1.9-dev, kernel-module-mn88472-4.1.20-1.9-dev, kernel-module-mn88473-4.1.20-1.9-dev, kernel-module-mos7720-4.1.20-1.9-dev, kernel-module-mos7840-4.1.20-1.9-dev, kernel-module-msp3400-4.1.20-1.9-dev, kernel-module-mt2060-4.1.20-1.9-dev, kernel-module-mt2063-4.1.20-1.9-dev, kernel-module-mt2266-4.1.20-1.9-dev, kernel-module-mt312-4.1.20-1.9-dev, kernel-module-mt352-4.1.20-1.9-dev, kernel-module-mt9v011-4.1.20-1.9-dev, kernel-module-mwifiex-4.1.20-1.9-dev, kernel-module-mwifiex-usb-4.1.20-1.9-dev, kernel-module-mxl111sf-demod-4.1.20-1.9-dev, kernel-module-mxl111sf-tuner-4.1.20-1.9-dev, kernel-module-mxl5005s-4.1.20-1.9-dev, kernel-module-mxl5007t-4.1.20-1.9-dev, kernel-module-mxuport-4.1.20-1.9-dev, kernel-module-navman-4.1.20-1.9-dev, kernel-module-net1080-4.1.20-1.9-dev, kernel-module-nfs-layout-flexfiles-4.1.20-1.9-dev, kernel-module-nls-cp1250-4.1.20-1.9-dev, kernel-module-nls-cp1251-4.1.20-1.9-dev, kernel-module-nls-cp1255-4.1.20-1.9-dev, kernel-module-nls-cp737-4.1.20-1.9-dev, kernel-module-nls-cp775-4.1.20-1.9-dev, kernel-module-nls-cp850-4.1.20-1.9-dev, kernel-module-nls-cp852-4.1.20-1.9-dev, kernel-module-nls-cp855-4.1.20-1.9-dev, kernel-module-nls-cp857-4.1.20-1.9-dev, kernel-module-nls-cp860-4.1.20-1.9-dev, kernel-module-nls-cp861-4.1.20-1.9-dev, kernel-module-nls-cp862-4.1.20-1.9-dev, kernel-module-nls-cp863-4.1.20-1.9-dev, kernel-module-nls-cp864-4.1.20-1.9-dev, kernel-module-nls-cp865-4.1.20-1.9-dev, kernel-module-nls-cp866-4.1.20-1.9-dev, kernel-module-nls-cp869-4.1.20-1.9-dev, kernel-module-nls-cp874-4.1.20-1.9-dev, kernel-module-nls-cp932-4.1.20-1.9-dev, kernel-module-nls-cp936-4.1.20-1.9-dev, kernel-module-nls-cp949-4.1.20-1.9-dev, kernel-module-nls-cp950-4.1.20-1.9-dev, kernel-module-nls-euc-jp-4.1.20-1.9-dev, kernel-module-nls-iso8859-13-4.1.20-1.9-dev, kernel-module-nls-iso8859-14-4.1.20-1.9-dev, kernel-module-nls-iso8859-2-4.1.20-1.9-dev, kernel-module-nls-iso8859-3-4.1.20-1.9-dev, kernel-module-nls-iso8859-4-4.1.20-1.9-dev, kernel-module-nls-iso8859-5-4.1.20-1.9-dev, kernel-module-nls-iso8859-6-4.1.20-1.9-dev, kernel-module-nls-iso8859-7-4.1.20-1.9-dev, kernel-module-nls-iso8859-9-4.1.20-1.9-dev, kernel-module-nls-koi8-r-4.1.20-1.9-dev, kernel-module-nls-koi8-ru-4.1.20-1.9-dev, kernel-module-nls-koi8-u-4.1.20-1.9-dev, kernel-module-ntfs-4.1.20-1.9-dev, kernel-module-nxt200x-4.1.20-1.9-dev, kernel-module-nxt6000-4.1.20-1.9-dev, kernel-module-omninet-4.1.20-1.9-dev, kernel-module-opticon-4.1.20-1.9-dev, kernel-module-option-4.1.20-1.9-dev, kernel-module-orinoco-4.1.20-1.9-dev, kernel-module-orinoco-usb-4.1.20-1.9-dev, kernel-module-oti6858-4.1.20-1.9-dev, kernel-module-ov7640-4.1.20-1.9-dev, kernel-module-ozwpan-4.1.20-1.9-dev, kernel-module-p54common-4.1.20-1.9-dev, kernel-module-p54spi-4.1.20-1.9-dev, kernel-module-p54usb-4.1.20-1.9-dev, kernel-module-p8022-4.1.20-1.9-dev, kernel-module-pegasus-4.1.20-1.9-dev, kernel-module-pktcdvd-4.1.20-1.9-dev, kernel-module-pl2303-4.1.20-1.9-dev, kernel-module-plusb-4.1.20-1.9-dev, kernel-module-ppp-async-4.1.20-1.9-dev, kernel-module-ppp-deflate-4.1.20-1.9-dev, kernel-module-ppp-generic-4.1.20-1.9-dev, kernel-module-ppp-mppe-4.1.20-1.9-dev, kernel-module-ppp-synctty-4.1.20-1.9-dev, kernel-module-pppoe-4.1.20-1.9-dev, kernel-module-pppox-4.1.20-1.9-dev, kernel-module-prism2-usb-4.1.20-1.9-dev, kernel-module-psnap-4.1.20-1.9-dev, kernel-module-pvrusb2-4.1.20-1.9-dev, kernel-module-pwc-4.1.20-1.9-dev, kernel-module-qcaux-4.1.20-1.9-dev, kernel-module-qcserial-4.1.20-1.9-dev, kernel-module-qmi-wwan-4.1.20-1.9-dev, kernel-module-qt1010-4.1.20-1.9-dev, kernel-module-quatech2-4.1.20-1.9-dev, kernel-module-r8152-4.1.20-1.9-dev, kernel-module-r8188eu-4.1.20-1.9-dev, kernel-module-r820t-4.1.20-1.9-dev, kernel-module-r8712u-4.1.20-1.9-dev, kernel-module-reiserfs-4.1.20-1.9-dev, kernel-module-rndis-host-4.1.20-1.9-dev, kernel-module-rndis-wlan-4.1.20-1.9-dev, kernel-module-rt2500usb-4.1.20-1.9-dev, kernel-module-rt2800lib-4.1.20-1.9-dev, kernel-module-rt2800usb-4.1.20-1.9-dev, kernel-module-rt2x00lib-4.1.20-1.9-dev, kernel-module-rt2x00usb-4.1.20-1.9-dev, kernel-module-rt73usb-4.1.20-1.9-dev, kernel-module-rtl-pci-4.1.20-1.9-dev, kernel-module-rtl-usb-4.1.20-1.9-dev, kernel-module-rtl2830-4.1.20-1.9-dev, kernel-module-rtl2832-4.1.20-1.9-dev, kernel-module-rtl8150-4.1.20-1.9-dev, kernel-module-rtl8187-4.1.20-1.9-dev, kernel-module-rtl8188ee-4.1.20-1.9-dev, kernel-module-rtl8192c-common-4.1.20-1.9-dev, kernel-module-rtl8192ce-4.1.20-1.9-dev, kernel-module-rtl8192cu-4.1.20-1.9-dev, kernel-module-rtlwifi-4.1.20-1.9-dev, kernel-module-s2250-4.1.20-1.9-dev, kernel-module-s2255drv-4.1.20-1.9-dev, kernel-module-s5h1409-4.1.20-1.9-dev, kernel-module-s5h1411-4.1.20-1.9-dev, kernel-module-s5h1420-4.1.20-1.9-dev, kernel-module-s921-4.1.20-1.9-dev, kernel-module-saa7115-4.1.20-1.9-dev, kernel-module-safe-serial-4.1.20-1.9-dev, kernel-module-sha1-generic-4.1.20-1.9-dev, kernel-module-si2157-4.1.20-1.9-dev, kernel-module-si2165-4.1.20-1.9-dev, kernel-module-si2168-4.1.20-1.9-dev, kernel-module-si21xx-4.1.20-1.9-dev, kernel-module-sierra-4.1.20-1.9-dev, kernel-module-sierra-net-4.1.20-1.9-dev, kernel-module-sit-4.1.20-1.9-dev, kernel-module-slhc-4.1.20-1.9-dev, kernel-module-slip-4.1.20-1.9-dev, kernel-module-smsc75xx-4.1.20-1.9-dev, kernel-module-smsc95xx-4.1.20-1.9-dev, kernel-module-smsdvb-4.1.20-1.9-dev, kernel-module-smsmdtv-4.1.20-1.9-dev, kernel-module-smssdio-4.1.20-1.9-dev, kernel-module-smsusb-4.1.20-1.9-dev, kernel-module-snd-ac97-codec-4.1.20-1.9-dev, kernel-module-sony-btf-mpx-4.1.20-1.9-dev, kernel-module-spcp8x5-4.1.20-1.9-dev, kernel-module-sr-mod-4.1.20-1.9-dev, kernel-module-sr9700-4.1.20-1.9-dev, kernel-module-sr9800-4.1.20-1.9-dev, kernel-module-ssb-4.1.20-1.9-dev, kernel-module-ssu100-4.1.20-1.9-dev, kernel-module-stb0899-4.1.20-1.9-dev, kernel-module-stb6000-4.1.20-1.9-dev, kernel-module-stb6100-4.1.20-1.9-dev, kernel-module-stk1160-4.1.20-1.9-dev, kernel-module-stkwebcam-4.1.20-1.9-dev, kernel-module-stp-4.1.20-1.9-dev, kernel-module-stv0288-4.1.20-1.9-dev, kernel-module-stv0297-4.1.20-1.9-dev, kernel-module-stv0299-4.1.20-1.9-dev, kernel-module-stv0900-4.1.20-1.9-dev, kernel-module-stv090x-4.1.20-1.9-dev, kernel-module-stv6110-4.1.20-1.9-dev, kernel-module-stv6110x-4.1.20-1.9-dev, kernel-module-symbolserial-4.1.20-1.9-dev, kernel-module-tda10023-4.1.20-1.9-dev, kernel-module-tda10048-4.1.20-1.9-dev, kernel-module-tda1004x-4.1.20-1.9-dev, kernel-module-tda10071-4.1.20-1.9-dev, kernel-module-tda10086-4.1.20-1.9-dev, kernel-module-tda18212-4.1.20-1.9-dev, kernel-module-tda18218-4.1.20-1.9-dev, kernel-module-tda18250-4.1.20-1.9-dev, kernel-module-tda18271c2dd-4.1.20-1.9-dev, kernel-module-tda8083-4.1.20-1.9-dev, kernel-module-tda826x-4.1.20-1.9-dev, kernel-module-ti-usb-3410-5052-4.1.20-1.9-dev, kernel-module-tm6000-4.1.20-1.9-dev, kernel-module-tm6000-alsa-4.1.20-1.9-dev, kernel-module-tm6000-dvb-4.1.20-1.9-dev, kernel-module-ts2020-4.1.20-1.9-dev, kernel-module-ttpci-eeprom-4.1.20-1.9-dev, kernel-module-ttusb-dec-4.1.20-1.9-dev, kernel-module-ttusbdecfe-4.1.20-1.9-dev, kernel-module-tua9001-4.1.20-1.9-dev, kernel-module-tun-4.1.20-1.9-dev, kernel-module-tuner-4.1.20-1.9-dev, kernel-module-tunnel4-4.1.20-1.9-dev, kernel-module-tveeprom-4.1.20-1.9-dev, kernel-module-tvp5150-4.1.20-1.9-dev, kernel-module-tw2804-4.1.20-1.9-dev, kernel-module-tw9903-4.1.20-1.9-dev, kernel-module-tw9906-4.1.20-1.9-dev, kernel-module-uda1342-4.1.20-1.9-dev, kernel-module-udf-4.1.20-1.9-dev, kernel-module-udp-tunnel-4.1.20-1.9-dev, kernel-module-usb-serial-simple-4.1.20-1.9-dev, kernel-module-usb-wwan-4.1.20-1.9-dev, kernel-module-usb8xxx-4.1.20-1.9-dev, kernel-module-usbnet-4.1.20-1.9-dev, kernel-module-usbserial-4.1.20-1.9-dev, kernel-module-usbtv-4.1.20-1.9-dev, kernel-module-usbvision-4.1.20-1.9-dev, kernel-module-uvcvideo-4.1.20-1.9-dev, kernel-module-ves1820-4.1.20-1.9-dev, kernel-module-videobuf-core-4.1.20-1.9-dev, kernel-module-videobuf-dvb-4.1.20-1.9-dev, kernel-module-videobuf-vmalloc-4.1.20-1.9-dev, kernel-module-videobuf2-core-4.1.20-1.9-dev, kernel-module-videobuf2-memops-4.1.20-1.9-dev, kernel-module-videobuf2-vmalloc-4.1.20-1.9-dev, kernel-module-visor-4.1.20-1.9-dev, kernel-module-wcn36xx-4.1.20-1.9-dev, kernel-module-whiteheat-4.1.20-1.9-dev, kernel-module-wil6210-4.1.20-1.9-dev, kernel-module-wishbone-serial-4.1.20-1.9-dev, kernel-module-wl1251-4.1.20-1.9-dev, kernel-module-wl12xx-4.1.20-1.9-dev, kernel-module-wl18xx-4.1.20-1.9-dev, kernel-module-wlcore-4.1.20-1.9-dev, kernel-module-wlcore-sdio-4.1.20-1.9-dev, kernel-module-wlcore-spi-4.1.20-1.9-dev, kernel-module-wm8775-4.1.20-1.9-dev, kernel-module-xfrm6-mode-beet-4.1.20-1.9-dev, kernel-module-xfrm6-mode-transport-4.1.20-1.9-dev, kernel-module-xfrm6-mode-tunnel-4.1.20-1.9-dev, kernel-module-xfs-4.1.20-1.9-dev, kernel-module-xsens-mt-4.1.20-1.9-dev, kernel-module-zaurus-4.1.20-1.9-dev, kernel-module-zd1201-4.1.20-1.9-dev, kernel-module-zd1211rw-4.1.20-1.9-dev, kernel-module-zl10039-4.1.20-1.9-dev, kernel-module-zl10353-4.1.20-1.9-dev, kernel-module-zr364xx-4.1.20-1.9-dev
 Section: kernel
 Architecture: vuuno4kse
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 67cca79b0b702fea84a4023a3d41f75d
-SHA256sum: 67a223ac4acbb0e65e390164dba662245d102ec6f22b564c449162e562dfafc3
-Size: 603696
+MD5Sum: 8c66c84a311224de565897f416224f43
+SHA256sum: ff1be41a31c5735b31bb6d712cc6d7a8768a38f699c41f3b4f75138b997b4c36
+Size: 603970
 Filename: kernel-dev_4.1.20-r0.1.4_vuuno4kse.ipk
 Source: linux-vuuno4kse_4.1.20.bb
 Description: linux-vuuno4kse version 4.1.20-r0.1.4
@@ -2764,9 +2956,9 @@ Provides: kernel-image
 Section: kernel
 Architecture: vuuno4kse
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f01971c894cc106b4b5824d773caa9a9
-SHA256sum: 14aa4b7d78d445716a0fcb076a2f42e11e63f438e40cc441d820e8fc3f63a088
-Size: 4410926
+MD5Sum: 8fdfd95d4d2f64225dcd8c468ed790c7
+SHA256sum: a86e1392526e09c46e14aaf7c19b22f3b17ac8d8e809631fecb7ece6aa70ceb3
+Size: 4443072
 Filename: kernel-image-4.1.20-1.9_4.1.20-r0.1.4_vuuno4kse.ipk
 Source: linux-vuuno4kse_4.1.20.bb
 Description: linux-vuuno4kse version 4.1.20-r0.1.4
@@ -2780,13 +2972,99 @@ Provides: kernel-image-zimage
 Section: kernel
 Architecture: vuuno4kse
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c75bdcf8650945a9657a3b084a3acfcc
-SHA256sum: 876aa96df88723f9f39397737864a3a7bbdf28db72a1e761fdcd0a72a0197005
-Size: 4410712
+MD5Sum: 3df329918842af7b4f1c27f1b1453868
+SHA256sum: e49c7f9a6fa937768ae8c10539c1c3ab35097dee7b34a07140a5b6c852440126
+Size: 4442856
 Filename: kernel-image-zimage-4.1.20-1.9_4.1.20-r0.1.4_vuuno4kse.ipk
 Source: linux-vuuno4kse_4.1.20.bb
 Description: linux-vuuno4kse version 4.1.20-r0.1.4
 OE: linux-vuuno4kse
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8188eu-4.1.20-1.9
+Version: 1.0-r0
+Depends: kernel-4.1.20-1.9
+Provides: kernel-module-8188eu
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2c8b45b186d456ac1f987f37ade5cb70
+SHA256sum: eee3763e1ce8af00ed4a435f128111163beede1dffee95e9de8ed8362d034cd2
+Size: 395726
+Filename: kernel-module-8188eu-4.1.20-1.9_1.0-r0_vuuno4kse.ipk
+Source: kernel-module-rt8188eu_1.0.bb
+Description: 8188eu kernel module
+OE: kernel-module-rt8188eu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8188fu-4.1.20-1.9
+Version: 1.0-r0
+Depends: kernel-4.1.20-1.9
+Provides: kernel-module-8188fu
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: af0cf43595c3eb1ff954b6fa9f1dac63
+SHA256sum: bc6b1a8776236611e3612eb531e22f23a85d79cdebc7ecdcaf4b044fddc9a841
+Size: 581938
+Filename: kernel-module-8188fu-4.1.20-1.9_1.0-r0_vuuno4kse.ipk
+Source: kernel-module-8188fu.bb
+Description: 8188fu kernel module
+OE: kernel-module-8188fu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8188fu-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d79a1392a975e6384ba99696a9b4cd3d
+SHA256sum: 54807cf983ea793cf788f752b08743065b2e269eedae7a800a4accba0fde2f8b
+Size: 168716
+Filename: kernel-module-8188fu-dbg_1.0-r0_vuuno4kse.ipk
+Source: kernel-module-8188fu.bb
+Description: Realtek rtl8188fu - Debugging files
+OE: kernel-module-8188fu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8188fu-dev
+Version: 1.0-r0
+Recommends: kernel-4.1.20-1.9-dev, kernel-module-8188fu (= 1.0-r0), kernel-module-8188fu-4.1.20-1.9-dev
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 533238d231fc1a92d2167598dca0a0f0
+SHA256sum: e11321942fc6485ac7fdbc751fbf64331b4c369bf25242f15e2b40be732e190d
+Size: 660
+Filename: kernel-module-8188fu-dev_1.0-r0_vuuno4kse.ipk
+Source: kernel-module-8188fu.bb
+Description: Realtek rtl8188fu - Development files
+OE: kernel-module-8188fu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8188fu
+Version: 1.0-r0
+Depends: kernel-module-8188fu-4.1.20-1.9
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dc5ee160d1d8ae872f8da27d504065ae
+SHA256sum: 218369572be8160530556e00614e1cfa9c7c760d5c6ec3af841512a650c83712
+Size: 564
+Filename: kernel-module-8188fu_1.0-r0_vuuno4kse.ipk
+Source: kernel-module-8188fu.bb
+Description: Realtek rtl8188fu
+OE: kernel-module-8188fu
+HomePage: http://www.realtek.com.tw
 License: GPL-2.0-only
 Priority: optional
 
@@ -2927,6 +3205,347 @@ HomePage: http://www.realtek.com/
 License: GPL-2.0-only
 Priority: optional
 
+Package: kernel-module-8192fu-4.1.20-1.9
+Version: 5.8.6.4-r0
+Depends: kernel-4.1.20-1.9
+Provides: kernel-module-8192fu
+Section: base
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c768ce66a68b13dd51f6467293269dec
+SHA256sum: c4c37895d544705592e47da82d4690e4cc8eab670f244b18f637b60a96a15532
+Size: 942552
+Filename: kernel-module-8192fu-4.1.20-1.9_5.8.6.4-r0_vuuno4kse.ipk
+Source: kernel-module-8192fu_5.8.6.4.bb
+Description: 8192fu kernel module
+OE: kernel-module-8192fu
+HomePage: http://www.realtek.com/
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8192fu-dbg
+Version: 5.8.6.4-r0
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f29da7077b3f4e8f4c774e51adfb51d4
+SHA256sum: fa2b1c9cae2dbbf75f77f8668d606a1405f84ba63c9c846dc39989d74258f0b8
+Size: 376910
+Filename: kernel-module-8192fu-dbg_5.8.6.4-r0_vuuno4kse.ipk
+Source: kernel-module-8192fu_5.8.6.4.bb
+Description: Driver for Realtek USB wireless device 8192fu - Debugging files
+OE: kernel-module-8192fu
+HomePage: http://www.realtek.com/
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8192fu-dev
+Version: 5.8.6.4-r0
+Recommends: kernel-4.1.20-1.9-dev, kernel-module-8192fu (= 5.8.6.4-r0), kernel-module-8192fu-4.1.20-1.9-dev
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6b546919604c05fc3013d0b2a8e0751c
+SHA256sum: cb5295bf7f30742bb5bbd73c3d973967eb375157d109f104c00c730c0c7821f4
+Size: 686
+Filename: kernel-module-8192fu-dev_5.8.6.4-r0_vuuno4kse.ipk
+Source: kernel-module-8192fu_5.8.6.4.bb
+Description: Driver for Realtek USB wireless device 8192fu - Development files
+OE: kernel-module-8192fu
+HomePage: http://www.realtek.com/
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8192fu
+Version: 5.8.6.4-r0
+Depends: kernel-module-8192fu-4.1.20-1.9
+Section: base
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fb4afbfabfb7cb3e89f45ca3204eb6c9
+SHA256sum: fda50360ec2ce52f13bab76263ee0199a3b896ca331a7668e2b1143e61032f2b
+Size: 590
+Filename: kernel-module-8192fu_5.8.6.4-r0_vuuno4kse.ipk
+Source: kernel-module-8192fu_5.8.6.4.bb
+Description: Driver for Realtek USB wireless device 8192fu
+OE: kernel-module-8192fu
+HomePage: http://www.realtek.com/
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8723a-dbg
+Version: 4.1.6-r0
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1411d066234eb78ed59fb202a97600f1
+SHA256sum: 1af66fb473d744c9697baae2ea982aa7544492a98be3d1e4da0e43d93497ea33
+Size: 758652
+Filename: kernel-module-8723a-dbg_4.1.6-r0_vuuno4kse.ipk
+Source: kernel-module-8723a_4.1.6.bb
+Description: Realtek 8723A v1.0 - Debugging files
+OE: kernel-module-8723a
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8723a-dev
+Version: 4.1.6-r0
+Recommends: kernel-4.1.20-1.9-dev, kernel-module-8723a (= 4.1.6-r0), kernel-module-8723au-4.1.20-1.9-dev
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6aa62439993d082194321cb23f0b50e5
+SHA256sum: 0f36d7ec4b6ae93c839ff4253db931e97013131138f383d244e2ddfd66f531bd
+Size: 666
+Filename: kernel-module-8723a-dev_4.1.6-r0_vuuno4kse.ipk
+Source: kernel-module-8723a_4.1.6.bb
+Description: Realtek 8723A v1.0 - Development files
+OE: kernel-module-8723a
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8723a
+Version: 4.1.6-r0
+Depends: kernel-module-8723au-4.1.20-1.9
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 05d355d822bbd23ba56e654311e8af6c
+SHA256sum: bf2ce38b3fd0042d13be35e980a31b2edb59edba5581106a9ae79a0eb5eba5d3
+Size: 570
+Filename: kernel-module-8723a_4.1.6-r0_vuuno4kse.ipk
+Source: kernel-module-8723a_4.1.6.bb
+Description: Realtek 8723A v1.0
+OE: kernel-module-8723a
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8723au-4.1.20-1.9
+Version: 4.1.6-r0
+Depends: kernel-4.1.20-1.9
+Provides: kernel-module-8723au
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a6d124bdaa21113ed7015c386b25bbdd
+SHA256sum: 817956b637c10f7090b4b34b9ebdbef93ad98a1bb4fd66ce95aea2e38685e9fc
+Size: 454640
+Filename: kernel-module-8723au-4.1.20-1.9_4.1.6-r0_vuuno4kse.ipk
+Source: kernel-module-8723a_4.1.6.bb
+Description: 8723au kernel module
+OE: kernel-module-8723a
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8723bu-4.1.20-1.9
+Version: 4.3.16-r0
+Depends: kernel-4.1.20-1.9
+Provides: kernel-module-8723bu
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d94bfc4e1040f2d3ba575d5c24d50d02
+SHA256sum: 9ac3d1ab1fb1cd3c765518e93e145332436c59d81c423fd021eb3dead3e95a9d
+Size: 420540
+Filename: kernel-module-8723bu-4.1.20-1.9_4.3.16-r0_vuuno4kse.ipk
+Source: kernel-module-8723bu_4.3.16.bb
+Description: 8723bu kernel module
+OE: kernel-module-8723bu
+HomePage: http://www.realtek.com/
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8723bu-dbg
+Version: 4.3.16-r0
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fb0cc42cb71bcf27510b9fe580cda3bb
+SHA256sum: 8395085d91a6de6bdfd1caea789f276d4e43758307fe0080531bda0d59d3fe7d
+Size: 849054
+Filename: kernel-module-8723bu-dbg_4.3.16-r0_vuuno4kse.ipk
+Source: kernel-module-8723bu_4.3.16.bb
+Description: kernel-module-8723bu version 4.3.16-r0 - Debugging files
+OE: kernel-module-8723bu
+HomePage: http://www.realtek.com/
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8723bu-dev
+Version: 4.3.16-r0
+Recommends: kernel-4.1.20-1.9-dev, kernel-module-8723bu (= 4.3.16-r0), kernel-module-8723bu-4.1.20-1.9-dev
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5113144c0ad5c64af030ee2fcc4b185a
+SHA256sum: 01954dc17277f6ecafcd46343cf1135c6b9b637630cb2763878185e507b16cca
+Size: 686
+Filename: kernel-module-8723bu-dev_4.3.16-r0_vuuno4kse.ipk
+Source: kernel-module-8723bu_4.3.16.bb
+Description: kernel-module-8723bu version 4.3.16-r0 - Development files
+OE: kernel-module-8723bu
+HomePage: http://www.realtek.com/
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8723bu
+Version: 4.3.16-r0
+Depends: kernel-module-8723bu-4.1.20-1.9
+Provides: rtl8723bu
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0c40be5a5ff03eabaafa8d84b49fb940
+SHA256sum: 956f686340ec7123d3de8ad15d5d09ed44c1e145c106f0c9f72dfa1328625136
+Size: 602
+Filename: kernel-module-8723bu_4.3.16-r0_vuuno4kse.ipk
+Source: kernel-module-8723bu_4.3.16.bb
+Description: kernel-module-8723bu version 4.3.16-r0
+OE: kernel-module-8723bu
+HomePage: http://www.realtek.com/
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8812au-4.1.20-1.9
+Version: 4.3.14-r0
+Depends: kernel-4.1.20-1.9
+Provides: kernel-module-8812au
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9595dd52b5aac6e7768645e03afb4354
+SHA256sum: 4fadd572ff4a5d2d051c8b4893007e8658f11bca888523f127082b9012efcb87
+Size: 670264
+Filename: kernel-module-8812au-4.1.20-1.9_4.3.14-r0_vuuno4kse.ipk
+Source: kernel-module-8812au_4.3.14.bb
+Description: 8812au kernel module
+OE: kernel-module-8812au
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8812au-dbg
+Version: 4.3.14-r0
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f498b2cf1f07d959f81d1e98dee7c795
+SHA256sum: 7e5aec2bdebd597fad979d30b2a158e94c484fe8108c63cba0c42d5d9c4f89f3
+Size: 225824
+Filename: kernel-module-8812au-dbg_4.3.14-r0_vuuno4kse.ipk
+Source: kernel-module-8812au_4.3.14.bb
+Description: Ralink 8812AU/8821AU v4.3.14 - Debugging files
+OE: kernel-module-8812au
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8812au-dev
+Version: 4.3.14-r0
+Recommends: kernel-4.1.20-1.9-dev, kernel-module-8812au (= 4.3.14-r0), kernel-module-8812au-4.1.20-1.9-dev
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 76c6a5a0a96a58b9c99df12895650161
+SHA256sum: 9dc6a806b1499116a4e2c5f1a95ea41897eea5763c57fbd6b2e30bccea43898c
+Size: 676
+Filename: kernel-module-8812au-dev_4.3.14-r0_vuuno4kse.ipk
+Source: kernel-module-8812au_4.3.14.bb
+Description: Ralink 8812AU/8821AU v4.3.14 - Development files
+OE: kernel-module-8812au
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8812au
+Version: 4.3.14-r0
+Depends: kernel-module-8812au-4.1.20-1.9
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d6e4020a90485bc2280fb84de44942ef
+SHA256sum: 2110588cdce78ddbc2eaafd783882ee5f17726c32e5455e2133027b24893bdc2
+Size: 582
+Filename: kernel-module-8812au_4.3.14-r0_vuuno4kse.ipk
+Source: kernel-module-8812au_4.3.14.bb
+Description: Ralink 8812AU/8821AU v4.3.14
+OE: kernel-module-8812au
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8814au-4.1.20-1.9
+Version: 4.3.21-r0
+Depends: kernel-4.1.20-1.9
+Provides: kernel-module-8814au
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dcaeacca7d5996e82f878d6ddb8b46b8
+SHA256sum: fe349178baab0e4557bf0a127b894dd45ce0f60c933866d82843502c6100829b
+Size: 575350
+Filename: kernel-module-8814au-4.1.20-1.9_4.3.21-r0_vuuno4kse.ipk
+Source: kernel-module-8814au_4.3.21.bb
+Description: 8814au kernel module
+OE: kernel-module-8814au
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8814au-dbg
+Version: 4.3.21-r0
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 867c37776202a17b8032ed49559e8ab6
+SHA256sum: 60fd20690e15caa2b2082022ecf6242344b80e3d0915332bfce306abaecefece
+Size: 174520
+Filename: kernel-module-8814au-dbg_4.3.21-r0_vuuno4kse.ipk
+Source: kernel-module-8814au_4.3.21.bb
+Description: Ralink 8814AU v4.3.21 - Debugging files
+OE: kernel-module-8814au
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8814au-dev
+Version: 4.3.21-r0
+Recommends: kernel-4.1.20-1.9-dev, kernel-module-8814au (= 4.3.21-r0), kernel-module-8814au-4.1.20-1.9-dev
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1b3e5eea772a096012b13edb3ed91fd5
+SHA256sum: 99ca54812b0f8cf927a2392e995bbc3c515e1159866b24be67a632a8ca700dd6
+Size: 668
+Filename: kernel-module-8814au-dev_4.3.21-r0_vuuno4kse.ipk
+Source: kernel-module-8814au_4.3.21.bb
+Description: Ralink 8814AU v4.3.21 - Development files
+OE: kernel-module-8814au
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8814au
+Version: 4.3.21-r0
+Depends: kernel-module-8814au-4.1.20-1.9
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8f0af9d5d413f18589e0505c90225c1c
+SHA256sum: 04626ddd7ea3489d203072adac76f187687e9b65148d9197830ce2c59157af5b
+Size: 576
+Filename: kernel-module-8814au_4.3.21-r0_vuuno4kse.ipk
+Source: kernel-module-8814au_4.3.21.bb
+Description: Ralink 8814AU v4.3.21
+OE: kernel-module-8814au
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
 Package: kernel-module-8821cu-4.1.20-1.9
 Version: 5.8.1-r0
 Depends: kernel-4.1.20-1.9
@@ -2991,6 +3610,142 @@ Filename: kernel-module-8821cu_5.8.1-r0_vuuno4kse.ipk
 Source: kernel-module-8821cu_5.8.1.bb
 Description: Drivers for Realtek 8821CU/8811CU
 OE: kernel-module-8821cu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8852au-4.1.20-1.9
+Version: 1.0-r0
+Depends: kernel-4.1.20-1.9
+Provides: kernel-module-8852au
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0153c10ffff82922081b509316ec552b
+SHA256sum: 1cb02888537423b43bf146fb7bba660499543937e996b3292e9080e9a0e34dd6
+Size: 1325252
+Filename: kernel-module-8852au-4.1.20-1.9_1.0-r0_vuuno4kse.ipk
+Source: kernel-module-8852au.bb
+Description: 8852au kernel module
+OE: kernel-module-8852au
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8852au-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 422c9549e99a26c8d1681564dc01c0b9
+SHA256sum: 33cfbb2ba714136966142b7bceecede9338e37d3d486846cf50a2243a502d17b
+Size: 347530
+Filename: kernel-module-8852au-dbg_1.0-r0_vuuno4kse.ipk
+Source: kernel-module-8852au.bb
+Description: Realtek rtl8852au - Debugging files
+OE: kernel-module-8852au
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8852au-dev
+Version: 1.0-r0
+Recommends: kernel-4.1.20-1.9-dev, kernel-module-8852au (= 1.0-r0), kernel-module-8852au-4.1.20-1.9-dev
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 193c76ed46e5aa47863fc759dbc81e3a
+SHA256sum: b12acde4bbd7c73b8ae145867134156709a692c4da470d667463587a82727285
+Size: 660
+Filename: kernel-module-8852au-dev_1.0-r0_vuuno4kse.ipk
+Source: kernel-module-8852au.bb
+Description: Realtek rtl8852au - Development files
+OE: kernel-module-8852au
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8852au
+Version: 1.0-r0
+Depends: kernel-module-8852au-4.1.20-1.9
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 70087e55e1855ede6fce6b2702a2a5ee
+SHA256sum: e6f44e9ac44b7b3eb6ec3afe7a6de2d2229f09262bee636ccf58a3a756986299
+Size: 560
+Filename: kernel-module-8852au_1.0-r0_vuuno4kse.ipk
+Source: kernel-module-8852au.bb
+Description: Realtek rtl8852au
+OE: kernel-module-8852au
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8852cu-4.1.20-1.9
+Version: 1.0-r0
+Depends: kernel-4.1.20-1.9
+Provides: kernel-module-8852cu
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 961bc104aad4675e3411214a0cb773b9
+SHA256sum: 4e34f9ac1b993b5c571fd4185d2d78fb2378138fdb68c389245636aeb44f8c8a
+Size: 1764816
+Filename: kernel-module-8852cu-4.1.20-1.9_1.0-r0_vuuno4kse.ipk
+Source: kernel-module-8852cu.bb
+Description: 8852cu kernel module
+OE: kernel-module-8852cu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8852cu-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2217e8322d7308417a5b4cbdd499d645
+SHA256sum: 34cc7edb6c4b5fb0e697002298b799cd386b7db4b3e31f2e267d1bd67f95ccb8
+Size: 544764
+Filename: kernel-module-8852cu-dbg_1.0-r0_vuuno4kse.ipk
+Source: kernel-module-8852cu.bb
+Description: Realtek rtw8852cu - Debugging files
+OE: kernel-module-8852cu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8852cu-dev
+Version: 1.0-r0
+Recommends: kernel-4.1.20-1.9-dev, kernel-module-8852cu (= 1.0-r0), kernel-module-8852cu-4.1.20-1.9-dev
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fee61ac53e887a1d700c3940195b50a6
+SHA256sum: b672746a0bd52a5a65fedeac5b9d8aa36fe349414861bb580ba77ed9a2094ed4
+Size: 658
+Filename: kernel-module-8852cu-dev_1.0-r0_vuuno4kse.ipk
+Source: kernel-module-8852cu.bb
+Description: Realtek rtw8852cu - Development files
+OE: kernel-module-8852cu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8852cu
+Version: 1.0-r0
+Depends: kernel-module-8852cu-4.1.20-1.9
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b7ea5c97e24092c15c1f5cc245f597d6
+SHA256sum: 4de6c3244e67bd41309c776e13cb8e22eae09f9b8ce2e6c4e41732f13c72090d
+Size: 560
+Filename: kernel-module-8852cu_1.0-r0_vuuno4kse.ipk
+Source: kernel-module-8852cu.bb
+Description: Realtek rtw8852cu
+OE: kernel-module-8852cu
 HomePage: http://www.realtek.com.tw
 License: GPL-2.0-only
 Priority: optional
@@ -3060,6 +3815,145 @@ Filename: kernel-module-88x2bu_5.6.1-r0_vuuno4kse.ipk
 Source: kernel-module-88x2bu_5.6.1.bb
 Description: Ralink 88x2BU v5.6.1
 OE: kernel-module-88x2bu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-88x2cu-4.1.20-1.9
+Version: 1.0-r0
+Depends: kernel-4.1.20-1.9
+Provides: kernel-module-88x2cu
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d37bc7760a8c7ff3f05f9c915af41611
+SHA256sum: f0df163e263fc27f0c879912bebc8c25d6444bbfc18d78ffce26e9eac91fd029
+Size: 1300446
+Filename: kernel-module-88x2cu-4.1.20-1.9_1.0-r0_vuuno4kse.ipk
+Source: kernel-module-88x2cu.bb
+Description: 88x2cu kernel module
+OE: kernel-module-88x2cu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-88x2cu-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fc7ea712334c939ad6efec70d5410956
+SHA256sum: d09d373c3667f8e450b87e53414833fa55243f2cc6c36bfef3ea3a8e62401955
+Size: 502906
+Filename: kernel-module-88x2cu-dbg_1.0-r0_vuuno4kse.ipk
+Source: kernel-module-88x2cu.bb
+Description: Ralink 8822CU/8812CU - Debugging files
+OE: kernel-module-88x2cu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-88x2cu-dev
+Version: 1.0-r0
+Recommends: kernel-4.1.20-1.9-dev, kernel-module-88x2cu (= 1.0-r0), kernel-module-88x2cu-4.1.20-1.9-dev
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d7107f0a9a249e477f3f1dac894d9542
+SHA256sum: e6c1c2334a8d13fa7ad65fdc6a6bf8ffa2e16774a2eb559520cade63c713792d
+Size: 666
+Filename: kernel-module-88x2cu-dev_1.0-r0_vuuno4kse.ipk
+Source: kernel-module-88x2cu.bb
+Description: Ralink 8822CU/8812CU - Development files
+OE: kernel-module-88x2cu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-88x2cu
+Version: 1.0-r0
+Depends: kernel-module-88x2cu-4.1.20-1.9
+Provides: rtl8822bu
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5662877f0738b82a5d686b796f547079
+SHA256sum: a013d577ba75992b1ddd06bca85fb0ce85020a9681bc3ea315845256405ea98b
+Size: 582
+Filename: kernel-module-88x2cu_1.0-r0_vuuno4kse.ipk
+Source: kernel-module-88x2cu.bb
+Description: Ralink 8822CU/8812CU
+OE: kernel-module-88x2cu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-88xxau-4.1.20-1.9
+Version: 5.6.4.2-r0
+Depends: kernel-4.1.20-1.9
+Provides: kernel-module-88xxau
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 11049f5ce301ae7a007d0ee39f32f2e4
+SHA256sum: 36c7c6cd8fc92248d10409ba904b8de0f1ab650d01d9ff998286383d91014e72
+Size: 803754
+Filename: kernel-module-88xxau-4.1.20-1.9_5.6.4.2-r0_vuuno4kse.ipk
+Source: kernel-module-88xxau_5.6.4.2.bb
+Description: 88xxau kernel module
+OE: kernel-module-88xxau
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-88xxau-dbg
+Version: 5.6.4.2-r0
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8aad8244329bbafb4ab2b172d830eac5
+SHA256sum: 5d9fc0badb20172f35d71d92788d6d2722400c508ef83cf91fd95d74507324e2
+Size: 231806
+Filename: kernel-module-88xxau-dbg_5.6.4.2-r0_vuuno4kse.ipk
+Source: kernel-module-88xxau_5.6.4.2.bb
+Description: Ralink 8812AU / 8821AU v5.6.4.2 - Debugging files
+OE: kernel-module-88xxau
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-88xxau-dev
+Version: 5.6.4.2-r0
+Recommends: kernel-4.1.20-1.9-dev, kernel-module-88xxau (= 5.6.4.2-r0), kernel-module-88xxau-4.1.20-1.9-dev
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e27ba570942efe93a1645ad3cf7d42bd
+SHA256sum: 7eb0d1474464a7eeb56326089f09dc876c3da18b8108a01ac96b60b7f306eafd
+Size: 678
+Filename: kernel-module-88xxau-dev_5.6.4.2-r0_vuuno4kse.ipk
+Source: kernel-module-88xxau_5.6.4.2.bb
+Description: Ralink 8812AU / 8821AU v5.6.4.2 - Development files
+OE: kernel-module-88xxau
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-88xxau
+Version: 5.6.4.2-r0
+Depends: kernel-module-88xxau-4.1.20-1.9
+Replaces: kernel-module-8812au, kernel-module-8814au
+Conflicts: kernel-module-8812au, kernel-module-8814au
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d243fcb4b0e9699ce783843e9e6d68af
+SHA256sum: 906c5eb41e33749d2a489895a33b1658e6136f3658c970928892c028bcac5f10
+Size: 610
+Filename: kernel-module-88xxau_5.6.4.2-r0_vuuno4kse.ipk
+Source: kernel-module-88xxau_5.6.4.2.bb
+Description: Ralink 8812AU / 8821AU v5.6.4.2
+OE: kernel-module-88xxau
 HomePage: http://www.realtek.com.tw
 License: GPL-2.0-only
 Priority: optional
@@ -5019,6 +5913,23 @@ OE: linux-vuuno4kse
 License: GPL-2.0-only
 Priority: optional
 
+Package: kernel-module-dvb-usb-lmedm04-4.1.20-1.9
+Version: 4.1.20-r0.1.4
+Depends: kernel-4.1.20-1.9, kernel-module-dvb-usb-v2-4.1.20-1.9
+Provides: kernel-module-dvb-usb-lmedm04
+Section: kernel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 47e38b29ef9ae2c18b612d9c97629d71
+SHA256sum: 3ec1c61957cd8ba3e74d881018fa5328e933de4e7efdaa0c27a735923302c812
+Size: 14280
+Filename: kernel-module-dvb-usb-lmedm04-4.1.20-1.9_4.1.20-r0.1.4_vuuno4kse.ipk
+Source: linux-vuuno4kse_4.1.20.bb
+Description: dvb-usb-lmedm04 kernel module
+OE: linux-vuuno4kse
+License: GPL-2.0-only
+Priority: optional
+
 Package: kernel-module-dvb-usb-m920x-4.1.20-1.9
 Version: 4.1.20-r0.1.4
 Depends: kernel-4.1.20-1.9, kernel-module-dvb-usb-4.1.20-1.9
@@ -5321,6 +6232,23 @@ Size: 15642
 Filename: kernel-module-em28xx-dvb-4.1.20-1.9_4.1.20-r0.1.4_vuuno4kse.ipk
 Source: linux-vuuno4kse_4.1.20.bb
 Description: em28xx-dvb kernel module
+OE: linux-vuuno4kse
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-em28xx-rc-4.1.20-1.9
+Version: 4.1.20-r0.1.4
+Depends: kernel-4.1.20-1.9, kernel-module-em28xx-4.1.20-1.9
+Provides: kernel-module-em28xx-rc
+Section: kernel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5de37bf27ea83cc45b7785db200423b0
+SHA256sum: 7753d9874d586f9538521e988315b98331000814ef6c0a47b87cd71f44df90c3
+Size: 8420
+Filename: kernel-module-em28xx-rc-4.1.20-1.9_4.1.20-r0.1.4_vuuno4kse.ipk
+Source: linux-vuuno4kse_4.1.20.bb
+Description: em28xx-rc kernel module
 OE: linux-vuuno4kse
 License: GPL-2.0-only
 Priority: optional
@@ -5746,6 +6674,23 @@ Size: 10376
 Filename: kernel-module-gspca-cpia1-4.1.20-1.9_4.1.20-r0.1.4_vuuno4kse.ipk
 Source: linux-vuuno4kse_4.1.20.bb
 Description: gspca-cpia1 kernel module
+OE: linux-vuuno4kse
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-gspca-dtcs033-4.1.20-1.9
+Version: 4.1.20-r0.1.4
+Depends: kernel-4.1.20-1.9, kernel-module-gspca-main-4.1.20-1.9
+Provides: kernel-module-gspca-dtcs033
+Section: kernel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ac44911514f702acf10f7e28423f8e84
+SHA256sum: ba43c2d20d843e1cfdd153c1a5f7da162c24cc44d0ea7e4cf716cacd9567a98d
+Size: 4676
+Filename: kernel-module-gspca-dtcs033-4.1.20-1.9_4.1.20-r0.1.4_vuuno4kse.ipk
+Source: linux-vuuno4kse_4.1.20.bb
+Description: gspca-dtcs033 kernel module
 OE: linux-vuuno4kse
 License: GPL-2.0-only
 Priority: optional
@@ -6430,6 +7375,23 @@ OE: linux-vuuno4kse
 License: GPL-2.0-only
 Priority: optional
 
+Package: kernel-module-gspca-touptek-4.1.20-1.9
+Version: 4.1.20-r0.1.4
+Depends: kernel-4.1.20-1.9, kernel-module-gspca-main-4.1.20-1.9
+Provides: kernel-module-gspca-touptek
+Section: kernel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c76d33bed50bceeb4d7af988dc8f54db
+SHA256sum: 73fb580959e50dea65e3062f7d38257000fe1a6984b08829d25f169816a5c7ab
+Size: 5946
+Filename: kernel-module-gspca-touptek-4.1.20-1.9_4.1.20-r0.1.4_vuuno4kse.ipk
+Source: linux-vuuno4kse_4.1.20.bb
+Description: gspca-touptek kernel module
+OE: linux-vuuno4kse
+License: GPL-2.0-only
+Priority: optional
+
 Package: kernel-module-gspca-tv8532-4.1.20-1.9
 Version: 4.1.20-r0.1.4
 Depends: kernel-4.1.20-1.9, kernel-module-gspca-main-4.1.20-1.9
@@ -7055,6 +8017,23 @@ Size: 60150
 Filename: kernel-module-iwlwifi-4.1.20-1.9_4.1.20-r0.1.4_vuuno4kse.ipk
 Source: linux-vuuno4kse_4.1.20.bb
 Description: iwlwifi kernel module
+OE: linux-vuuno4kse
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-ix2505v-4.1.20-1.9
+Version: 4.1.20-r0.1.4
+Depends: kernel-4.1.20-1.9
+Provides: kernel-module-ix2505v
+Section: kernel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: be0fa08df692d666ac5dd332a06c7adf
+SHA256sum: 2e865125542b1c69f595761964ca92b6a40a07d76faa312fe8af2094348dcf35
+Size: 3972
+Filename: kernel-module-ix2505v-4.1.20-1.9_4.1.20-r0.1.4_vuuno4kse.ipk
+Source: linux-vuuno4kse_4.1.20.bb
+Description: ix2505v kernel module
 OE: linux-vuuno4kse
 License: GPL-2.0-only
 Priority: optional
@@ -7889,6 +8868,142 @@ Filename: kernel-module-mt352-4.1.20-1.9_4.1.20-r0.1.4_vuuno4kse.ipk
 Source: linux-vuuno4kse_4.1.20.bb
 Description: mt352 kernel module
 OE: linux-vuuno4kse
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-mt7601usta-4.1.20-1.9
+Version: 3.0.0.4-r0
+Depends: kernel-4.1.20-1.9
+Provides: kernel-module-mt7601usta
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0b3a4f4545f99b22053181bc498c4004
+SHA256sum: ad34ca3637f49c48ecfd2fb258743702350040c1e3500733fd826300e0e232af
+Size: 445242
+Filename: kernel-module-mt7601usta-4.1.20-1.9_3.0.0.4-r0_vuuno4kse.ipk
+Source: kernel-module-mt7601usta_3.0.0.4.bb
+Description: mt7601usta kernel module
+OE: kernel-module-mt7601usta
+HomePage: www.mediatek.com
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-mt7601usta-dbg
+Version: 3.0.0.4-r0
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 528f5ea1d080843107a26f03c64eb176
+SHA256sum: 74069232b8e2433e7e356c931a6ef578ef5bd152fd143674930e6201dc8c963a
+Size: 693772
+Filename: kernel-module-mt7601usta-dbg_3.0.0.4-r0_vuuno4kse.ipk
+Source: kernel-module-mt7601usta_3.0.0.4.bb
+Description: mediatek 7601 v3.0.0.4 - Debugging files
+OE: kernel-module-mt7601usta
+HomePage: www.mediatek.com
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-mt7601usta-dev
+Version: 3.0.0.4-r0
+Recommends: kernel-4.1.20-1.9-dev, kernel-module-mt7601usta (= 3.0.0.4-r0), kernel-module-mt7601usta-4.1.20-1.9-dev
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0d737abe703a2d33e3401e8ff3802182
+SHA256sum: 61993e1a60dfb426bd6f5fe6084176e7892a233f33bdbd9956a60c253b4b8a62
+Size: 662
+Filename: kernel-module-mt7601usta-dev_3.0.0.4-r0_vuuno4kse.ipk
+Source: kernel-module-mt7601usta_3.0.0.4.bb
+Description: mediatek 7601 v3.0.0.4 - Development files
+OE: kernel-module-mt7601usta
+HomePage: www.mediatek.com
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-mt7601usta
+Version: 3.0.0.4-r0
+Depends: kernel-module-mt7601usta-4.1.20-1.9
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cb534d0bdc9e20d9bfbafc7adc2b745b
+SHA256sum: bdafbb1f2a43cf909d0cde7f3c3af4a9c4cf09fd3a57036e7e1273448d29f750
+Size: 1606
+Filename: kernel-module-mt7601usta_3.0.0.4-r0_vuuno4kse.ipk
+Source: kernel-module-mt7601usta_3.0.0.4.bb
+Description: mediatek 7601 v3.0.0.4
+OE: kernel-module-mt7601usta
+HomePage: www.mediatek.com
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-mt7610u-dbg
+Version: 3.0.0.2-r0
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ac26c8beff6380155be93bce6dfb659d
+SHA256sum: 50d8aa6951de117032a899915f22952ac2f3576d51f1ae34c3b11f48b1efa7df
+Size: 718256
+Filename: kernel-module-mt7610u-dbg_3.0.0.2-r0_vuuno4kse.ipk
+Source: kernel-module-mt7610u_3.0.0.2.bb
+Description: kernel-module-mt7610u version 3.0.0.2-r0 - Debugging files
+OE: kernel-module-mt7610u
+HomePage: www.mediatek.com
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-mt7610u-dev
+Version: 3.0.0.2-r0
+Recommends: kernel-4.1.20-1.9-dev, kernel-module-mt7610u (= 3.0.0.2-r0), kernel-module-mt7650u-sta-4.1.20-1.9-dev
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4ef6f73030515726735195e045ea1929
+SHA256sum: 68119cb3816230acfdb35f2fdff8519c948e2993c00171b0691e93f81912501c
+Size: 702
+Filename: kernel-module-mt7610u-dev_3.0.0.2-r0_vuuno4kse.ipk
+Source: kernel-module-mt7610u_3.0.0.2.bb
+Description: kernel-module-mt7610u version 3.0.0.2-r0 - Development files
+OE: kernel-module-mt7610u
+HomePage: www.mediatek.com
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-mt7610u
+Version: 3.0.0.2-r0
+Depends: kernel-module-mt7650u-sta-4.1.20-1.9
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 78c81a1bf24f3a4ff2ab9128f9e0c6cc
+SHA256sum: f32892fdd395987ad40749e52be2164ab216a991536df7618f5cc72938216372
+Size: 2142
+Filename: kernel-module-mt7610u_3.0.0.2-r0_vuuno4kse.ipk
+Source: kernel-module-mt7610u_3.0.0.2.bb
+Description: kernel-module-mt7610u version 3.0.0.2-r0
+OE: kernel-module-mt7610u
+HomePage: www.mediatek.com
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-mt7650u-sta-4.1.20-1.9
+Version: 3.0.0.2-r0
+Depends: kernel-4.1.20-1.9
+Provides: kernel-module-mt7650u-sta
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 229d0362fe1585217ab866473bd02e58
+SHA256sum: 40a89531c85f37e829f8c3a105104e14e2d17003be1dcce2ae9596504234403f
+Size: 480336
+Filename: kernel-module-mt7650u-sta-4.1.20-1.9_3.0.0.2-r0_vuuno4kse.ipk
+Source: kernel-module-mt7610u_3.0.0.2.bb
+Description: mt7650u-sta kernel module
+OE: kernel-module-mt7610u
+HomePage: www.mediatek.com
 License: GPL-2.0-only
 Priority: optional
 
@@ -9541,6 +10656,142 @@ OE: linux-vuuno4kse
 License: GPL-2.0-only
 Priority: optional
 
+Package: kernel-module-rt3573sta-4.1.20-1.9
+Version: 2.5.0.0-r0
+Depends: kernel-4.1.20-1.9
+Provides: kernel-module-rt3573sta
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 90e057e1ef9d8e7a6eacc4a0b3766385
+SHA256sum: 9953f9a42cb7e21f77d16e73e77169f2fedc38b9d1ef92984d286003f05ff63c
+Size: 388776
+Filename: kernel-module-rt3573sta-4.1.20-1.9_2.5.0.0-r0_vuuno4kse.ipk
+Source: kernel-module-rt3573sta_2.5.0.0.bb
+Description: rt3573sta kernel module
+OE: kernel-module-rt3573sta
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-rt3573sta-dbg
+Version: 2.5.0.0-r0
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cb9d93e14bb727a9c74f80c489c0ad33
+SHA256sum: 5196b88ce465edd061d1f9e43cc97df5d8c7d67b7b4bce5a515df86f225ea295
+Size: 642168
+Filename: kernel-module-rt3573sta-dbg_2.5.0.0-r0_vuuno4kse.ipk
+Source: kernel-module-rt3573sta_2.5.0.0.bb
+Description: Ralink 3573 v2.5.0.0 - Debugging files
+OE: kernel-module-rt3573sta
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-rt3573sta-dev
+Version: 2.5.0.0-r0
+Recommends: kernel-4.1.20-1.9-dev, kernel-module-rt3573sta (= 2.5.0.0-r0), kernel-module-rt3573sta-4.1.20-1.9-dev
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ee336e5f4099cd05622987b60f5769d7
+SHA256sum: 68d5d403502c0305a4f2a672b694c93ffa5e4824bc0624e883c99b8816c65304
+Size: 670
+Filename: kernel-module-rt3573sta-dev_2.5.0.0-r0_vuuno4kse.ipk
+Source: kernel-module-rt3573sta_2.5.0.0.bb
+Description: Ralink 3573 v2.5.0.0 - Development files
+OE: kernel-module-rt3573sta
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-rt3573sta
+Version: 2.5.0.0-r0
+Depends: kernel-module-rt3573sta-4.1.20-1.9
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 088881b10a54044ed5bcb2e90212e085
+SHA256sum: 38a32469333d306b7340f7ccbdc0658bea69aa70cf9cb84c83f8c7983ff65f2b
+Size: 1606
+Filename: kernel-module-rt3573sta_2.5.0.0-r0_vuuno4kse.ipk
+Source: kernel-module-rt3573sta_2.5.0.0.bb
+Description: Ralink 3573 v2.5.0.0
+OE: kernel-module-rt3573sta
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-rt5572sta-4.1.20-1.9
+Version: 2.6.1.3-r0
+Depends: kernel-4.1.20-1.9
+Provides: kernel-module-rt5572sta
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 23ec6f7a575339497c3b2a1aab0c836c
+SHA256sum: b41e3f2c7c3471d979903b076e41bae5925eb9b36e43e5fba397c5b472af3a0a
+Size: 459642
+Filename: kernel-module-rt5572sta-4.1.20-1.9_2.6.1.3-r0_vuuno4kse.ipk
+Source: kernel-module-rt5572sta_2.6.1.3.bb
+Description: rt5572sta kernel module
+OE: kernel-module-rt5572sta
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-rt5572sta-dbg
+Version: 2.6.1.3-r0
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4f18f147c2af839c7e85be3540827750
+SHA256sum: a6b752e1725510e5ee8407d41c1241b84ab4a07b668200ec76bfd7c466f0aa4b
+Size: 754534
+Filename: kernel-module-rt5572sta-dbg_2.6.1.3-r0_vuuno4kse.ipk
+Source: kernel-module-rt5572sta_2.6.1.3.bb
+Description: Ralink 2870/3070/8070/3370/3572/5370/5372/5572 v2.6.1.3 - Debugging files
+OE: kernel-module-rt5572sta
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-rt5572sta-dev
+Version: 2.6.1.3-r0
+Recommends: kernel-4.1.20-1.9-dev, kernel-module-rt5572sta (= 2.6.1.3-r0), kernel-module-rt5572sta-4.1.20-1.9-dev
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: be8ab7066f2b2a3ccf88287c0839093a
+SHA256sum: cdce6581c66581f3e6e6fdec0cdb9d292ed32985291169dc3c0375bc3a484789
+Size: 694
+Filename: kernel-module-rt5572sta-dev_2.6.1.3-r0_vuuno4kse.ipk
+Source: kernel-module-rt5572sta_2.6.1.3.bb
+Description: Ralink 2870/3070/8070/3370/3572/5370/5372/5572 v2.6.1.3 - Development files
+OE: kernel-module-rt5572sta
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-rt5572sta
+Version: 2.6.1.3-r0
+Depends: kernel-module-rt5572sta-4.1.20-1.9
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d95def9ce708ce6ffd7bbb9237ea0e2c
+SHA256sum: 8f65a82614895317fcb8259436f9e6f318b0ee4adba421355259029675c94fd2
+Size: 1646
+Filename: kernel-module-rt5572sta_2.6.1.3-r0_vuuno4kse.ipk
+Source: kernel-module-rt5572sta_2.6.1.3.bb
+Description: Ralink 2870/3070/8070/3370/3572/5370/5372/5572 v2.6.1.3
+OE: kernel-module-rt5572sta
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
 Package: kernel-module-rt73usb-4.1.20-1.9
 Version: 4.1.20-r0.1.4
 Depends: kernel-4.1.20-1.9, kernel-module-rt2x00lib-4.1.20-1.9, kernel-module-rt2x00usb-4.1.20-1.9
@@ -9555,6 +10806,56 @@ Filename: kernel-module-rt73usb-4.1.20-1.9_4.1.20-r0.1.4_vuuno4kse.ipk
 Source: linux-vuuno4kse_4.1.20.bb
 Description: rt73usb kernel module
 OE: linux-vuuno4kse
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-rt8188eu-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 88379c9fafabceb88af3eea7f138dff8
+SHA256sum: 51e3d206bd0e7cfefc09949d1ae2a28b410743e397a04b0d12f6a44b36770050
+Size: 700376
+Filename: kernel-module-rt8188eu-dbg_1.0-r0_vuuno4kse.ipk
+Source: kernel-module-rt8188eu_1.0.bb
+Description: Ralink 8188EU v1.0 - Debugging files
+OE: kernel-module-rt8188eu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-rt8188eu-dev
+Version: 1.0-r0
+Recommends: kernel-4.1.20-1.9-dev, kernel-module-8188eu-4.1.20-1.9-dev, kernel-module-rt8188eu (= 1.0-r0)
+Section: devel
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b492aa85ce42cacb3807130f096c6a5b
+SHA256sum: 70ec79d18abe1ca57dc1e40a8b579f2e3f5dd19d9b64488729147fee89d4b0e9
+Size: 670
+Filename: kernel-module-rt8188eu-dev_1.0-r0_vuuno4kse.ipk
+Source: kernel-module-rt8188eu_1.0.bb
+Description: Ralink 8188EU v1.0 - Development files
+OE: kernel-module-rt8188eu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-rt8188eu
+Version: 1.0-r0
+Depends: kernel-module-8188eu-4.1.20-1.9
+Section: kernel/modules
+Architecture: vuuno4kse
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 860d1b1336817022d3cabd3c3f2c6d8f
+SHA256sum: d073d2f7a70c9218571a71707910f3c20ce1da58be04dfbb65fd56c491ad0c27
+Size: 576
+Filename: kernel-module-rt8188eu_1.0-r0_vuuno4kse.ipk
+Source: kernel-module-rt8188eu_1.0.bb
+Description: Ralink 8188EU v1.0
+OE: kernel-module-rt8188eu
+HomePage: http://www.realtek.com.tw
 License: GPL-2.0-only
 Priority: optional
 
@@ -11702,13 +13003,13 @@ Priority: optional
 
 Package: kernel-modules
 Version: 4.1.20-r0.1.4
-Depends: kernel-module-a8293-4.1.20-1.9, kernel-module-ac97-bus-4.1.20-1.9, kernel-module-adm8211-4.1.20-1.9, kernel-module-af9013-4.1.20-1.9, kernel-module-af9033-4.1.20-1.9, kernel-module-aircable-4.1.20-1.9, kernel-module-ar5523-4.1.20-1.9, kernel-module-ark3116-4.1.20-1.9, kernel-module-as102-fe-4.1.20-1.9, kernel-module-asix-4.1.20-1.9, kernel-module-at76c50x-usb-4.1.20-1.9, kernel-module-atbm8830-4.1.20-1.9, kernel-module-ath-4.1.20-1.9, kernel-module-ath10k-core-4.1.20-1.9, kernel-module-ath5k-4.1.20-1.9, kernel-module-ath6kl-core-4.1.20-1.9, kernel-module-ath6kl-usb-4.1.20-1.9, kernel-module-ath9k-4.1.20-1.9, kernel-module-ath9k-common-4.1.20-1.9, kernel-module-ath9k-htc-4.1.20-1.9, kernel-module-ath9k-hw-4.1.20-1.9, kernel-module-atmel-4.1.20-1.9, kernel-module-au0828-4.1.20-1.9, kernel-module-au8522-common-4.1.20-1.9, kernel-module-au8522-decoder-4.1.20-1.9, kernel-module-au8522-dig-4.1.20-1.9, kernel-module-ax88179-178a-4.1.20-1.9, kernel-module-b2c2-flexcop-4.1.20-1.9, kernel-module-b2c2-flexcop-usb-4.1.20-1.9, kernel-module-b43-4.1.20-1.9, kernel-module-b43legacy-4.1.20-1.9, kernel-module-bcm3510-4.1.20-1.9, kernel-module-bcma-4.1.20-1.9, kernel-module-belkin-sa-4.1.20-1.9, kernel-module-bluetooth-4.1.20-1.9, kernel-module-brcmfmac-4.1.20-1.9, kernel-module-brcmutil-4.1.20-1.9, kernel-module-bridge-4.1.20-1.9, kernel-module-bsd-comp-4.1.20-1.9, kernel-module-carl9170-4.1.20-1.9, kernel-module-catc-4.1.20-1.9, kernel-module-cbc-4.1.20-1.9, kernel-module-cdc-acm-4.1.20-1.9, kernel-module-cdc-eem-4.1.20-1.9, kernel-module-cdc-ether-4.1.20-1.9, kernel-module-cdc-mbim-4.1.20-1.9, kernel-module-cdc-ncm-4.1.20-1.9, kernel-module-cdc-subset-4.1.20-1.9, kernel-module-cdc-wdm-4.1.20-1.9, kernel-module-cdrom-4.1.20-1.9, kernel-module-ch341-4.1.20-1.9, kernel-module-cp210x-4.1.20-1.9, kernel-module-cpia2-4.1.20-1.9, kernel-module-crc7-4.1.20-1.9, kernel-module-crypto-null-4.1.20-1.9, kernel-module-cs53l32a-4.1.20-1.9, kernel-module-cuse-4.1.20-1.9, kernel-module-cw1200-core-4.1.20-1.9, kernel-module-cx22700-4.1.20-1.9, kernel-module-cx22702-4.1.20-1.9, kernel-module-cx231xx-4.1.20-1.9, kernel-module-cx231xx-alsa-4.1.20-1.9, kernel-module-cx231xx-dvb-4.1.20-1.9, kernel-module-cx2341x-4.1.20-1.9, kernel-module-cx24113-4.1.20-1.9, kernel-module-cx24116-4.1.20-1.9, kernel-module-cx24123-4.1.20-1.9, kernel-module-cx25840-4.1.20-1.9, kernel-module-cx82310-eth-4.1.20-1.9, kernel-module-cxd2820r-4.1.20-1.9, kernel-module-cyberjack-4.1.20-1.9, kernel-module-cypress-firmware-4.1.20-1.9, kernel-module-cypress-m8-4.1.20-1.9, kernel-module-dib0070-4.1.20-1.9, kernel-module-dib0090-4.1.20-1.9, kernel-module-dib3000mb-4.1.20-1.9, kernel-module-dib3000mc-4.1.20-1.9, kernel-module-dib7000m-4.1.20-1.9, kernel-module-dib7000p-4.1.20-1.9, kernel-module-dib8000-4.1.20-1.9, kernel-module-dibx000-common-4.1.20-1.9, kernel-module-digi-acceleport-4.1.20-1.9, kernel-module-dm9601-4.1.20-1.9, kernel-module-drx39xyj-4.1.20-1.9, kernel-module-drxd-4.1.20-1.9, kernel-module-drxk-4.1.20-1.9, kernel-module-ds3000-4.1.20-1.9, kernel-module-dvb-as102-4.1.20-1.9, kernel-module-dvb-pll-4.1.20-1.9, kernel-module-dvb-ttusb-budget-4.1.20-1.9, kernel-module-dvb-usb-4.1.20-1.9, kernel-module-dvb-usb-a800-4.1.20-1.9, kernel-module-dvb-usb-af9005-4.1.20-1.9, kernel-module-dvb-usb-af9005-remote-4.1.20-1.9, kernel-module-dvb-usb-af9015-4.1.20-1.9, kernel-module-dvb-usb-af9035-4.1.20-1.9, kernel-module-dvb-usb-anysee-4.1.20-1.9, kernel-module-dvb-usb-au6610-4.1.20-1.9, kernel-module-dvb-usb-az6007-4.1.20-1.9, kernel-module-dvb-usb-az6027-4.1.20-1.9, kernel-module-dvb-usb-ce6230-4.1.20-1.9, kernel-module-dvb-usb-cinergyt2-4.1.20-1.9, kernel-module-dvb-usb-cxusb-4.1.20-1.9, kernel-module-dvb-usb-dib0700-4.1.20-1.9, kernel-module-dvb-usb-dibusb-common-4.1.20-1.9, kernel-module-dvb-usb-dibusb-mb-4.1.20-1.9, kernel-module-dvb-usb-dibusb-mc-4.1.20-1.9, kernel-module-dvb-usb-digitv-4.1.20-1.9, kernel-module-dvb-usb-dtt200u-4.1.20-1.9, kernel-module-dvb-usb-dtv5100-4.1.20-1.9, kernel-module-dvb-usb-dw2102-4.1.20-1.9, kernel-module-dvb-usb-ec168-4.1.20-1.9, kernel-module-dvb-usb-friio-4.1.20-1.9, kernel-module-dvb-usb-gl861-4.1.20-1.9, kernel-module-dvb-usb-gp8psk-4.1.20-1.9, kernel-module-dvb-usb-m920x-4.1.20-1.9, kernel-module-dvb-usb-mxl111sf-4.1.20-1.9, kernel-module-dvb-usb-nova-t-usb2-4.1.20-1.9, kernel-module-dvb-usb-opera-4.1.20-1.9, kernel-module-dvb-usb-pctv452e-4.1.20-1.9, kernel-module-dvb-usb-rtl28xxu-4.1.20-1.9, kernel-module-dvb-usb-tbsusb-4.1.20-1.9, kernel-module-dvb-usb-technisat-usb2-4.1.20-1.9, kernel-module-dvb-usb-ttusb2-4.1.20-1.9, kernel-module-dvb-usb-umt-010-4.1.20-1.9, kernel-module-dvb-usb-v2-4.1.20-1.9, kernel-module-dvb-usb-vp702x-4.1.20-1.9, kernel-module-dvb-usb-vp7045-4.1.20-1.9, kernel-module-e4000-4.1.20-1.9, kernel-module-ec100-4.1.20-1.9, kernel-module-em28xx-4.1.20-1.9, kernel-module-em28xx-alsa-4.1.20-1.9, kernel-module-em28xx-dvb-4.1.20-1.9, kernel-module-em28xx-v4l-4.1.20-1.9, kernel-module-empeg-4.1.20-1.9, kernel-module-ext2-4.1.20-1.9, kernel-module-ext3-4.1.20-1.9, kernel-module-ezusb-4.1.20-1.9, kernel-module-f81232-4.1.20-1.9, kernel-module-fc0011-4.1.20-1.9, kernel-module-fc0012-4.1.20-1.9, kernel-module-fc0013-4.1.20-1.9, kernel-module-fc2580-4.1.20-1.9, kernel-module-ff-memless-4.1.20-1.9, kernel-module-fou-4.1.20-1.9, kernel-module-ftdi-sio-4.1.20-1.9, kernel-module-garmin-gps-4.1.20-1.9, kernel-module-gcm-4.1.20-1.9, kernel-module-gdmwm-4.1.20-1.9, kernel-module-gf128mul-4.1.20-1.9, kernel-module-ghash-generic-4.1.20-1.9, kernel-module-gl620a-4.1.20-1.9, kernel-module-go7007-4.1.20-1.9, kernel-module-go7007-loader-4.1.20-1.9, kernel-module-go7007-usb-4.1.20-1.9, kernel-module-gspca-benq-4.1.20-1.9, kernel-module-gspca-conex-4.1.20-1.9, kernel-module-gspca-cpia1-4.1.20-1.9, kernel-module-gspca-etoms-4.1.20-1.9, kernel-module-gspca-finepix-4.1.20-1.9, kernel-module-gspca-gl860-4.1.20-1.9, kernel-module-gspca-jeilinj-4.1.20-1.9, kernel-module-gspca-jl2005bcd-4.1.20-1.9, kernel-module-gspca-kinect-4.1.20-1.9, kernel-module-gspca-konica-4.1.20-1.9, kernel-module-gspca-m5602-4.1.20-1.9, kernel-module-gspca-main-4.1.20-1.9, kernel-module-gspca-mars-4.1.20-1.9, kernel-module-gspca-mr97310a-4.1.20-1.9, kernel-module-gspca-nw80x-4.1.20-1.9, kernel-module-gspca-ov519-4.1.20-1.9, kernel-module-gspca-ov534-4.1.20-1.9, kernel-module-gspca-ov534-9-4.1.20-1.9, kernel-module-gspca-pac207-4.1.20-1.9, kernel-module-gspca-pac7302-4.1.20-1.9, kernel-module-gspca-pac7311-4.1.20-1.9, kernel-module-gspca-se401-4.1.20-1.9, kernel-module-gspca-sn9c2028-4.1.20-1.9, kernel-module-gspca-sn9c20x-4.1.20-1.9, kernel-module-gspca-sonixb-4.1.20-1.9, kernel-module-gspca-sonixj-4.1.20-1.9, kernel-module-gspca-spca1528-4.1.20-1.9, kernel-module-gspca-spca500-4.1.20-1.9, kernel-module-gspca-spca501-4.1.20-1.9, kernel-module-gspca-spca505-4.1.20-1.9, kernel-module-gspca-spca506-4.1.20-1.9, kernel-module-gspca-spca508-4.1.20-1.9, kernel-module-gspca-spca561-4.1.20-1.9, kernel-module-gspca-sq905-4.1.20-1.9, kernel-module-gspca-sq905c-4.1.20-1.9, kernel-module-gspca-sq930x-4.1.20-1.9, kernel-module-gspca-stk014-4.1.20-1.9, kernel-module-gspca-stk1135-4.1.20-1.9, kernel-module-gspca-stv0680-4.1.20-1.9, kernel-module-gspca-stv06xx-4.1.20-1.9, kernel-module-gspca-sunplus-4.1.20-1.9, kernel-module-gspca-t613-4.1.20-1.9, kernel-module-gspca-topro-4.1.20-1.9, kernel-module-gspca-tv8532-4.1.20-1.9, kernel-module-gspca-vc032x-4.1.20-1.9, kernel-module-gspca-vicam-4.1.20-1.9, kernel-module-gspca-xirlink-cit-4.1.20-1.9, kernel-module-gspca-zc3xx-4.1.20-1.9, kernel-module-hdpvr-4.1.20-1.9, kernel-module-hfs-4.1.20-1.9, kernel-module-hfsplus-4.1.20-1.9, kernel-module-hostap-4.1.20-1.9, kernel-module-hostap-pci-4.1.20-1.9, kernel-module-hostap-plx-4.1.20-1.9, kernel-module-huawei-cdc-ncm-4.1.20-1.9, kernel-module-i2c-algo-bit-4.1.20-1.9, kernel-module-input-polldev-4.1.20-1.9, kernel-module-int51x1-4.1.20-1.9, kernel-module-io-edgeport-4.1.20-1.9, kernel-module-io-ti-4.1.20-1.9, kernel-module-ip-tunnel-4.1.20-1.9, kernel-module-ip6-udp-tunnel-4.1.20-1.9, kernel-module-ipaq-4.1.20-1.9, kernel-module-ipheth-4.1.20-1.9, kernel-module-ipv6-4.1.20-1.9, kernel-module-ipw-4.1.20-1.9, kernel-module-ipw2100-4.1.20-1.9, kernel-module-ipw2200-4.1.20-1.9, kernel-module-ir-usb-4.1.20-1.9, kernel-module-isl6421-4.1.20-1.9, kernel-module-isl6423-4.1.20-1.9, kernel-module-isofs-4.1.20-1.9, kernel-module-it913x-4.1.20-1.9, kernel-module-itd1000-4.1.20-1.9, kernel-module-iuu-phoenix-4.1.20-1.9, kernel-module-iwl3945-4.1.20-1.9, kernel-module-iwl4965-4.1.20-1.9, kernel-module-iwldvm-4.1.20-1.9, kernel-module-iwlegacy-4.1.20-1.9, kernel-module-iwlwifi-4.1.20-1.9, kernel-module-jbd-4.1.20-1.9, kernel-module-jffs2-4.1.20-1.9, kernel-module-kalmia-4.1.20-1.9, kernel-module-kaweth-4.1.20-1.9, kernel-module-keyspan-4.1.20-1.9, kernel-module-keyspan-pda-4.1.20-1.9, kernel-module-kl5kusb105-4.1.20-1.9, kernel-module-kobil-sct-4.1.20-1.9, kernel-module-led-class-4.1.20-1.9, kernel-module-lg-vl600-4.1.20-1.9, kernel-module-lg2160-4.1.20-1.9, kernel-module-lgdt3305-4.1.20-1.9, kernel-module-lgdt3306a-4.1.20-1.9, kernel-module-lgdt330x-4.1.20-1.9, kernel-module-lgs8gxx-4.1.20-1.9, kernel-module-lib80211-4.1.20-1.9, kernel-module-lib80211-crypt-ccmp-4.1.20-1.9, kernel-module-lib80211-crypt-tkip-4.1.20-1.9, kernel-module-lib80211-crypt-wep-4.1.20-1.9, kernel-module-libcrc32c-4.1.20-1.9, kernel-module-libertas-4.1.20-1.9, kernel-module-libertas-sdio-4.1.20-1.9, kernel-module-libertas-spi-4.1.20-1.9, kernel-module-libertas-tf-4.1.20-1.9, kernel-module-libertas-tf-usb-4.1.20-1.9, kernel-module-libipw-4.1.20-1.9, kernel-module-llc-4.1.20-1.9, kernel-module-lnbp21-4.1.20-1.9, kernel-module-lnbp22-4.1.20-1.9, kernel-module-m88ds3103-4.1.20-1.9, kernel-module-m88rs2000-4.1.20-1.9, kernel-module-mac80211-4.1.20-1.9, kernel-module-mac80211-hwsim-4.1.20-1.9, kernel-module-max2165-4.1.20-1.9, kernel-module-mb86a20s-4.1.20-1.9, kernel-module-mcs7830-4.1.20-1.9, kernel-module-mct-u232-4.1.20-1.9, kernel-module-metro-usb-4.1.20-1.9, kernel-module-michael-mic-4.1.20-1.9, kernel-module-mn88472-4.1.20-1.9, kernel-module-mn88473-4.1.20-1.9, kernel-module-mos7720-4.1.20-1.9, kernel-module-mos7840-4.1.20-1.9, kernel-module-msp3400-4.1.20-1.9, kernel-module-mt2060-4.1.20-1.9, kernel-module-mt2063-4.1.20-1.9, kernel-module-mt2266-4.1.20-1.9, kernel-module-mt312-4.1.20-1.9, kernel-module-mt352-4.1.20-1.9, kernel-module-mt9v011-4.1.20-1.9, kernel-module-mwifiex-4.1.20-1.9, kernel-module-mwifiex-usb-4.1.20-1.9, kernel-module-mxl111sf-demod-4.1.20-1.9, kernel-module-mxl111sf-tuner-4.1.20-1.9, kernel-module-mxl5005s-4.1.20-1.9, kernel-module-mxl5007t-4.1.20-1.9, kernel-module-mxuport-4.1.20-1.9, kernel-module-navman-4.1.20-1.9, kernel-module-net1080-4.1.20-1.9, kernel-module-nfs-layout-flexfiles-4.1.20-1.9, kernel-module-nls-cp1250-4.1.20-1.9, kernel-module-nls-cp1251-4.1.20-1.9, kernel-module-nls-cp1255-4.1.20-1.9, kernel-module-nls-cp737-4.1.20-1.9, kernel-module-nls-cp775-4.1.20-1.9, kernel-module-nls-cp850-4.1.20-1.9, kernel-module-nls-cp852-4.1.20-1.9, kernel-module-nls-cp855-4.1.20-1.9, kernel-module-nls-cp857-4.1.20-1.9, kernel-module-nls-cp860-4.1.20-1.9, kernel-module-nls-cp861-4.1.20-1.9, kernel-module-nls-cp862-4.1.20-1.9, kernel-module-nls-cp863-4.1.20-1.9, kernel-module-nls-cp864-4.1.20-1.9, kernel-module-nls-cp865-4.1.20-1.9, kernel-module-nls-cp866-4.1.20-1.9, kernel-module-nls-cp869-4.1.20-1.9, kernel-module-nls-cp874-4.1.20-1.9, kernel-module-nls-cp932-4.1.20-1.9, kernel-module-nls-cp936-4.1.20-1.9, kernel-module-nls-cp949-4.1.20-1.9, kernel-module-nls-cp950-4.1.20-1.9, kernel-module-nls-euc-jp-4.1.20-1.9, kernel-module-nls-iso8859-13-4.1.20-1.9, kernel-module-nls-iso8859-14-4.1.20-1.9, kernel-module-nls-iso8859-2-4.1.20-1.9, kernel-module-nls-iso8859-3-4.1.20-1.9, kernel-module-nls-iso8859-4-4.1.20-1.9, kernel-module-nls-iso8859-5-4.1.20-1.9, kernel-module-nls-iso8859-6-4.1.20-1.9, kernel-module-nls-iso8859-7-4.1.20-1.9, kernel-module-nls-iso8859-9-4.1.20-1.9, kernel-module-nls-koi8-r-4.1.20-1.9, kernel-module-nls-koi8-ru-4.1.20-1.9, kernel-module-nls-koi8-u-4.1.20-1.9, kernel-module-ntfs-4.1.20-1.9, kernel-module-nxt200x-4.1.20-1.9, kernel-module-nxt6000-4.1.20-1.9, kernel-module-omninet-4.1.20-1.9, kernel-module-opticon-4.1.20-1.9, kernel-module-option-4.1.20-1.9, kernel-module-orinoco-4.1.20-1.9, kernel-module-orinoco-usb-4.1.20-1.9, kernel-module-oti6858-4.1.20-1.9, kernel-module-ov7640-4.1.20-1.9, kernel-module-ozwpan-4.1.20-1.9, kernel-module-p54common-4.1.20-1.9, kernel-module-p54spi-4.1.20-1.9, kernel-module-p54usb-4.1.20-1.9, kernel-module-p8022-4.1.20-1.9, kernel-module-pegasus-4.1.20-1.9, kernel-module-pktcdvd-4.1.20-1.9, kernel-module-pl2303-4.1.20-1.9, kernel-module-plusb-4.1.20-1.9, kernel-module-ppp-async-4.1.20-1.9, kernel-module-ppp-deflate-4.1.20-1.9, kernel-module-ppp-generic-4.1.20-1.9, kernel-module-ppp-mppe-4.1.20-1.9, kernel-module-ppp-synctty-4.1.20-1.9, kernel-module-pppoe-4.1.20-1.9, kernel-module-pppox-4.1.20-1.9, kernel-module-prism2-usb-4.1.20-1.9, kernel-module-psnap-4.1.20-1.9, kernel-module-pvrusb2-4.1.20-1.9, kernel-module-pwc-4.1.20-1.9, kernel-module-qcaux-4.1.20-1.9, kernel-module-qcserial-4.1.20-1.9, kernel-module-qmi-wwan-4.1.20-1.9, kernel-module-qt1010-4.1.20-1.9, kernel-module-quatech2-4.1.20-1.9, kernel-module-r8152-4.1.20-1.9, kernel-module-r8188eu-4.1.20-1.9, kernel-module-r820t-4.1.20-1.9, kernel-module-r8712u-4.1.20-1.9, kernel-module-reiserfs-4.1.20-1.9, kernel-module-rndis-host-4.1.20-1.9, kernel-module-rndis-wlan-4.1.20-1.9, kernel-module-rt2500usb-4.1.20-1.9, kernel-module-rt2800lib-4.1.20-1.9, kernel-module-rt2800usb-4.1.20-1.9, kernel-module-rt2x00lib-4.1.20-1.9, kernel-module-rt2x00usb-4.1.20-1.9, kernel-module-rt73usb-4.1.20-1.9, kernel-module-rtl-pci-4.1.20-1.9, kernel-module-rtl-usb-4.1.20-1.9, kernel-module-rtl2830-4.1.20-1.9, kernel-module-rtl2832-4.1.20-1.9, kernel-module-rtl8150-4.1.20-1.9, kernel-module-rtl8187-4.1.20-1.9, kernel-module-rtl8188ee-4.1.20-1.9, kernel-module-rtl8192c-common-4.1.20-1.9, kernel-module-rtl8192ce-4.1.20-1.9, kernel-module-rtl8192cu-4.1.20-1.9, kernel-module-rtlwifi-4.1.20-1.9, kernel-module-s2250-4.1.20-1.9, kernel-module-s2255drv-4.1.20-1.9, kernel-module-s5h1409-4.1.20-1.9, kernel-module-s5h1411-4.1.20-1.9, kernel-module-s5h1420-4.1.20-1.9, kernel-module-s921-4.1.20-1.9, kernel-module-saa7115-4.1.20-1.9, kernel-module-safe-serial-4.1.20-1.9, kernel-module-sha1-generic-4.1.20-1.9, kernel-module-si2157-4.1.20-1.9, kernel-module-si2165-4.1.20-1.9, kernel-module-si2168-4.1.20-1.9, kernel-module-si21xx-4.1.20-1.9, kernel-module-sierra-4.1.20-1.9, kernel-module-sierra-net-4.1.20-1.9, kernel-module-sit-4.1.20-1.9, kernel-module-slhc-4.1.20-1.9, kernel-module-slip-4.1.20-1.9, kernel-module-smsc75xx-4.1.20-1.9, kernel-module-smsc95xx-4.1.20-1.9, kernel-module-smsdvb-4.1.20-1.9, kernel-module-smsmdtv-4.1.20-1.9, kernel-module-smssdio-4.1.20-1.9, kernel-module-smsusb-4.1.20-1.9, kernel-module-snd-ac97-codec-4.1.20-1.9, kernel-module-sony-btf-mpx-4.1.20-1.9, kernel-module-spcp8x5-4.1.20-1.9, kernel-module-sr-mod-4.1.20-1.9, kernel-module-sr9700-4.1.20-1.9, kernel-module-sr9800-4.1.20-1.9, kernel-module-ssb-4.1.20-1.9, kernel-module-ssu100-4.1.20-1.9, kernel-module-stb0899-4.1.20-1.9, kernel-module-stb6000-4.1.20-1.9, kernel-module-stb6100-4.1.20-1.9, kernel-module-stk1160-4.1.20-1.9, kernel-module-stkwebcam-4.1.20-1.9, kernel-module-stp-4.1.20-1.9, kernel-module-stv0288-4.1.20-1.9, kernel-module-stv0297-4.1.20-1.9, kernel-module-stv0299-4.1.20-1.9, kernel-module-stv0900-4.1.20-1.9, kernel-module-stv090x-4.1.20-1.9, kernel-module-stv6110-4.1.20-1.9, kernel-module-stv6110x-4.1.20-1.9, kernel-module-symbolserial-4.1.20-1.9, kernel-module-tda10023-4.1.20-1.9, kernel-module-tda10048-4.1.20-1.9, kernel-module-tda1004x-4.1.20-1.9, kernel-module-tda10071-4.1.20-1.9, kernel-module-tda10086-4.1.20-1.9, kernel-module-tda18212-4.1.20-1.9, kernel-module-tda18218-4.1.20-1.9, kernel-module-tda18250-4.1.20-1.9, kernel-module-tda18271c2dd-4.1.20-1.9, kernel-module-tda8083-4.1.20-1.9, kernel-module-tda826x-4.1.20-1.9, kernel-module-ti-usb-3410-5052-4.1.20-1.9, kernel-module-tm6000-4.1.20-1.9, kernel-module-tm6000-alsa-4.1.20-1.9, kernel-module-tm6000-dvb-4.1.20-1.9, kernel-module-ts2020-4.1.20-1.9, kernel-module-ttpci-eeprom-4.1.20-1.9, kernel-module-ttusb-dec-4.1.20-1.9, kernel-module-ttusbdecfe-4.1.20-1.9, kernel-module-tua9001-4.1.20-1.9, kernel-module-tun-4.1.20-1.9, kernel-module-tuner-4.1.20-1.9, kernel-module-tunnel4-4.1.20-1.9, kernel-module-tveeprom-4.1.20-1.9, kernel-module-tvp5150-4.1.20-1.9, kernel-module-tw2804-4.1.20-1.9, kernel-module-tw9903-4.1.20-1.9, kernel-module-tw9906-4.1.20-1.9, kernel-module-uda1342-4.1.20-1.9, kernel-module-udf-4.1.20-1.9, kernel-module-udp-tunnel-4.1.20-1.9, kernel-module-usb-serial-simple-4.1.20-1.9, kernel-module-usb-wwan-4.1.20-1.9, kernel-module-usb8xxx-4.1.20-1.9, kernel-module-usbnet-4.1.20-1.9, kernel-module-usbserial-4.1.20-1.9, kernel-module-usbtv-4.1.20-1.9, kernel-module-usbvision-4.1.20-1.9, kernel-module-uvcvideo-4.1.20-1.9, kernel-module-ves1820-4.1.20-1.9, kernel-module-videobuf-core-4.1.20-1.9, kernel-module-videobuf-dvb-4.1.20-1.9, kernel-module-videobuf-vmalloc-4.1.20-1.9, kernel-module-videobuf2-core-4.1.20-1.9, kernel-module-videobuf2-memops-4.1.20-1.9, kernel-module-videobuf2-vmalloc-4.1.20-1.9, kernel-module-visor-4.1.20-1.9, kernel-module-wcn36xx-4.1.20-1.9, kernel-module-whiteheat-4.1.20-1.9, kernel-module-wil6210-4.1.20-1.9, kernel-module-wishbone-serial-4.1.20-1.9, kernel-module-wl1251-4.1.20-1.9, kernel-module-wl12xx-4.1.20-1.9, kernel-module-wl18xx-4.1.20-1.9, kernel-module-wlcore-4.1.20-1.9, kernel-module-wlcore-sdio-4.1.20-1.9, kernel-module-wlcore-spi-4.1.20-1.9, kernel-module-wm8775-4.1.20-1.9, kernel-module-xfrm6-mode-beet-4.1.20-1.9, kernel-module-xfrm6-mode-transport-4.1.20-1.9, kernel-module-xfrm6-mode-tunnel-4.1.20-1.9, kernel-module-xfs-4.1.20-1.9, kernel-module-xsens-mt-4.1.20-1.9, kernel-module-zaurus-4.1.20-1.9, kernel-module-zd1201-4.1.20-1.9, kernel-module-zd1211rw-4.1.20-1.9, kernel-module-zl10039-4.1.20-1.9, kernel-module-zl10353-4.1.20-1.9, kernel-module-zr364xx-4.1.20-1.9
+Depends: kernel-module-a8293-4.1.20-1.9, kernel-module-ac97-bus-4.1.20-1.9, kernel-module-adm8211-4.1.20-1.9, kernel-module-af9013-4.1.20-1.9, kernel-module-af9033-4.1.20-1.9, kernel-module-aircable-4.1.20-1.9, kernel-module-ar5523-4.1.20-1.9, kernel-module-ark3116-4.1.20-1.9, kernel-module-as102-fe-4.1.20-1.9, kernel-module-asix-4.1.20-1.9, kernel-module-at76c50x-usb-4.1.20-1.9, kernel-module-atbm8830-4.1.20-1.9, kernel-module-ath-4.1.20-1.9, kernel-module-ath10k-core-4.1.20-1.9, kernel-module-ath5k-4.1.20-1.9, kernel-module-ath6kl-core-4.1.20-1.9, kernel-module-ath6kl-usb-4.1.20-1.9, kernel-module-ath9k-4.1.20-1.9, kernel-module-ath9k-common-4.1.20-1.9, kernel-module-ath9k-htc-4.1.20-1.9, kernel-module-ath9k-hw-4.1.20-1.9, kernel-module-atmel-4.1.20-1.9, kernel-module-au0828-4.1.20-1.9, kernel-module-au8522-common-4.1.20-1.9, kernel-module-au8522-decoder-4.1.20-1.9, kernel-module-au8522-dig-4.1.20-1.9, kernel-module-ax88179-178a-4.1.20-1.9, kernel-module-b2c2-flexcop-4.1.20-1.9, kernel-module-b2c2-flexcop-usb-4.1.20-1.9, kernel-module-b43-4.1.20-1.9, kernel-module-b43legacy-4.1.20-1.9, kernel-module-bcm3510-4.1.20-1.9, kernel-module-bcma-4.1.20-1.9, kernel-module-belkin-sa-4.1.20-1.9, kernel-module-bluetooth-4.1.20-1.9, kernel-module-brcmfmac-4.1.20-1.9, kernel-module-brcmutil-4.1.20-1.9, kernel-module-bridge-4.1.20-1.9, kernel-module-bsd-comp-4.1.20-1.9, kernel-module-carl9170-4.1.20-1.9, kernel-module-catc-4.1.20-1.9, kernel-module-cbc-4.1.20-1.9, kernel-module-cdc-acm-4.1.20-1.9, kernel-module-cdc-eem-4.1.20-1.9, kernel-module-cdc-ether-4.1.20-1.9, kernel-module-cdc-mbim-4.1.20-1.9, kernel-module-cdc-ncm-4.1.20-1.9, kernel-module-cdc-subset-4.1.20-1.9, kernel-module-cdc-wdm-4.1.20-1.9, kernel-module-cdrom-4.1.20-1.9, kernel-module-ch341-4.1.20-1.9, kernel-module-cp210x-4.1.20-1.9, kernel-module-cpia2-4.1.20-1.9, kernel-module-crc7-4.1.20-1.9, kernel-module-crypto-null-4.1.20-1.9, kernel-module-cs53l32a-4.1.20-1.9, kernel-module-cuse-4.1.20-1.9, kernel-module-cw1200-core-4.1.20-1.9, kernel-module-cx22700-4.1.20-1.9, kernel-module-cx22702-4.1.20-1.9, kernel-module-cx231xx-4.1.20-1.9, kernel-module-cx231xx-alsa-4.1.20-1.9, kernel-module-cx231xx-dvb-4.1.20-1.9, kernel-module-cx2341x-4.1.20-1.9, kernel-module-cx24113-4.1.20-1.9, kernel-module-cx24116-4.1.20-1.9, kernel-module-cx24123-4.1.20-1.9, kernel-module-cx25840-4.1.20-1.9, kernel-module-cx82310-eth-4.1.20-1.9, kernel-module-cxd2820r-4.1.20-1.9, kernel-module-cyberjack-4.1.20-1.9, kernel-module-cypress-firmware-4.1.20-1.9, kernel-module-cypress-m8-4.1.20-1.9, kernel-module-dib0070-4.1.20-1.9, kernel-module-dib0090-4.1.20-1.9, kernel-module-dib3000mb-4.1.20-1.9, kernel-module-dib3000mc-4.1.20-1.9, kernel-module-dib7000m-4.1.20-1.9, kernel-module-dib7000p-4.1.20-1.9, kernel-module-dib8000-4.1.20-1.9, kernel-module-dibx000-common-4.1.20-1.9, kernel-module-digi-acceleport-4.1.20-1.9, kernel-module-dm9601-4.1.20-1.9, kernel-module-drx39xyj-4.1.20-1.9, kernel-module-drxd-4.1.20-1.9, kernel-module-drxk-4.1.20-1.9, kernel-module-ds3000-4.1.20-1.9, kernel-module-dvb-as102-4.1.20-1.9, kernel-module-dvb-pll-4.1.20-1.9, kernel-module-dvb-ttusb-budget-4.1.20-1.9, kernel-module-dvb-usb-4.1.20-1.9, kernel-module-dvb-usb-a800-4.1.20-1.9, kernel-module-dvb-usb-af9005-4.1.20-1.9, kernel-module-dvb-usb-af9005-remote-4.1.20-1.9, kernel-module-dvb-usb-af9015-4.1.20-1.9, kernel-module-dvb-usb-af9035-4.1.20-1.9, kernel-module-dvb-usb-anysee-4.1.20-1.9, kernel-module-dvb-usb-au6610-4.1.20-1.9, kernel-module-dvb-usb-az6007-4.1.20-1.9, kernel-module-dvb-usb-az6027-4.1.20-1.9, kernel-module-dvb-usb-ce6230-4.1.20-1.9, kernel-module-dvb-usb-cinergyt2-4.1.20-1.9, kernel-module-dvb-usb-cxusb-4.1.20-1.9, kernel-module-dvb-usb-dib0700-4.1.20-1.9, kernel-module-dvb-usb-dibusb-common-4.1.20-1.9, kernel-module-dvb-usb-dibusb-mb-4.1.20-1.9, kernel-module-dvb-usb-dibusb-mc-4.1.20-1.9, kernel-module-dvb-usb-digitv-4.1.20-1.9, kernel-module-dvb-usb-dtt200u-4.1.20-1.9, kernel-module-dvb-usb-dtv5100-4.1.20-1.9, kernel-module-dvb-usb-dw2102-4.1.20-1.9, kernel-module-dvb-usb-ec168-4.1.20-1.9, kernel-module-dvb-usb-friio-4.1.20-1.9, kernel-module-dvb-usb-gl861-4.1.20-1.9, kernel-module-dvb-usb-gp8psk-4.1.20-1.9, kernel-module-dvb-usb-lmedm04-4.1.20-1.9, kernel-module-dvb-usb-m920x-4.1.20-1.9, kernel-module-dvb-usb-mxl111sf-4.1.20-1.9, kernel-module-dvb-usb-nova-t-usb2-4.1.20-1.9, kernel-module-dvb-usb-opera-4.1.20-1.9, kernel-module-dvb-usb-pctv452e-4.1.20-1.9, kernel-module-dvb-usb-rtl28xxu-4.1.20-1.9, kernel-module-dvb-usb-tbsusb-4.1.20-1.9, kernel-module-dvb-usb-technisat-usb2-4.1.20-1.9, kernel-module-dvb-usb-ttusb2-4.1.20-1.9, kernel-module-dvb-usb-umt-010-4.1.20-1.9, kernel-module-dvb-usb-v2-4.1.20-1.9, kernel-module-dvb-usb-vp702x-4.1.20-1.9, kernel-module-dvb-usb-vp7045-4.1.20-1.9, kernel-module-e4000-4.1.20-1.9, kernel-module-ec100-4.1.20-1.9, kernel-module-em28xx-4.1.20-1.9, kernel-module-em28xx-alsa-4.1.20-1.9, kernel-module-em28xx-dvb-4.1.20-1.9, kernel-module-em28xx-rc-4.1.20-1.9, kernel-module-em28xx-v4l-4.1.20-1.9, kernel-module-empeg-4.1.20-1.9, kernel-module-ext2-4.1.20-1.9, kernel-module-ext3-4.1.20-1.9, kernel-module-ezusb-4.1.20-1.9, kernel-module-f81232-4.1.20-1.9, kernel-module-fc0011-4.1.20-1.9, kernel-module-fc0012-4.1.20-1.9, kernel-module-fc0013-4.1.20-1.9, kernel-module-fc2580-4.1.20-1.9, kernel-module-ff-memless-4.1.20-1.9, kernel-module-fou-4.1.20-1.9, kernel-module-ftdi-sio-4.1.20-1.9, kernel-module-garmin-gps-4.1.20-1.9, kernel-module-gcm-4.1.20-1.9, kernel-module-gdmwm-4.1.20-1.9, kernel-module-gf128mul-4.1.20-1.9, kernel-module-ghash-generic-4.1.20-1.9, kernel-module-gl620a-4.1.20-1.9, kernel-module-go7007-4.1.20-1.9, kernel-module-go7007-loader-4.1.20-1.9, kernel-module-go7007-usb-4.1.20-1.9, kernel-module-gspca-benq-4.1.20-1.9, kernel-module-gspca-conex-4.1.20-1.9, kernel-module-gspca-cpia1-4.1.20-1.9, kernel-module-gspca-dtcs033-4.1.20-1.9, kernel-module-gspca-etoms-4.1.20-1.9, kernel-module-gspca-finepix-4.1.20-1.9, kernel-module-gspca-gl860-4.1.20-1.9, kernel-module-gspca-jeilinj-4.1.20-1.9, kernel-module-gspca-jl2005bcd-4.1.20-1.9, kernel-module-gspca-kinect-4.1.20-1.9, kernel-module-gspca-konica-4.1.20-1.9, kernel-module-gspca-m5602-4.1.20-1.9, kernel-module-gspca-main-4.1.20-1.9, kernel-module-gspca-mars-4.1.20-1.9, kernel-module-gspca-mr97310a-4.1.20-1.9, kernel-module-gspca-nw80x-4.1.20-1.9, kernel-module-gspca-ov519-4.1.20-1.9, kernel-module-gspca-ov534-4.1.20-1.9, kernel-module-gspca-ov534-9-4.1.20-1.9, kernel-module-gspca-pac207-4.1.20-1.9, kernel-module-gspca-pac7302-4.1.20-1.9, kernel-module-gspca-pac7311-4.1.20-1.9, kernel-module-gspca-se401-4.1.20-1.9, kernel-module-gspca-sn9c2028-4.1.20-1.9, kernel-module-gspca-sn9c20x-4.1.20-1.9, kernel-module-gspca-sonixb-4.1.20-1.9, kernel-module-gspca-sonixj-4.1.20-1.9, kernel-module-gspca-spca1528-4.1.20-1.9, kernel-module-gspca-spca500-4.1.20-1.9, kernel-module-gspca-spca501-4.1.20-1.9, kernel-module-gspca-spca505-4.1.20-1.9, kernel-module-gspca-spca506-4.1.20-1.9, kernel-module-gspca-spca508-4.1.20-1.9, kernel-module-gspca-spca561-4.1.20-1.9, kernel-module-gspca-sq905-4.1.20-1.9, kernel-module-gspca-sq905c-4.1.20-1.9, kernel-module-gspca-sq930x-4.1.20-1.9, kernel-module-gspca-stk014-4.1.20-1.9, kernel-module-gspca-stk1135-4.1.20-1.9, kernel-module-gspca-stv0680-4.1.20-1.9, kernel-module-gspca-stv06xx-4.1.20-1.9, kernel-module-gspca-sunplus-4.1.20-1.9, kernel-module-gspca-t613-4.1.20-1.9, kernel-module-gspca-topro-4.1.20-1.9, kernel-module-gspca-touptek-4.1.20-1.9, kernel-module-gspca-tv8532-4.1.20-1.9, kernel-module-gspca-vc032x-4.1.20-1.9, kernel-module-gspca-vicam-4.1.20-1.9, kernel-module-gspca-xirlink-cit-4.1.20-1.9, kernel-module-gspca-zc3xx-4.1.20-1.9, kernel-module-hdpvr-4.1.20-1.9, kernel-module-hfs-4.1.20-1.9, kernel-module-hfsplus-4.1.20-1.9, kernel-module-hostap-4.1.20-1.9, kernel-module-hostap-pci-4.1.20-1.9, kernel-module-hostap-plx-4.1.20-1.9, kernel-module-huawei-cdc-ncm-4.1.20-1.9, kernel-module-i2c-algo-bit-4.1.20-1.9, kernel-module-input-polldev-4.1.20-1.9, kernel-module-int51x1-4.1.20-1.9, kernel-module-io-edgeport-4.1.20-1.9, kernel-module-io-ti-4.1.20-1.9, kernel-module-ip-tunnel-4.1.20-1.9, kernel-module-ip6-udp-tunnel-4.1.20-1.9, kernel-module-ipaq-4.1.20-1.9, kernel-module-ipheth-4.1.20-1.9, kernel-module-ipv6-4.1.20-1.9, kernel-module-ipw-4.1.20-1.9, kernel-module-ipw2100-4.1.20-1.9, kernel-module-ipw2200-4.1.20-1.9, kernel-module-ir-usb-4.1.20-1.9, kernel-module-isl6421-4.1.20-1.9, kernel-module-isl6423-4.1.20-1.9, kernel-module-isofs-4.1.20-1.9, kernel-module-it913x-4.1.20-1.9, kernel-module-itd1000-4.1.20-1.9, kernel-module-iuu-phoenix-4.1.20-1.9, kernel-module-iwl3945-4.1.20-1.9, kernel-module-iwl4965-4.1.20-1.9, kernel-module-iwldvm-4.1.20-1.9, kernel-module-iwlegacy-4.1.20-1.9, kernel-module-iwlwifi-4.1.20-1.9, kernel-module-ix2505v-4.1.20-1.9, kernel-module-jbd-4.1.20-1.9, kernel-module-jffs2-4.1.20-1.9, kernel-module-kalmia-4.1.20-1.9, kernel-module-kaweth-4.1.20-1.9, kernel-module-keyspan-4.1.20-1.9, kernel-module-keyspan-pda-4.1.20-1.9, kernel-module-kl5kusb105-4.1.20-1.9, kernel-module-kobil-sct-4.1.20-1.9, kernel-module-led-class-4.1.20-1.9, kernel-module-lg-vl600-4.1.20-1.9, kernel-module-lg2160-4.1.20-1.9, kernel-module-lgdt3305-4.1.20-1.9, kernel-module-lgdt3306a-4.1.20-1.9, kernel-module-lgdt330x-4.1.20-1.9, kernel-module-lgs8gxx-4.1.20-1.9, kernel-module-lib80211-4.1.20-1.9, kernel-module-lib80211-crypt-ccmp-4.1.20-1.9, kernel-module-lib80211-crypt-tkip-4.1.20-1.9, kernel-module-lib80211-crypt-wep-4.1.20-1.9, kernel-module-libcrc32c-4.1.20-1.9, kernel-module-libertas-4.1.20-1.9, kernel-module-libertas-sdio-4.1.20-1.9, kernel-module-libertas-spi-4.1.20-1.9, kernel-module-libertas-tf-4.1.20-1.9, kernel-module-libertas-tf-usb-4.1.20-1.9, kernel-module-libipw-4.1.20-1.9, kernel-module-llc-4.1.20-1.9, kernel-module-lnbp21-4.1.20-1.9, kernel-module-lnbp22-4.1.20-1.9, kernel-module-m88ds3103-4.1.20-1.9, kernel-module-m88rs2000-4.1.20-1.9, kernel-module-mac80211-4.1.20-1.9, kernel-module-mac80211-hwsim-4.1.20-1.9, kernel-module-max2165-4.1.20-1.9, kernel-module-mb86a20s-4.1.20-1.9, kernel-module-mcs7830-4.1.20-1.9, kernel-module-mct-u232-4.1.20-1.9, kernel-module-metro-usb-4.1.20-1.9, kernel-module-michael-mic-4.1.20-1.9, kernel-module-mn88472-4.1.20-1.9, kernel-module-mn88473-4.1.20-1.9, kernel-module-mos7720-4.1.20-1.9, kernel-module-mos7840-4.1.20-1.9, kernel-module-msp3400-4.1.20-1.9, kernel-module-mt2060-4.1.20-1.9, kernel-module-mt2063-4.1.20-1.9, kernel-module-mt2266-4.1.20-1.9, kernel-module-mt312-4.1.20-1.9, kernel-module-mt352-4.1.20-1.9, kernel-module-mt9v011-4.1.20-1.9, kernel-module-mwifiex-4.1.20-1.9, kernel-module-mwifiex-usb-4.1.20-1.9, kernel-module-mxl111sf-demod-4.1.20-1.9, kernel-module-mxl111sf-tuner-4.1.20-1.9, kernel-module-mxl5005s-4.1.20-1.9, kernel-module-mxl5007t-4.1.20-1.9, kernel-module-mxuport-4.1.20-1.9, kernel-module-navman-4.1.20-1.9, kernel-module-net1080-4.1.20-1.9, kernel-module-nfs-layout-flexfiles-4.1.20-1.9, kernel-module-nls-cp1250-4.1.20-1.9, kernel-module-nls-cp1251-4.1.20-1.9, kernel-module-nls-cp1255-4.1.20-1.9, kernel-module-nls-cp737-4.1.20-1.9, kernel-module-nls-cp775-4.1.20-1.9, kernel-module-nls-cp850-4.1.20-1.9, kernel-module-nls-cp852-4.1.20-1.9, kernel-module-nls-cp855-4.1.20-1.9, kernel-module-nls-cp857-4.1.20-1.9, kernel-module-nls-cp860-4.1.20-1.9, kernel-module-nls-cp861-4.1.20-1.9, kernel-module-nls-cp862-4.1.20-1.9, kernel-module-nls-cp863-4.1.20-1.9, kernel-module-nls-cp864-4.1.20-1.9, kernel-module-nls-cp865-4.1.20-1.9, kernel-module-nls-cp866-4.1.20-1.9, kernel-module-nls-cp869-4.1.20-1.9, kernel-module-nls-cp874-4.1.20-1.9, kernel-module-nls-cp932-4.1.20-1.9, kernel-module-nls-cp936-4.1.20-1.9, kernel-module-nls-cp949-4.1.20-1.9, kernel-module-nls-cp950-4.1.20-1.9, kernel-module-nls-euc-jp-4.1.20-1.9, kernel-module-nls-iso8859-13-4.1.20-1.9, kernel-module-nls-iso8859-14-4.1.20-1.9, kernel-module-nls-iso8859-2-4.1.20-1.9, kernel-module-nls-iso8859-3-4.1.20-1.9, kernel-module-nls-iso8859-4-4.1.20-1.9, kernel-module-nls-iso8859-5-4.1.20-1.9, kernel-module-nls-iso8859-6-4.1.20-1.9, kernel-module-nls-iso8859-7-4.1.20-1.9, kernel-module-nls-iso8859-9-4.1.20-1.9, kernel-module-nls-koi8-r-4.1.20-1.9, kernel-module-nls-koi8-ru-4.1.20-1.9, kernel-module-nls-koi8-u-4.1.20-1.9, kernel-module-ntfs-4.1.20-1.9, kernel-module-nxt200x-4.1.20-1.9, kernel-module-nxt6000-4.1.20-1.9, kernel-module-omninet-4.1.20-1.9, kernel-module-opticon-4.1.20-1.9, kernel-module-option-4.1.20-1.9, kernel-module-orinoco-4.1.20-1.9, kernel-module-orinoco-usb-4.1.20-1.9, kernel-module-oti6858-4.1.20-1.9, kernel-module-ov7640-4.1.20-1.9, kernel-module-ozwpan-4.1.20-1.9, kernel-module-p54common-4.1.20-1.9, kernel-module-p54spi-4.1.20-1.9, kernel-module-p54usb-4.1.20-1.9, kernel-module-p8022-4.1.20-1.9, kernel-module-pegasus-4.1.20-1.9, kernel-module-pktcdvd-4.1.20-1.9, kernel-module-pl2303-4.1.20-1.9, kernel-module-plusb-4.1.20-1.9, kernel-module-ppp-async-4.1.20-1.9, kernel-module-ppp-deflate-4.1.20-1.9, kernel-module-ppp-generic-4.1.20-1.9, kernel-module-ppp-mppe-4.1.20-1.9, kernel-module-ppp-synctty-4.1.20-1.9, kernel-module-pppoe-4.1.20-1.9, kernel-module-pppox-4.1.20-1.9, kernel-module-prism2-usb-4.1.20-1.9, kernel-module-psnap-4.1.20-1.9, kernel-module-pvrusb2-4.1.20-1.9, kernel-module-pwc-4.1.20-1.9, kernel-module-qcaux-4.1.20-1.9, kernel-module-qcserial-4.1.20-1.9, kernel-module-qmi-wwan-4.1.20-1.9, kernel-module-qt1010-4.1.20-1.9, kernel-module-quatech2-4.1.20-1.9, kernel-module-r8152-4.1.20-1.9, kernel-module-r8188eu-4.1.20-1.9, kernel-module-r820t-4.1.20-1.9, kernel-module-r8712u-4.1.20-1.9, kernel-module-reiserfs-4.1.20-1.9, kernel-module-rndis-host-4.1.20-1.9, kernel-module-rndis-wlan-4.1.20-1.9, kernel-module-rt2500usb-4.1.20-1.9, kernel-module-rt2800lib-4.1.20-1.9, kernel-module-rt2800usb-4.1.20-1.9, kernel-module-rt2x00lib-4.1.20-1.9, kernel-module-rt2x00usb-4.1.20-1.9, kernel-module-rt73usb-4.1.20-1.9, kernel-module-rtl-pci-4.1.20-1.9, kernel-module-rtl-usb-4.1.20-1.9, kernel-module-rtl2830-4.1.20-1.9, kernel-module-rtl2832-4.1.20-1.9, kernel-module-rtl8150-4.1.20-1.9, kernel-module-rtl8187-4.1.20-1.9, kernel-module-rtl8188ee-4.1.20-1.9, kernel-module-rtl8192c-common-4.1.20-1.9, kernel-module-rtl8192ce-4.1.20-1.9, kernel-module-rtl8192cu-4.1.20-1.9, kernel-module-rtlwifi-4.1.20-1.9, kernel-module-s2250-4.1.20-1.9, kernel-module-s2255drv-4.1.20-1.9, kernel-module-s5h1409-4.1.20-1.9, kernel-module-s5h1411-4.1.20-1.9, kernel-module-s5h1420-4.1.20-1.9, kernel-module-s921-4.1.20-1.9, kernel-module-saa7115-4.1.20-1.9, kernel-module-safe-serial-4.1.20-1.9, kernel-module-sha1-generic-4.1.20-1.9, kernel-module-si2157-4.1.20-1.9, kernel-module-si2165-4.1.20-1.9, kernel-module-si2168-4.1.20-1.9, kernel-module-si21xx-4.1.20-1.9, kernel-module-sierra-4.1.20-1.9, kernel-module-sierra-net-4.1.20-1.9, kernel-module-sit-4.1.20-1.9, kernel-module-slhc-4.1.20-1.9, kernel-module-slip-4.1.20-1.9, kernel-module-smsc75xx-4.1.20-1.9, kernel-module-smsc95xx-4.1.20-1.9, kernel-module-smsdvb-4.1.20-1.9, kernel-module-smsmdtv-4.1.20-1.9, kernel-module-smssdio-4.1.20-1.9, kernel-module-smsusb-4.1.20-1.9, kernel-module-snd-ac97-codec-4.1.20-1.9, kernel-module-sony-btf-mpx-4.1.20-1.9, kernel-module-spcp8x5-4.1.20-1.9, kernel-module-sr-mod-4.1.20-1.9, kernel-module-sr9700-4.1.20-1.9, kernel-module-sr9800-4.1.20-1.9, kernel-module-ssb-4.1.20-1.9, kernel-module-ssu100-4.1.20-1.9, kernel-module-stb0899-4.1.20-1.9, kernel-module-stb6000-4.1.20-1.9, kernel-module-stb6100-4.1.20-1.9, kernel-module-stk1160-4.1.20-1.9, kernel-module-stkwebcam-4.1.20-1.9, kernel-module-stp-4.1.20-1.9, kernel-module-stv0288-4.1.20-1.9, kernel-module-stv0297-4.1.20-1.9, kernel-module-stv0299-4.1.20-1.9, kernel-module-stv0900-4.1.20-1.9, kernel-module-stv090x-4.1.20-1.9, kernel-module-stv6110-4.1.20-1.9, kernel-module-stv6110x-4.1.20-1.9, kernel-module-symbolserial-4.1.20-1.9, kernel-module-tda10023-4.1.20-1.9, kernel-module-tda10048-4.1.20-1.9, kernel-module-tda1004x-4.1.20-1.9, kernel-module-tda10071-4.1.20-1.9, kernel-module-tda10086-4.1.20-1.9, kernel-module-tda18212-4.1.20-1.9, kernel-module-tda18218-4.1.20-1.9, kernel-module-tda18250-4.1.20-1.9, kernel-module-tda18271c2dd-4.1.20-1.9, kernel-module-tda8083-4.1.20-1.9, kernel-module-tda826x-4.1.20-1.9, kernel-module-ti-usb-3410-5052-4.1.20-1.9, kernel-module-tm6000-4.1.20-1.9, kernel-module-tm6000-alsa-4.1.20-1.9, kernel-module-tm6000-dvb-4.1.20-1.9, kernel-module-ts2020-4.1.20-1.9, kernel-module-ttpci-eeprom-4.1.20-1.9, kernel-module-ttusb-dec-4.1.20-1.9, kernel-module-ttusbdecfe-4.1.20-1.9, kernel-module-tua9001-4.1.20-1.9, kernel-module-tun-4.1.20-1.9, kernel-module-tuner-4.1.20-1.9, kernel-module-tunnel4-4.1.20-1.9, kernel-module-tveeprom-4.1.20-1.9, kernel-module-tvp5150-4.1.20-1.9, kernel-module-tw2804-4.1.20-1.9, kernel-module-tw9903-4.1.20-1.9, kernel-module-tw9906-4.1.20-1.9, kernel-module-uda1342-4.1.20-1.9, kernel-module-udf-4.1.20-1.9, kernel-module-udp-tunnel-4.1.20-1.9, kernel-module-usb-serial-simple-4.1.20-1.9, kernel-module-usb-wwan-4.1.20-1.9, kernel-module-usb8xxx-4.1.20-1.9, kernel-module-usbnet-4.1.20-1.9, kernel-module-usbserial-4.1.20-1.9, kernel-module-usbtv-4.1.20-1.9, kernel-module-usbvision-4.1.20-1.9, kernel-module-uvcvideo-4.1.20-1.9, kernel-module-ves1820-4.1.20-1.9, kernel-module-videobuf-core-4.1.20-1.9, kernel-module-videobuf-dvb-4.1.20-1.9, kernel-module-videobuf-vmalloc-4.1.20-1.9, kernel-module-videobuf2-core-4.1.20-1.9, kernel-module-videobuf2-memops-4.1.20-1.9, kernel-module-videobuf2-vmalloc-4.1.20-1.9, kernel-module-visor-4.1.20-1.9, kernel-module-wcn36xx-4.1.20-1.9, kernel-module-whiteheat-4.1.20-1.9, kernel-module-wil6210-4.1.20-1.9, kernel-module-wishbone-serial-4.1.20-1.9, kernel-module-wl1251-4.1.20-1.9, kernel-module-wl12xx-4.1.20-1.9, kernel-module-wl18xx-4.1.20-1.9, kernel-module-wlcore-4.1.20-1.9, kernel-module-wlcore-sdio-4.1.20-1.9, kernel-module-wlcore-spi-4.1.20-1.9, kernel-module-wm8775-4.1.20-1.9, kernel-module-xfrm6-mode-beet-4.1.20-1.9, kernel-module-xfrm6-mode-transport-4.1.20-1.9, kernel-module-xfrm6-mode-tunnel-4.1.20-1.9, kernel-module-xfs-4.1.20-1.9, kernel-module-xsens-mt-4.1.20-1.9, kernel-module-zaurus-4.1.20-1.9, kernel-module-zd1201-4.1.20-1.9, kernel-module-zd1211rw-4.1.20-1.9, kernel-module-zl10039-4.1.20-1.9, kernel-module-zl10353-4.1.20-1.9, kernel-module-zr364xx-4.1.20-1.9
 Section: kernel
 Architecture: vuuno4kse
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 991bad546706d38b611c9fd58fce6a04
-SHA256sum: 34514e27eacf461d29416e5890297d8eccfc6f34c7f84b07947ee68667cd432c
-Size: 3034
+MD5Sum: 427d921d0b04ed8616f7026e6e8da919
+SHA256sum: d66d240af4756fdda6572c373a055e57528e095c47d27aad3c9f7805735110b1
+Size: 3060
 Filename: kernel-modules_4.1.20-r0.1.4_vuuno4kse.ipk
 Source: linux-vuuno4kse_4.1.20.bb
 Description: linux-vuuno4kse version 4.1.20-r0.1.4
@@ -11721,9 +13022,9 @@ Version: 4.1.20-r0.1.4
 Section: kernel
 Architecture: vuuno4kse
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 50e9ef1d5090385dee0ed37001a4f401
-SHA256sum: de05b2af2ababd0c838cba5632576698ac2ca1eb719090a35c71c76dd45df2b6
-Size: 4682500
+MD5Sum: adbd0a8d97238d9d4becbd9e8a1b70ab
+SHA256sum: a701dd077bdc4fd168f3e6a83e8e03284417414c6167fb9756e8457d52f0ce14
+Size: 4715638
 Filename: kernel-vmlinux_4.1.20-r0.1.4_vuuno4kse.ipk
 Source: linux-vuuno4kse_4.1.20.bb
 Description: linux-vuuno4kse version 4.1.20-r0.1.4
